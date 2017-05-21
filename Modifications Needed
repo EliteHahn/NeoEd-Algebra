@@ -1,0 +1,20 @@
+
+---------------
+General Changes
+---------------
+  * Allow hard vs soft tags
+  * Allow toggling of tags
+
+---------------
+Arithmetic Tags
+---------------
+  * Reciprocal
+  * Least Common Denominator
+  * Greatest Common Denominator
+  * Numerator
+  * Denominator
+
+-----------------
+Chapter 0 Changes
+-----------------
+  * In section 2, we need a way to talk about how to get fractions to get the same denominator, using an LCD

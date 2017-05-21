@@ -3,3 +3,53 @@ Chapter
 
 Section
 {1} INTEGERS
+
+{def}{1}
+  {Simplest Form}{Reduced} Fractions where the {tag mod}numerator{\tag} and {tag mod}denominator{\tag} share no factors, meaning they are not both divisible by the same number.
+  {ex}
+    \frac{1}{3}
+    \frac{4}{7}
+    \frac{-5}{13}
+    \frac{4}{-9}
+  {\ex}
+  {nex}
+    \frac{2}{4} divisible by 2 to get \frac{1}{2}
+    \frac{3}{12} divisible by 3 to get \frac{1}{4}
+    \frac{-5}{15} divisible by 5 to get \frac{-1}{3}
+  {\nex}
+{topic}{2} REDUCING FRACTIONS
+  To reduce a fraction, divide both the {tag mod}numerator{\tag} and the {tag mod}denominator{\tag} by the same number, and repeat this process until it is in {tag 0.1.1}simplest form{\tag}
+  {ex}
+    \frac{36}{84} divide top and bottom by 4 to get \frac{36 \div 4}{84 \div 4} = \frac{9}{21}, then divide both top and bottom by 3 to get \frac{9 \div 3}{21 \div 3} = \frac{3}{7}
+  {\ex}
+  There are different correct ways to reduce a fraction. Many examples can be done in a different number of steps, depending on which number you choose to divide the {tag mod}numerator{\tag} and {tag mod}denominator{\tag} by.
+  If you divide by the {tag mod}greatest common denominator{\tag} of the {tag mod}numerator{\tag} and {tag mod}denominator{\tag}, you can reduce the fraction in 1 step
+  {ex}
+    \frac{36}{84} divide {tag mod}numerator{\tag} and {tag mod}denominator{\tag} by 12 to get \frac{36 \div 12}{84 \div 12} = \frac{3}{7}
+  {\ex}
+  When {tag 0.2.3}multiplying fractions{\tag}, one can reduce both within a single fraction, or diagonally across two fractions.
+  {ex}
+    \frac{25}{24} \cdot \frac{32}{55} = \frac{25 \div 5}{24} \cdot \frac{32}{55 \div 5} = \frac{5}{24} \cdot \frac{32}{11} = \frac{20}{33}
+  {\ex}
+
+{\topic}
+{topic}{3} MULTIPLYING FRACTIONS
+  To multiply two fractions, simply multiply the {tag mod}numerators{\tag} and then multiply the {tag mod}denominators{\tag}
+  {ex}
+    \frac{3}{7}\cdot \frac{2}{5} = \frac{3 \cdot 2}{7 \cdot 5} = \frac{6}{35}
+  {\ex}
+  You may have to {tag 0.2.2}reduce the fraction{\tag} either before or after  the fractions.
+  {ex}
+    \frac{2}{4} \cdot \frac{4}{6} = \frac{2 \div 2}{4 \div 2} \cdot \frac{4 \div 2}{6 \div 2} = \frac{1}{2} \cdot \frac{2}{3} = \frac{1}{2 \div 2} \cdot \frac{2 \div 2}{3} = \frac{1}{1} \cdot \frac{1}{3} = \frac{1}{3}
+  {\ex}
+{\topic}
+{topic}{4} DIVIDING FRACTIONS
+  To divide two fractions, take the {tag mod}reciprocal{\tag} of the second fraction and {tag 0.2.3}multiply{\tag} it to the first fraction
+  {ex}
+    \frac{7}{4} \div \frac{3}{5} = \frac{7}{4} \cdot \frac{5}{3} = \frac{7 \cdot 5}{4 \cdot 3} = \frac{35}{12}
+  {\ex}
+{\topic}
+{topic}{5} ADDING AND SUBTRACTING FRACTIONS
+  If the two fractions have the same {tag mod}denominator{\tag}, simply keep the {tag mod}denominator{\tag} and {tag 0.1.2}add{\tag} {tag 0.1.3}subtract{\tag} the {tag mod}numerators{\tag} as you normally would
+  If the two fractions have different {tag mod}denominators{\tag}, {tag mod}find the least common denominator{\tag} and {tag mod}adjust the fraction so they have the same denominator{\tag}. Then, use the above process.
+{\topic}
