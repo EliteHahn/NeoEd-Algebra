@@ -1,0 +1,23 @@
+Chapter
+{0} PRE-ALGEBRA
+
+Section
+{4} PROPERTIES OF ALGEBRA
+
+{topic}{1} REPLACING VARIABLES WITH NUMBERS
+  If all the variables in an algebraic expression is assigned to a number, then we can replace the variable in the expression, and then evaluate it using the {tag 0.3.1}Order of Operations{\tag}
+  Putting the replaced variable within parenthesis is a good habit, to avoid mistakes later
+{\topic}
+{def}{2}
+  {Like Terms} Terms of an algebraic expression where the variables match exactly (exponents included), where the only difference is in the {tag mod}constants{\tag}. Like terms in a given algebraic expression can be {tag 0.4.3}combined{\tag} to simplify the expression
+{\def}
+{topic}{3} COMBINING LIKE TERMS
+  If an algebraic expression has two or more {tag 0.4.2}like terms{\tag}, they can be combined by {tag 0.1.2}adding{\tag}/{tag 0.1.3}subtracting{\tag} the constants and keeping the variables the same
+{\topic}
+{def}{4}
+  {Distributive Property} a(b+c) = ab + ac
+{\def}
+{topic}{5} DISTRIBUTION
+  When there are parenthesis in an algebraic expression, we can often get rid of those parenthesis using the {tag 0.4.4}distributive property{\tag}. Using this, you can multiply each of the terms within the parenthesis with the number in front of the parenthesis.
+  You can distribute a negative sign around a parenthesis, just as you would as if you were multiplying by -1
+{\topic}
