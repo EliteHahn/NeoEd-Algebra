@@ -1,0 +1,48 @@
+Chapter
+{1} SOLVING LINEAR EQUATIONS
+
+Section
+{7} VARIATION
+
+{def}{1}
+  {Constant of Variation} A constant, denoted as the letter, 'k', that is used in a type of linear equation. It denotes that any other variables do not affect the variables used in the linear equation. The are used in variation problems, to describe how variables are related to each other while only considering the relevant variables
+  {ex}
+  {\ex}
+  It is important to note that although it is donated by a letter, 'k' is considered a constant, because although the value is unknown, it is assumed to be constant and unchanging.
+{\def}
+{def}{2}
+  {Directly Proportional}{Direct Variation} A relationship between two variables, where if one variable increases, the other also increases. In the same way, if a variable decreases, the other also decreases.
+  When solving for the {tag ..}constant of variation, 'k'{\tag}, the form of the equation should be \frac{m}{n} = k, where m and n are variables that are directly proportional to each other
+  {ex}{\ex}
+{\def}
+{def}{3}
+  {Indirect Variation}{Inversely Proportional} A relationship between two variables, where if one variable increases, the other decreases. If one decreases, the other increases.
+  When solving for the {tag ..} constant of variation, 'k'{\tag}, the form of the equation should be mn = k where m and n are variables that are inversely proportional to each other
+  {ex}{\ex}
+{\def}
+{def}{3}
+  {Joint Variation}{Jointly Proportional} A relationship of three variables, say x, y, and Z. Z varies jointly as x and y when \frac{Z}{xy} = k
+  Another way to look at is, x and y are {tag ..}inversely proportional {\tag} to each other, while Z is directly proportional to xy.
+  {ex}{\ex}
+{\def}
+{topic} Calculating the Constant of Variation
+  In order to calculate the {tag ..} constant of variation{\tag}, we first need to know what type of variation is being used.
+  If we are looking at a {tag ..}direct variation{\tag}, we know we have to divide the two variables
+  {ex}{\ex}
+  If we are looking at an {tag ..}indirect variation{\tag}, then we know we have to multiply the two variables.
+  {ex}{\ex}
+  If we are looking at a{tag ..}joint variation{\tag}, then we know we have to divide by the product
+  {ex}{\ex}
+
+  Once we have the form of the equation, then we plug in the known values and solve for the {tag ..}constant of variation{\tag}
+  Once we have found the {tag ..}constant of variation{\tag}, we can use it to find other combinations in the same relationship, not just the ones given.
+  {ex}/* Give examples of how we can extrapolate to more data points */{\ex}
+  In conclusion, follow these steps, none of which should be skipped
+  1. Find the formula for the relationship using the type of variation
+  2. Find the constant of variation using known values
+  3. Answer the question using the constant of variation
+  Note that at times, the question may ask you to do something to a variable to set up the relationship. The following examples show different ways this might be done, but the process is the same
+  {ex}/* Examples, such as area is directly related to the square of the radius */{\ex}
+  }
+
+{\topic}

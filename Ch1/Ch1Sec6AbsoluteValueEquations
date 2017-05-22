@@ -1,0 +1,48 @@
+Chapter
+{1} SOLVING LINEAR EQUATIONS
+
+Section
+{5} ABSOLUTE VALUE
+
+{topic}{1} Solving Linear Absolute Value Equations
+  When solving equations with absolute value, we can end up with more than one possible answer. The expression inside the absolute value can be both the positive and the negative value
+  {ex}
+    /* absolute value of x = 7, x can be both 7 or negative 7 */
+    /* absolute value of x+1 = 5, and show that although both answers for x is positive, but the expression x+1 is positive or negative
+  {\ex}
+  When there are absolute values in a problem, it is important to isolate the absolute value before considering both the positive and negative solution
+  Once the absolute value is isolate it, set the other side of the equation to both its positive and negative side, and {tag ..}solve each equation{\tag} separately, after splitting the absolute value equation into two different equations, the positive and the negative versions.
+  {ex}
+    /* Show solving absolute value */
+  {\ex}
+  Remember, that absolute values are not parenthesis. This means, you cannot distribute variables into an absolute value
+  Note the special case after you isolate, where the {tag ..}absolute value of an expression is negative{\tag}. In this case, you have reached a contradiction and there is no solution
+  {ex}
+    /*Examples of negative invalid abs value */
+  {\ex}
+  Note the special case when you have {tag ..}both sides of the equation in absolute values{\tag}
+  {ex}
+    /* examples */
+  {\ex}
+
+{\topic}
+{topic}{2} What if a Linear Absolute Value Equation is negative?
+  After you isolate the absolute value, sometimes, the other side of the equation is negative.
+  {ex}
+    /* Examples of invalid, negative absolute value */
+  {\ex}
+  Remember that the absolute value of anything cannot be negative!
+  This means that you have reached a contradiction, or a false statement, meaning there is no solution for this linear equation.
+{\topic}
+{topic}{3} What if both sides of a Linear Equation is in Absolute Values?
+  If both sides of a linear equation is in absolute values, then we still need to consider both the positive and negative result.
+  {ex}
+    /* Examples of abs a = abs b */
+  {\ex}
+  The difference here is that we have to distribute a negative into the second absolute value for the negative possibility
+  {ex}
+    /* Give examples of us splitting this */
+  {\ex}
+  Note that the left hand side of the equation remains unchanged, minus the absolute value bars, while we consider both positive and negative of the right hand side
+  After considering both the positive and negative versions, solve as you would any {tag ..}linear absolute value equation{\tag}
+{\topic}
