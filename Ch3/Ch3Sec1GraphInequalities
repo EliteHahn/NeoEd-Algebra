@@ -1,0 +1,50 @@
+Chapter
+{3} INEQUALITIES
+
+Section
+{1} SOLVE AND GRAPH INEQUALITIES
+
+{def}{1}
+  {Inequality} An inequality is like an equation in that it shows a relationship between two expressions.
+  However, as the name suggests, an equality does not use an equals sign (=) and instead uses the four inequalities less than (<), greater than (>), less than or equal to (\leq), and greater than or equal to (\geq)
+  <, >, \leq, \geq
+  They can be {tag ..}solved{\tag} and {tag ..} graphed {\tag}, similar to equalities, although when they are graphed, they usually take up an area of the graph rather than just a single curve.
+  If we have an expression, such as x < 4, this means our variable can be any number smaller than 4, such as -2, 0, 3, 3.9, 3.99, 3.9999, as long as it is smaller than 4.
+  The same applies for greater than, x > 6 means that x can be anything larger than 6, including 100, 7, 6.5, 6.1, and 6.0000000000001
+  Expressions such as \leq (less than or equal to) and \geq (Greater than or equal to) are very similar to less than and greater than, respectively. If x \leq -5, it means that it can be less than -5, such as -7, -9, -5.001, but it can also be exactly -5 as well.
+  The same applies for \geq, (greater than or equal to). If x \geq 1, x can be any number larger than 1, and it can also be exactly 1.
+  Remember {tag ..}how negatives and positives work when comparing them{\tag}. 5 > 4 (greater than), but -5 < -4 (less than). Similarly, 1 > 0.999999 (greater than) but -1 < -0.999999 (less than)
+{\def}
+{topic}{2} Interval notation
+  Interval notation of an inequality gives two numbers: The first is the smallest value the variable can take while the second is the largest possible value the variable can take
+  {ex}
+
+  {\ex}
+  As you can see above, we have two different sets of brackets, '[ ]' and '( )'
+  When dealing with \leq or \geq, we want to use '[' ']' to denote that the number itself is included
+  When dealing with < or >, we use '(' and ')' to denote that the number is not included
+  If there is no largest value, we can use \inf for the second number
+  When using either \inf or -\inf, always used the curved '(' and ')' brackets when denoting your interval notation
+  If there is no smallest value, we can use - \inf for the first number
+{\topic}
+{topic}{3} Graphing Inequalities (One dimension)
+  Graphing Inequalities is usually best done after doing {tag ..}interval notation{\tag}, but you can do with or without it.
+  Start by drawing a number line that includes all the numbers around the inequality you are working with.
+  {ex} /* We need pictures, also we need examples */{\ex}
+  Draw a circle around the point that we are interested. Use a filled circle if we are using \leq or \geq, do show that we are including that point. If we are using < or >, use an open circle to show we are not including that point.
+  {ex} {\ex}
+  Then, draw an arrow starting from that point, to highlight all the numbers where this inequality is true, that is, given that the variable is on the left hand side of the inequality, pointing to the left if we are dealing with < or \leq, and to the right if we are dealing with > or \geq
+  {ex}/*We need examples of x > 4 and 4 > x and why they are different */{\ex}
+{\topic}
+{topic}{4} Multiplying and Dividing by a Negative Number in Inequalities
+  When solving inequalities, it is important to remember that when you multiply or divide by a negative number, the inequality sign flips.
+  {ex} {\ex}
+  This is very similar to the reason {tag..}why negatives and positives{\tag} are different when comparing them. The term "less than" can mean both, less positive and more negative. "greater than" can mean both, more positive and less negative.
+  This can be a bit tricky to understand, but all you need to know for the time being is that this is a necessaary and important step when solving inequalities
+{\topic}
+{topic}{5}Solving Inequalities
+  The process for Solving inequalities is nearly the same as {tag ..}solving linear equations{\tag}, with a few changes
+  Remember to {tag ..}flip the sign of the equality when multiplying or dividing by a negative number{\tag}
+  At the end of the process, the final answer will most likely be an inequality
+  {ex}{\ex}
+{\topic}
