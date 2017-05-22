@@ -1,0 +1,37 @@
+Chapter
+{3} INEQUALITIES
+
+Section
+{2} COMPOUND INEQUALITIES
+
+{topic}{1} Solving OR Inequalities
+  Several inequalities can be combined together to form what are called compound inequalities, one of these is an OR inequality
+  Inequalities with OR in them signify that we want either the first to be true, or the second to be true, or both (hence, why we use or).
+  OR inequalities are equivalent to the \cup union symbol.
+  To solve, {tag ..}solve each side{\tag} of the OR independently, and {tag ..}graph them{\tag}. The OR graph will be those two graphs combined, on the same number line, since we want to find points that are true for either one of those two
+  {ex}{\ex}
+  There are several different results that could result from an OR statement. The two graphs could be pointing in the same direction, they could be pointing in opposite directions, but overlap, and they can be pointing in opposite directions and not overlap
+  {ex}
+    /* examples of the different types of OR, and give explanations on how they act*/
+    /* Case 1: take the one that is furthest way from the arrow head */
+    /* Case 2: Whole graph
+    /* Case 3: Just the parts where they cover
+  {\ex}
+{\topic}
+{topic}{2} Solving AND Inequalities
+  Several inequalities can be combined together to form what are called compound inequalities, one of these is an AND inequality
+  Inequalities with AND in them signify that we only want to highlight points where they are both true, or where they overlap (where the first AND the second are highlighted). It is also common to use the \cap (intersection) symbol instead of AND, as they refer to the same thing
+  To solve, {tag ..} solve each side{\tag} of the AND inequality, and {tag ..} graph them {\tag}. The AND graph will be the part of the number line where the two graphs overlap.
+  There are 3 different results that could result from an AND statement. The two graphs could overlap while going in opposite directions, they could go in opposite directions and not overlap, and they can go in the same direction
+  {ex}
+    /* Like with OR, give examples of each, and use better wording !!! */
+  {\ex}
+  There is a special third type of AND inequality, that doesn't usually even use the word AND. They come in the form similar to 5 < x < 10
+  {ex}{\ex}
+  The middle part in this case is between the outer two parts.
+  {ex}/* Spell out, in english, how to say different examples */{\ex}
+  Since there are three parts to this inequality, in order to maintain balance, we must do the same operation to all three parts (this is very similar to {tag ..}solving inequalities{\tag}, except instead of two sides, there are three. See examples for an idea of what is going on)
+  {ex}{\ex}
+  The graph then is simply the values between the numbers with appropriate {tag ..}brackets{\tag} on the ends
+
+{\topic}

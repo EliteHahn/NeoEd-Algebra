@@ -1,0 +1,21 @@
+Chapter
+{3} INEQUALITIES
+
+Section
+{4} ABSOLUTE VALUE INEQUALITIES
+
+{topic}{1} Solving Absolute Value Inequalities
+  As you may recall, {tag ..} absolute value{\tag} is the distance from zero. When used in inequalities, things can get a bit complicated.
+  In order to solve, we must remove the absolute value, and how we remove the absolute value depends on the {tag ..}inequality operator{\tag}
+  Consider cases such as |x |  < 2, or when the absolute value is less than an expression. In this case, we use the special case of and equality, such that this becomes -2 < x < 2. 
+  /* Okay, so let's fix this section, cuz it sucks */
+  {ex}{\ex}
+  Since absolute value can be treated as distance, we can view this as the distance from x is less than 2
+  Consider the case, |x| > 2, or the absolute value is greater than an expression.
+  In this case, the equation is very similar to an OR expression, so this becomes x > 2 or x < -2
+  Since absolute value is similar to distance, we can view this expression as, the distance from x is greater than 2.
+  {ex}{\ex}
+  Once we have written these as compound inequalities, all is left to do is {tag ..}solve them{\tag}, and {tag ..} graph them{\tag}
+  Remember, when dealing with inequalities, to flip the sign when {tag ..}dividing and multiplying by negative numbers{\tag}. Also, if your {tag ..}absolute value is negative{\tag}, you have reached a contradiction, and there are no solutions
+
+{\topic}
