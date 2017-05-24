@@ -1,0 +1,56 @@
+Chapter
+{5} POLYNOMIALS
+
+Section
+{3} SCIENTIFIC NOTATION
+
+{def}{1} Scientific Notation
+  {Scientific Notation} Scientific notation is one of the most widely applied uses of exponents used in many different fields, including chemistry, physics, engineering, statistics, and many others
+  It is a way of representing really large, or really small numbers
+  {ex}/*Examples of very large/small numbers, in both scientific and standard notation */{\ex}
+  Scientific notation has two parts: A number between one and ten (it can be equal to one, but not ten), and that number multiplied by ten to some exponent
+  a \times 10^b where 1 \leq a < 10
+  The exponent, b, is very important to know how we convert between scientific notation and normal numbers, or standard notation.
+  The exponent tells us how many times we will multiply by 10, which we know moves the decimal point one place
+  To decide which direction to move the decimal (left or right), we need to remember that positive exponents mean in {tag ..}standard notation{\tag} we have a big number (bigger than 10) and negative exponents mean in {tag ..}standard notation{\tag} we have a small number (less than 1)
+  {ex}/* Examples of us moving decimal places */{\ex}
+  We can easily make {tag ..}conversions between standard notation and scientific notation{\tag}
+{\def}
+{def}{2} Standard Notation
+  {Standard Notation} Standard notation is the way we write most numbers in everyday use. This is in contrast to scientific notation, which uses exponents to represent a number.
+{\def}
+
+{topic}{3} Converting between Standard Notation and Scientific Notation
+  From Standard Notation to Scientific Notation
+  Put the decimal after the first nonzero number
+  The exponent on the scientific notation is the number of times the decimal moved
+  The exponent is positive if the number is big (meaning its absolute value is greater than 10)
+  The exponent is negative if the number is small (its absolute value is less than 1)
+  {ex}/*Give examples of this shit*/{\ex}
+  Remember that if the decimal is not written in {tag ..}standard notation{\tag}, we assume it is at the end of the number
+  {ex}/*Examples of no decimal numbers*/{\ex}
+  Scientific Notation to Standard Notation
+  This is the opposite process as above. The exponent tells us how many spots we need to move, and in which direction.
+  If the exponent is positive, we move the decimal to the right
+  If the exponent is negative, we move the decimal to the left
+  {ex}{\ex}
+  Note that if we run out of places to move the decimal, we use zeros to hold its place
+  {ex}{\ex}
+  A helpful tip to see if you moved the decimal in the correct direction: We know that if the exponent is positive, the number will be really big. If the exponent was negative, the standard number will be really small
+  {ex}/*Examples of really big and small numbers*/{\ex}
+{\topic}
+{topic}{4} Multiplying and Dividing Numbers in Scientific Notation
+  By the {tag ..} communitve property of multiplication{\tag}, it is pretty easy to arrange the multiplication and division of numbers in scientific notation to make them fairly simple to solve
+  To multiply two numbers in {tag ..}scientific notation{\tag}, {tag ..}multiply the 10^a numbers{\tag} separately, and multiply the other two standard numbers separately.
+  Multiplying these two separate parts together gets us the final solution in scientific notation
+  The same is true for dividing two numbers in {tag ..}scientific notation{\tag}. Simply {tag ..}divide the powers of 10 (10^a){\tag} separately, and divide the two standard numbers separately, and multiply the results together.
+  Remember the rules when {tag ..}dealing with exponents in the denominator{\tag} as well as {tag ..} negative exponents{\tag}
+  After multiplying or dividing, remember to {tag ..}rewrite the new number in scientific notation{\tag}
+
+{\topic}
+{topic}{5} Rewriting numbers in scientific notation after multiplying or dividing
+  After {tag ..}multiplying or dividing{\tag} two numbers in scientific notation{\tag}, you may end up with a number that is not in the correct form for {tag ..}scientific notation{\tag}.
+  This happens when the number in the front is not between 1 and 10, as it is {tag ..}required for scientific notation{\tag}.
+  In this case, simply write the first part of the number in scientific notation, and then multiply the two exponents, as seen in the example
+  {ex}{\ex}
+{\topic}
