@@ -1,0 +1,21 @@
+Chapter
+{2}
+
+Section
+{3} Slope-Intercept Form
+
+{def}
+{y-intercept} Where a line crosses the y-axis, or to think of it mathematically, where the x value = 0. Due to the x being equal to zero for the y-intercept, it is also often written as a coordinate point known as (0, b) with b being the value found when the line crosses the vertical axis!
+
+You may wonder why such qualities as slope and y-intercept would be considered important. Well, they can actually be used to make a graph much quicker and easier.
+
+Let's see what happens when we put the (0,b) coordinates for the y-intercept into the slope equation of m=(y2-y1)/(x2-x1), with the knowledge that any other point on the line would just follow the normal (x,y) formula:
+m=(y-b)/(x-0)
+We can simplify this to m=(y-b)/x, and further simplified through multiplication to make mx=y-b.
+Finally, we can add b to make a final SLOPE-INTERCEPT equation with the form y=mx+b
+
+{ex 133 and ex 134}
+
+You can use this to draw a point from the y-intercept and then use a slope to find the next points of the line.
+
+We have seen this slope-intercept form and its use, but it isn't the only form through which we can make equations out of lines and graphs.

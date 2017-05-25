@@ -1,0 +1,31 @@
+Chapter
+{2} Graphing
+
+Section
+{1} Points and Lines- Learning to graph using XY Coordinates
+
+{def}{1}
+  {Graph} A picture of the solutions to an equation, represented often by a system known as a coordinate plane
+{def 2}
+  {Coordinate Plane} An image consisting of four sections, each section known as a "Quadrant," divided by horizontal and vertical number lines into a grid:
+   /* show an image of a basic coordinate plane, and number or use arrows to indicate the parts of the image*/
+    The point at which these two lines intersect in the center is known as the "origin". The center is where x=0 and y=0 on the coordinate plane.
+    The vertical Number Line is known as the "Y-axis". The portion of this Line that is below the origin is negative (y=-1,-2,-3...) and above the origin is positive (y=1,2,3...)
+    The horizontal Number Line is known as the "X-axis". The portion to the left of the origin is negative (x=-1,-2,-3...) and to the right of the origin is positive (x=1,2,3...)
+    A "Coordinate" shows where on a grid something can be found based off it horizontal (x) and vertical (y) positions! They are written in the following format: (x value, y value)
+
+    {ex} /* Image of a map divided by roads and blocks/neighborhoods with you at origin and Jamie's House two blocks North and one block east of you*/
+    If I wanted to travel to Jamie's house, I should consider each block I pass through to be 1 unit. You are at the middle of the image, so you are at the origin. This means that you must travel two blocks to the North and one block to the east/to the right.
+    So, to find the x value of the coordinate, think of how far east or west you had to go to get to Jaime's house. Like on a number line, going to the right will be positive and going to the left will be negative! To get to Jaime's house, we had to travel 1 unit to the East/Right, so the X value would be 1. We also had to travel 2 blocks North/Up, so our Y value would be 2!
+    To finally put these together in a coordinate point structure of (x,y), the coordinates of Jaime's House is (1,2). This is a real-world use of the Coordinate Plane!
+
+    {ex} Graph the following points (represented with Dots in their coordinate locations):
+    A(3,2), B(-2,1), C(3,-4), D(-2,-3), E(-3,0), F(0,2), G(0,0)
+
+  While this seems to be helpful in showing where items can be found, there are other uses to this. One such use is allowing such mathematicians as ourselves to visualize equations! How is that possible? (almost) Anything is possible through the magic of coordinate planes!
+
+  To start, it is important to know that there will often be a great deal of data to keep track of as we progress through graphing, so it is always a good idea to make a table! Here is one, for example:
+
+  {ex} /* Input a 2x4 block table being split into 8 sections, with the top row being marked as "x" or "y" from left to right respectively. Example 121-122 for reference */
+
+/*please take the practice page, page 94, and make a question and answer page for that system */

@@ -1,0 +1,32 @@
+Chapter
+{2} Graphing
+
+Section
+{5} Parallel and Perpendicular Lines
+
+{def1}
+{Parallel Lines} These lines do not, nor will they ever, intersect! And to look at it mathematically, these lines will have the SAME slope, but different y-intercepts.
+
+{def2}
+{Perpendicular Lines} These lines intersect to make right angles (90 degrees). Looking at it mathematically, these lines have slopes that are "NEGATIVE Reciprocals" of each other!
+
+{def3}
+{Reciprocal} These are created by inverting the numerator and denominator of a number to make another number.In Perpendicular Lines, the slopes must be reciprocals, but one must be positive and the other be negative.
+
+{Reciprocal ex}
+1/5 and 5/1 are reciprocals.
+
+{ex1}
+Find the slope of a line PARALLEL to 5y-2x=7.
+- This means that the slopes will be the SAME, so you just need to find the slope of this equation and that will be answer.
+Step 1: 5y-2x=7
+Step 2: 5y=2x+7
+Step 3: y= (2/5)x + 7/5
+And now we know that the slope of a line PARALLEL to it would be the same!!!
+{ex2}
+What is the slope of a line perpendicular to the above line?
+- It is the negative reciprocal, so the slope of a perpendicular line is (-5/2).
+
+/*Example 148 on page 113*/
+
+/* 2.5 Practice Questions are actually pretty solid, but again, make sure to put around 4-5 questions from each section to show every possible type of answer/ problem process is given and exercised */
