@@ -1,0 +1,46 @@
+Chapter
+{5} POLYNOMIALS
+
+Section
+{7} DIVIDE POLYNOMIALS
+
+{topic}{1} Divide Polynomials by Monomials
+  The process of dividing Polynomials by Monomials is similar to {tag ..}distributing{\tag}, but instead of multiplying, we are dividing (remember that dividing is just multiplying by the reciprocal)
+  We will divide each {tag ..}monomial{\tag} in the {tag ..}polynomial{\tag} in the numerator by the {tag ..}monomial{\tag} in the denominator
+  {ex}{\ex}
+  Remember, that when you have the same thing in the denominator and the numerator, it {tag ..}cancels out{\tag} to 1 (not 0)
+{\topic}
+
+{topic}{2} Dividing Polynomials
+  /* Oh boy, this'll be fun */
+  The process of dividing polynomials is very similar to long division. In order for this process to work however, we must have all the terms in decreasing order
+  {ex}/* Examples of terms in decreasing order */{\ex}
+  {nex}{\nex}
+  To remind you, here are the steps for long division, and we will compare it to the steps for dividing polynomials
+  /* Each step will be lined up with an example 63 / 4*/
+  1. We divide the first digit in the larger number. We write down how many times the 4 can go into the 6, without going over. In this case, it is 1 time.
+  2. We multiply 4 by 1 and subtract it from 6, to give us 2. Then we carry down the next digit, which is 3, giving us the number 23
+  3. We see how many times the number can go into this new number, without going over, essentially repeating step 1. In this case, 4 divide 23, 5 times. We write the 5 on top.
+  5. Multiplying 4 by 5, we subtract that from 23, leaving us with 3. Notice, that since there are no more numbers to bring down, and since 4 does not go into 3, this becomes our remainder. The remainder becomes a fraction over the number you are dividing by, leaving us with 15 and 3/4
+  The process for dividing polynomials is very similar, except instead of dividing numbers, we are dividing monomials
+  It is easiest to write your division as you would long division, as in the example.
+  /* Walk through an example while doing steps? */
+  /* OKAY, CLARIFY WHICH IS THE DIVISOR, WHICH IS THE DIVIDEND */
+  For the first step, only look at the first term in the divisor and the dividend /*(why this can be done will be explained later)*/
+  {tag ..}Divide these two terms{\tag}, and write it above like you would in long division.
+  Multiply the entire divisor by the number you just wrote, and subtract it from the dividend. Note that the degress of the numbers should align, and the first term of the dividend should cancel out completely, meaning it should evaluate to zero once you subtract. Combine like terms, and write the resulting number.
+  Repeat these steps, using the new dividend, until you reach a point where you can no longer divide a value. You'll know this point has come when the degree of the divisor is greater than the degree of the new dividend. When this point comes, write this "remainder" as a fraction, where the numerator is the remainder and the denominator is the divisor.
+  {ex}{\ex}
+  In the example, the degrees of each monomial in the dividend and the divisor counted down without skipping any numbers. However, this will not always be the case when you are solving these problems. However, we can change any polynomial that skips degrees by adding a term with a coefficient of 0.
+  {ex}{\ex}
+  Remember, multiplying anything by 0 is nothing, and adding 0 to a polynomial doesn't change it, this can be done to make our problem solving easier
+  {ex}/* Examples of us adding extra degrees{\ex}
+  Here are examples of this problem that do not count down. You will see that after we add the extra degrees, the process is exactly the same
+  {ex}{\ex}
+  In conclusion, the steps to dividing any two polynomials are:
+  1. Make sure both the divisor and the dividend are in decreasing order. Make sure the degrees count down without skipping any. If any are skipped, add the degree onto the variable with a coefficient of zero.
+  2. Divide the first term of the dividend by the first term of the divisor. Write this number at the top.
+  3. Multiply the number you just wrote by the divisor. Subtract this number from the dividend. The first monomial should cancel. The resulting number is now your new divisor
+  4. Repeat steps 2 and 3 until you cannot divide any further. You will know you have reached this point when the degree of your divisor is greater than the degree of your new dividend. When this happens, write the remainder as a fraction, by putting the remainder as the numerator and the divisor as the denominator. 
+
+{\topic}
