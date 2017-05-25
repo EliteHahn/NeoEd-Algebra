@@ -14,9 +14,15 @@ Arithmetic Tags
   * Numerator
   * Denominator
   * Constant
-  * Operation 
+  * Operation
 
 -----------------
 Chapter 0 Changes
 -----------------
   * In section 2, we need a way to talk about how to get fractions to get the same denominator, using an LCD
+
+
+-----------------
+Chapter 5 Changes
+-----------------
+  * 3(x + 4)(x -6) we need a common error thing to show we cannot distribute 3 to all of them, and rather than just 1
