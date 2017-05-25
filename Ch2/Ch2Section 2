@@ -1,0 +1,32 @@
+Chapter
+{2} Graphing
+
+Section
+{2} Slope
+
+- As we saw from the last section, graphs can be used to draw individual points or even a set of points in a line! But we can also gather information about QUALITIES of these lines we create when we connect these dots. One such quality is...
+
+{def}{1}
+{Slope} A measure of the "steepness" of a line or structure, along with describing the direction of the line; the change in height over a given distance (often represented by m)
+    When the slope is large, it is steep. When the slope is small, it is relatively flat.
+    When the line goes up from the left to the right, it will have a positive slope. When it goes down from left to right, the slope will be negative.
+
+  The slope is often described as how far the line runs horizontally over how far the rises vertically. So, to find slope, we use the fraction rise/run, or change in y values/change in x values.
+  Choose two points on a line and measure the difference in "rise" over "run."
+
+  {ex} Lets think of Jamie's house again!
+  Remember how Jamie's house was 2 units north of you, and 1 unit to the east? Lets think about the slope in THIS equation!
+
+  /* Example 124 */
+
+  How is one to find the slope between two points?
+    Using two points with their own individual y and x values, use this equation for slope:
+    (y2-y1)/(x2-x1) or better understood as (the 2nd y value - the 1st y value)/ (the 2nd x value- the 1st x value)
+
+
+  How about the slope of a horizontal line or a vertical line?
+  Horizontal will result in a slope of zero. Vertical will result in a slope that is undefined. I recommend looking at example 125 for an explanation of why this is the case!
+
+  /* Example 130-131 are actually very good images and examples to use*?
+
+  /* Practice Page 100-101 are rather helpful*/
