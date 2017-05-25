@@ -1,0 +1,25 @@
+Chapter
+{2} Graphing
+
+Section
+{4} Point-Slope Form
+
+The slope-intercept form is easier to remember, but you NEED to know the y-intercept to be  able to use it. What if you aren't given the y-intercept before hand?
+That is when you use the Point-Slope Form!
+
+{def}
+{Point-Slope} An equation form of y-y1=m(x-x1), in which two points are known or can be found, with one being regarded as (x,y) and the other being (x1,y1). In this type of formula, one must know the location/coordinates of at least two points in the line and the slope, which can also be found from those two points!
+
+{ex}
+Lets say that we have a point (2,6) with the slope of 2/3. Write the equation using point-slope form!
+Step 1: y-y1=m(x-x1)            (Rewrite the equation)
+Step 2: y-6= (2/3)(x-2)         (Plug in the values)
+Step 3: y-6= (2/3)x - (2/3)2    (Multiply the 2/3 slope to both part of what is found in the parenthesis)
+Step 4: y= (2/3)x -(4/3) + 6    (Add the six to the opposite side and then combine the -4/3 with the +6)
+Step 5: y= (2/3)x + 14/3        (You found the final equation!!!)
+
+It is also possible to receive two coordinates and still find the final equation of the point slope form, as long as one uses the two points given to find the slope!
+
+{ex} /* Use example 143 for this one*/
+
+/*  2.4 Practice Page helpful, but really just choose six to eight problems from each section to show the variety of possible answers that one can receive! */
