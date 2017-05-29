@@ -1,0 +1,37 @@
+Chapter
+{7} RATIONAL EXPRESSIONS
+
+Section
+{1} REDUCE RATIONAL EXPRESSIONS
+
+{def}{1}
+  {Rational Expressions} Expressions written as a quotient of {tag ..}polynomials{\tag}
+  {ex}{\ex}
+  Rational expressions are a special type of fraction. It is important to remember that, like with fractions, we cannot have zero in the denominator.
+  Because of this, we may have to {tag ..}restrict some values for some variables so that the denominator of a function cannot be zero{\tag}
+{\def}
+
+{topic}{2} The Denominator of a Rational Expression cannot be Zero
+  Since the denominator of a {tag ..}rational expression{\tag} cannot be zero, we must restrict the values for variables in the denominator to prevent this from happening.
+  In other words, if the denominator is zero for some value of the variable, then that variable can never take on that value.
+  {ex}{\ex}
+  To solve this, we must set the {tag ..}polynomial expression{\tag} of the denominator to zero and {tag ..}solve it, usually by factoring{\tag}. Then we know, that for each value of the variable that we get after solving, x cannot take those values (since if it did, the expression would equal zero, which we cannot have)
+  The variable of course, can take any other value besides those we just solved for
+  {ex}{\ex}
+{\topic}
+{topic}{3} Solving Rational Expressions
+  Since {tag ..}rational expressions{\tag} are just {tag ..}expressions{\tag}, they can be solved using previous methods, by simply substituting each instance of the variable with a value, {tag ..}just as we did before{\tag} and {tag}evaluating using order of operations{\tag}
+{\topic}
+
+{topic}{4} Reducing Rational Expressions
+  Rational expressions can be reduced, even without knowing the value of the variable.
+  When we reduce, we divide out common factors.
+  We have {tag ..}already seen this with monomials when we discussed the properties of exponents{\tag}
+  If the problem only has {tag ..}monomials{\tag}, we can reduce the coefficients, and {tag ..}subtract exponents on the variables{\tag}
+  {ex}{\ex}
+  However, if there is more than just one term in either the numerator or denominator, we can't divide out common factors unless we first [tag ..}factor{\tag} the numerator and denominator
+  {ex}{\ex}
+  Once the factoring is done, if there are common factors in the numerator and the denominator, they can be cancelled out to simplify the expression
+  It is important to remember, we cannot reduce {tag ..}terms{\tag}. We can only reduce {tag ..}factors{\tag}. That means if there are any + or - signs between the parts we want to reduce, we cannot (unless we can {tag ..}factor{\tag} more)
+  {ex}{\ex}{nex}{\nex}
+{\topic}

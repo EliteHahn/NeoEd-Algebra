@@ -21,7 +21,7 @@ Section
 {topic}{2} Solving AND Inequalities
   Several inequalities can be combined together to form what are called compound inequalities, one of these is an AND inequality
   Inequalities with AND in them signify that we only want to highlight points where they are both true, or where they overlap (where the first AND the second are highlighted). It is also common to use the \cap (intersection) symbol instead of AND, as they refer to the same thing
-  To solve, {tag ..} solve each side{\tag} of the AND inequality, and {tag ..} graph them {\tag}. The AND graph will be the part of the number line where the two graphs overlap.
+  To solve, {tag ..}solve each side{\tag} of the AND inequality, and {tag ..} graph them {\tag}. The AND graph will be the part of the number line where the two graphs overlap.
   There are 3 different results that could result from an AND statement. The two graphs could overlap while going in opposite directions, they could go in opposite directions and not overlap, and they can go in the same direction
   {ex}
     /* Like with OR, give examples of each, and use better wording !!! */
