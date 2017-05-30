@@ -1,0 +1,137 @@
+Chapter
+{6} FACTORING
+
+Section
+{3} Trinomials where a=1
+
+Overview: factor trinomials where the coefficient of x^2 is one.
+
+Factoring trinomials, polynomials with three terms, is the most important type of factoring. Since factoring is multiplication backwards, we will start with a multiplication problem and look at how we can reverse this process.
+
+{ex}
+
+(x+6)(x-4)		Distribute (x+6) through second parenthesis
+x(x+6)-4(x+6)		Distribute each monomial through parenthesis
+x^2+6x-4x-24		Combine like terms
+x^2+2x-24		Our solution
+
+{\ex}
+
+Notice how the reversal of the last three steps looks like grouping: that is because it is grouping. We will factor trinomials by making them into polynomials with four temrs and then factor by grouping. This is illustrated in the following example:
+
+{ex}
+
+	x^2+2x-24	Split the middle term into 6x-4x
+     x^2+6x-4x-24	Grouping: GCF on left is x, on right is -4
+    x(x+6)-4(x+6)	(x+6) is the same, factor out this GCF
+       (x+6)(x-4)	Our solution
+
+{\ex}
+
+Reviewing the step-by-step solution, we question why we picked 6x-4x and not 5x-3x. We chose 6x-4x because it worked! The way that we know that this combination works is by the ac method. 
+
+We do the {\tag ac method} by finding a pair of numbers that multiply to a certain number and add to another number. 
+
+Here, we multiply to get the last term and add to get the coefficient of the middle term. Thus, we want to multiply to get to -24 and we want to add to get 2. We do this by {\tag factoring} -24 and adding the respective factors until we find the combination that sums to 2. This leaves us with 6 and -4. The next few examples illustrate.
+
+{ex}
+
+	x^2+9x+18		Want to multiply to 18, add to 9
+     x^2+6x+3x+18		6 and 3, split the middle term
+    x(x+6)+3(x+6)		Factor by grouping
+       (x+6)(x+3)		Our solution
+
+{\ex}
+
+
+{ex}
+
+         x^2-4x+3		Want to multiply to 3, add to -4
+    x^2-10x+2x-20		-3 and -1, split the middle term
+    x(x-3)-1(x-3)		Factor by grouping
+       (x-3)(x-1)		Our solution
+
+{\ex}
+
+{ex}
+
+        x^2-8x-20		Want to multiply to -20, add to -8
+    x^2-10x+2x-20		-10 and 2, split the middle term
+  x(x-10)+2(x-10)		Factor by grouping
+      (x-10)(x+2)		Our solution
+
+{\ex}
+
+Likewise, factoring with two variables follows a similar process to factoring with one variable. 
+
+{ex}
+
+    a^2-9ab+14b^2		Want to multiply to 14, add to -9
+a^2-7ab-2ab+14b^2		-7 and -2, split the middle term
+ a(a-7b)-2b(a-7b)		Factor by grouping
+     (a-7b)(a-2b)		Our solution
+
+{\ex}
+
+In this example, it is important to take into the signs. We have to be aware of the negatives when we find the pair of numbers for the {\tag ac method}. Another example, done incorrectly, illustrates ignoring the negative signs.
+
+{ex}
+
+	x^2+5x-6		Want to multiply to 6, add to 5
+     x^2+2x+3x-6		2 and 3, split the middle term
+   x(x+2)+3(x-2)		Factor by grouping
+	     ???		The binomials do not match.
+
+{\ex}
+
+Since we did +6, and not -6, to find our pairs, the resulting binomials did not match and we were not able to use grouping. Now we will do this problem correctly:
+
+{ex}
+
+	x^2+5x-6		Want to multiply to -6, add to 5
+      x^2-x+6x-6		-1 and +6, split the middle term
+   x(x-1)+6(x-1)		Factor by grouping
+      (x+6)(x-1)		Our solution
+
+{\ex}
+
+You may notice that the pairs which we use to split the middle term turn out to be the factors of the polynomial; however, this is not always the case, so do not rely on this pattern. We can, however, use this when we have a 1 as the coefficient {\tag coefficient} for the x^2. If there is only a 1 as the coefficient of x^2, then we can use this shortcut; otherwise, we will use the ac method and grouping as shown.
+
+{ex}
+
+	x^2-7x-18		Want to multiply to -18, add to -7
+ 				-9 and 2, write the factors
+       (x-9)(x+2)		Our solution
+
+{\ex}
+
+{ex}
+
+	m^2-mn-30n^2		Want to multiply to -30, add to -1
+				5 and -6, write the factors( and 					don't forget second variable)
+	(m+5n)(m-6n)		Our solution
+
+{\ex}
+
+Sometimes a polynomial cannot be factored. If there is no combination of numbers that multiplies and adds to the correct numbers, then the polynomial cannot be factored. Similar to how prime numbers cannot be factored, we say that the polynomial is prime.
+
+{ex}
+
+	     x^2+2x+6		Want to multiply to 6, add to 2
+	  1*6 and 2*3		Only factors of 6, none add to 2
+		Prime		Our solution
+
+{\ex}
+
+It is also important to look at the GCF of a polynomial. If all of the terms of a polynomial have the same factor, then we can pull the factor out before we use any other method.
+
+{ex}
+
+	  3x^2-24x+45		GCF of all terms is 3, factor this out
+	 3(x^2-8x+15)		Want to multiply to 15, add to -8
+				-5 and -3, write the factors
+	  3(x-5)(x-3)		Our solution
+
+{\ex}
+
+Once more, be careful not to use the shortcut when factoring all polynomials! The shortcut only works when the coefficient of x^2 is 1. We will next look at how to factor trinomials where the coefficient of x^2 does not equal 1.
