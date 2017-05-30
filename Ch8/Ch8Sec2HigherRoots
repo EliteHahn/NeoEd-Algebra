@@ -1,0 +1,32 @@
+Chapter
+{8} RADICALS
+
+Section
+{2} HIGHER ROOTS
+
+{def}{1}
+  {Higher Root} A higher root is comprable to a square root, but with different degrees. For example, a cube root is the reverse process of cubing a number. A 5th root is the reverse process of bringing a number to the fifth power.
+  In general, /* insert formula here */. The letter m here is called the index
+  {ex}{\ex}
+  A higher root of a negative number is defined if the index of the root is an odd number. If it is an even number, then the higher root of the negative number is not defined (similar to how it was for {tag ..}square roots{\tag} where 2 of course is even)
+  {ex}{\ex}
+  There is a way to {tag ..}deal with even roots of negative numbers{\tag}, using {tag ..}imaginary numbers{\tag}, which will be taught in a future lesson
+  Note: It may be helpful to note the parallels between {tag ..}square roots{\tag} and roots of higher degrees. There are many similarities!
+{\def}
+{def}{2}
+  {Product Property of Radicals} /* insert equation here */
+  This property can be used to simplify certain radicals, specifically when the number under the radical has factors that have an nth root.
+  {ex}{\ex}
+{\def}
+{topic}{3} Simplifying a Radical
+  If a radical can be simplified, we can use {tag ..}the product rule of square roots{\tag} to split the number under the radical into factors that we can easily take the nth root of.
+  Of course in most cases, we do not know off the top of our heads the nth root of a number. For example, you may not recognize 32 as having a 5th root of 2.
+  Nevertheless, the process is the same as with {tag ..}square roots{\tag}, and we simplify the numbers under the radical, one step at a time.
+  /* this section continues to be shit, fix it */
+  {ex}{\ex}
+  If this can be done multiple times, repeat this process until the number under the radical can no longer be simplified. The final answer will be all the simplified numbers multiplied together.
+  Note that this process works for both variables and numbers, as long as the term under the radical can be divided into factors
+  {ex}{\ex}
+  /* This section needs work, dealing with variables and finding even exponents */
+  Note: It may be helpful to note the parallels between {tag ..}square roots{\tag} and roots of higher degrees. There are many similarities!
+{\topic}

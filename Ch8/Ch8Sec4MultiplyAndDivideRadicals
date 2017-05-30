@@ -1,0 +1,31 @@
+Chapter
+{8} RADICALS
+
+Section
+{4} MULTIPLY AND DIVIDE RADICALS
+
+{def}{1}
+  {Product Rule of Radicals} /* Insert formula here */
+  Another way of looking at this rule, is that you can multiply anything outside of the radical together, and you can multiply everything under the radical together IF the radicals are of the same degree.
+  {ex}{\ex}
+{\def}
+{def}{2}
+  {Quotient Rule of Radicals} /* Insert formula here */
+  Similar to the {tag ..}product rule of radicals{\tag}, we can divide radicals as well
+  You can divide the parts outside of the radical, and you can divide the terms inside of the radical IF the radicals are of the same degree.
+  {ex}{\ex}
+{\def}
+
+{topic}{3} Multiplying and Dividing Radicals
+  We can multiply and divide radicals using the {tag ..}product rule of radicals{\tag} to multiply and the {tag ..} quotient rule of radicals{\tag} to divide.
+  {ex}{\ex}
+  On occassion, you may end up with a radical in the denominator of a rational or fraction. Although technically this is a correct answer, generally, it is considered bad practice to keep a radical in the denominator.
+  To fix this, we must multiply the numerator and the denominator by the same thing, to get rid of the radical in the denominator.
+  In general, we want to have /* insert formula, where we have nth root of a to the n */, where n is the index of the radical and a is anything else. 
+  We want this because it is very easy to simplify this. The nth root of a number to the nth power is, just that number!
+  {ex}{\ex}
+  In order to do this, we must find what power we need to "complete" the radical. See the following examples to see how to do this
+  /* Fix this shitty section */
+  {ex}{\ex}
+  After multiplying and dividing, always remember to {tag ..}reduce{\tag} when necessary!!
+{\topic}
