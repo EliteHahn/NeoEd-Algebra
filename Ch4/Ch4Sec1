@@ -1,0 +1,38 @@
+Chapter
+{4} SYSTEM OF EQUATIONS
+
+Section
+{1} GRAPHING
+
+{def}{1}
+  {System of Equations} A term defining two or more equations used to solve for variables;
+    One must have at least one equation for each variable needed to be solved.
+    {ex}
+      If a question wants to determine the values of X and Y, there must be at least two equations; for variables X, Y, and Z, three equations are needed
+    {\ex}
+    {ex}
+      /*insert Example 165*/ For a system of two equations, graphs on the coordinate plane are a very useful tool.
+    {\ex}
+{\def}
+
+{topic}{2} USING GRAPHS FOR SYSTEMS OF TWO EQUATIONS
+  The key point (no pun intended) to remember is that the intercept of the two lines is the solution to the system of equations.
+  {ex}
+    Imagine we are given an equation with two variables: 3x+y=10. We can procede to graph this equation onto a coordinate plane;
+    First we can reorganize the equation into the familar form: y=mx+b --> y=-3x+10, and plot these points onto our graph;
+    Then, we can connect these points and form the line that represents the equation: every single point on the line is an answer to this equation.
+    Now, let us add in a second line: x-y=5. We can graph y=x-5 onto the plane. Every point on this new line is a solution to the equation.
+    However, the only point that is a solution to BOTH equations is the point where their two lines intersect. At that point, the X and Y value can satisfy both equations.
+  {\ex}
+  {ex}
+    /*insert Example 169*/
+  {\ex}
+  {ex}
+    Special Cases: When the lines of the two equations have the same slope; 
+    if the lines are different (parallel), there is no solution;
+    if the lines are the in fact the same, there are infinite solutions.
+  {\ex}
+  
+
+    
+      
