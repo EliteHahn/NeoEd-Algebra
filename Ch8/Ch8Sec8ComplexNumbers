@@ -3,3 +3,38 @@ Chapter
 
 Section
 {8} COMPLEX NUMBERS
+
+{def}{1}
+  {Imaginary Number} A number, written as the letter i, such that i^2 = -1. In otherwords, i is the square root of -1
+  The number system we have been working with is called the real numbers.
+  Although this system is very good for algebra, it cannot tell us how to find the {tag ..}square root of a negative number{\tag}
+  In higher level maths, sometimes it is very important that we know the square root of a negative number, but with real numbers, all we do is write that it is undefined.
+  Imaginary numbers (and {tag ..}complex numbers{\tag}) is a different number system that allows us to deal with negative numbers under a square root or even radical.
+  {ex}{\ex}
+{\def}
+{def}{2}
+  {Complex Numbers} A complex number basically is just a number that has {tag ..}real{\tag} and/or {tag ..}imaginary{\tag} numbers
+  {ex}{\ex}
+{\def}
+{topic}{3} Cycical Proporty of Powers of i
+  Being familiar with the {tag ..}definition of i{\tag}, there are some interesting properties that we can use with imaginary numbers.
+  i^0 = 1
+  i^1 = i
+  i^2 = -1
+  i^3 = -i
+  Now, if we were to take i^4, we would end up with 1. i^5 is i. i^6 = -1 and i^7 = -i. And then the cycle repeats with i^8 and so on.
+  Because there is a pattern, we can easily tell the higher powers of i, simply by dividing the exponent by 4 and taking the remainder.
+  {ex}{\ex}
+  This works because we know that i^4 is just i^0 = 1, and multiplying by 1 doesn't change the result /*tag ? */
+  We can then just divide by 1 (by subtracting i^4 repeatedly, which of course is just dividing), until we get one of the 4 cases which we already know the answer to!
+  /* Proof */
+{\topic}
+{topic}{4} Performing Operations on Complex Numbers (add, subtract, multiply, divide)
+  Performing operations on {tag ..}complex numbers{\tag} is pretty simple, we just treat the imaginary numbers, i, as a variable, and {tag ..} operate as usual{\tag}.
+  The only extra step is to {tag ..}simplify i^2 = -1{\tag} when necessary, or {tag ..}simplify any power of i{\tag}.
+  Otherwise, we just use techniques we learned in the past, {tag ..}combining like terms{\tag} for adding and subtracting and {tag ..}expanding{\tag} multiplication.
+  {tag ..}Just like with radicals{\tag}, we aim to avoid having {tag ..}imaginary numbers{\tag} in the denominator of a {tag ..}rational{\tag}. When there is an i, simply multiply the numerator and denominator by i, so that the bottom can simplify using the property i^2 = -1
+  {ex}{\ex}
+  Finally, when operating under a radical, for example, finding the square root of a negative number, we can take out the negative 1 and write it as an imaginary number, to make this into solving the square root of a positive number
+  {ex}{\ex}
+{\topic}

@@ -3,3 +3,20 @@ Chapter
 
 Section
 {6} RATIONAL EXPONENTS
+
+{topic}{1} Radicals as Exponents
+  Any {tag ..}radical{\tag} can be written as an exponent.
+  A square root of an expression is just that expression to the 1/2 power
+  A cube root of an expression is just that expression to the 1/3 power
+  In general /* formula: nth root of a = a ^ 1/n */
+  {ex}{\ex}
+  This can be combined with other exponents as well.
+  In general /* include full formula */
+  {ex}{\ex}
+  Why is this important?
+  We now know that in {tag ..}order of operations{\tag}, exponents and radicals are in the same step. Recall the {tag ..}properties of exponents{\tag}, which can now be used for both exponents and radicals
+  In many cases, we can rewrite a radical as exponents to make it easier to solve
+  {ex}{\ex}
+  Solving problems, such as {tag ..}rationalizing the denominator{\tag} become much more intuitive when using exponents as opposed to radicals. Simply find which exponents add to one and multiply the numerator and denominator by the expression to that power
+  Be sure you are comfortable with {tag ..}the rules of exponents{\tag} when using radicals as exponents. This will be very helpful and important in this section.
+{\topic}
