@@ -1,0 +1,141 @@
+Chapter
+{6}
+
+Section
+{5} FACTORING SPECIAL PRODUCTS
+
+Overview: identify and factor special products including a difference of squares, perfect squares, and sum and difference of cubes.
+
+When factoring we will notice there are a few special products, if we recognize them. 
+
+Below is the difference of squares.
+
+{\tag mod} Difference of squares: {\tag} a^2-b^2=(a+b)(a-b)
+
+{ex}
+
+	x^2-16		Subtracting two perfect squares; square roots are x and 4
+    (x+4)(x-4)		Our solution
+
+{\ex}
+
+{ex}
+
+   9a^2-25b^2		Subtracting two perfect squares; square roots are 3a and 5b
+(3a+5b)(3-5b)		Our solution
+
+{\ex}
+
+The sum of squares, however, cannot factor; it is alway prime. 
+
+For example, x^2+36 using the ac method.
+
+{ex}
+
+x^2+36				0 is the middle term
+x^2+0x+36			Mutiply to 36, add to 0
+1*36, 2*18, 3*12, 4*9,6*6	No combination that multiplies to 36, adds to 0
+Prime; cannot factor		Our solution
+
+{\ex}
+
+Sum of squares: a^2+b^2 = prime.
+
+4th powers follow the same rule as squares, as they result in squares. For example:
+
+{ex}
+
+		a^4-b^4		Difference of squares with roots a^2 and b^2
+     (a^2+b^2)(a^2-b^2)		The first factor is prime, second a is a difference of squares
+    (a^2+b^2)(a+b)(a-b)		Our solution
+
+{\ex}
+
+{ex}
+
+		x^4-16		Difference of squares with roots x^2 and 4
+	(x^2+4)(x^2-4)		Continue factoring difference of squares; notice the prime binomial
+     (x^2+4)(x+2)(x-2)		Our solution
+
+{\ex}
+
+
+Another factoring shortcut is the perfect square.
+
+{\tag mod} Perfect square: {tag} a^2+2ab+b^2=(a+b)^2
+
+Perfect squares can be difficult to recognize, but we can notice them using the ac method.
+
+{ex}
+
+		x^2-6x+9		Multiply to 9, add -6
+					The numbers are -3 and -3, the same! Perfect square
+		(x-3)^2			Use square roots from first and last terms and sign from middle
+
+{\ex}
+
+{ex}
+	
+	4x^2+20xy+25y^2			Multiply to 100, add to 20
+					The numbers are 10 and 10, the same! Perfect square
+	      (2x+5y)^2			Use square roots from first and last terms and sign from the middle
+
+{\ex}
+
+Next we have two factoring shortcuts involving cubes. There is a sum of cubes and a difference of cubes, and they are very similar.
+
+{\tag mod} Sum of Cubes: {tag} a^3+b^3 = (a+b)(a^2-ab+b^2)
+{\tag mod} Difference of Cubes: {tag} a^3-b^3 = (a-b)(a^2+ab+b^2)
+
+You may use the word SOAP to think of the factoring formulas. S stands for the Same sign as the problem. O stands for the Opposite sign. AP stands for Always Positive. Both formulas end with addition. The example below shows factoring with cubes.
+
+{ex}
+	
+	 m^3-27		We have cube roots m and 3
+(m-3)(m^2+3m+9)		Our solution, using SOAP
+
+{\ex}
+
+{ex}
+
+   	    125p^3+8r^3		We have cube roots 5p and 2r
+(5p+2r)(25p^2-10r+4r^2)		Our solution, using SOAP
+
+{\ex}
+
+Often after factoring the sum or difference of cubes students try to factor the trinomial further.
+
+As a general rule, this factor is prime, unless there is a GCF which should have been factored out before.
+
+The following table summarizes the factoring of special products.
+
+Difference of Squares		a^2-b^2 = (a+b)(a-b)
+Sum of Squares			a^2+b^2 = Prime
+Perfect Squares			a^2+2ab+b^2 = (a+b)^2
+Sum of Cubes			a^3+b^3 = (a+b)(a^2-ab+b^2)
+Difference of Cubes		a^3-b^3 = (a-b)(a^2+ab+b^2)
+
+{ex}
+
+		72x^2-2		GCF is 2
+	     2(36x^2-1)		Difference of Squares, square roots are 6x and 1
+	  2(6x+1)(6x-1)		Our solution
+
+{\ex}
+
+{ex}
+
+         48x^2y-24xy+3y		GCF is 3y
+	 3y(16x^2-8x+1)		Multiply to 16, add to 8
+				The numbers are 4 and 4, the same!
+	     3y(4x-1)^2		Our solution
+
+{\ex}
+
+{ex}
+
+	     128a^4b^2+54ab^5		GCF is 2ab^2
+           2ab^2(64a^3+27b^3)		Sum of cubes. Cube roots are 4a and 3b
+2ab^2(4a+3b)(16a^2-12ab+9b^2)		Our solution
+
+{\ex}
