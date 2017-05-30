@@ -1,0 +1,93 @@
+Chapter
+{6}
+
+Section
+{4} TRINOMIALS WHERE A =/= 1
+
+Overview: factor trinomials using the ac method when the coefficient of x^2 is not one.
+
+When factoring trinomials {\tag trinomial} we used the ac method {\tag ac method} and factoring by grouping {\tag grouping}. The ac method to split the middle term gets it name from the equation ax^2+bx+c, where a is the coefficient of x^2, b is the coefficient of x, and c is the constant. 
+
+We call it the ac method because we multiply the coefficient a by the coefficient c to find what we want to multiply to. We then find the factors of a*c and pick the pair which adds to the middle term. An example below illustrates for instances where a =/= 1.
+
+{ex}
+
+	3x^2+11x+6		Multiply to a*c=(3)(6)=18, add to 11
+      3x^2+9x+2x+6		The numbers are 9 and 2, split the middle term
+    3x(x+3)+2(x+3)		Factor by grouping
+       (3x+2)(x+3)		Our solution
+
+{\ex}
+
+
+When a=1, we were able to use the shortcut {\tag ac method}. The shortcutwas using the numbers that split the middle term in the factors.  However, the previous example shows that the shortcut does not work when a =/= 1.
+
+{ex}
+
+	8x^2-2x-15		Multiply to a*c or (8)(-15) = -120, add to -2
+   8x^2-12x+10x-15		The numbers are -12 and 10, split the middle term
+  4x(2x-3)+5(2x-3)		Factor by grouping
+      (2x-3)(4x+5)		Our solution
+
+{\ex}
+
+{ex}
+
+       10x^2-27x+5		Multiply to a*c (10)(5)=50, add to -27
+    10x^2-25x-2x+5		The numbers are -25 and -2, split the middle term
+   5x(2x-5)-1(2x-5)		Factor by grouping
+       (2x-5)(5x-1)		Our solution
+
+{\ex}
+
+We will now apply this to polynomials of two variables.
+
+{ex}
+
+       4x^2-xy-5y^2		Multiply to a*c=(4)(-5)=-20, add to -1
+  4x^2+4xy-5xy-5y^2		The numbers are 4 and -5, split the middle term
+    4x(x+y)-5y(x+y)		Factor by grouping
+       (x+y)(4x-5y)
+
+{\ex}
+
+We should always see if we can factor out a GCF from all of theterms of the polynomial. It will make factoring the rest of the polynomial easier.
+
+{ex}
+
+	18x^3+33x^2+30x		GCF=3x, factor this out
+        3x(6x^2+11x+10)		Multiply to a*c (6)(-10)=-60, add to 11
+     3x(6x^2+15x-4x-10)		The numbers are 15 and -4, split the middle term
+   3x(3x(2x+5)-2(2x+5))		Factor by grouping
+	 3x(2x+5)(3x-2)		Our solution
+
+{\ex}
+
+{ex}
+
+	   10x^2-27x+5		Multiply to a*c=(10)(5)=50, add to -27
+	10x^2-25x-2x+5		The numbers are -25 and -2, split the middle term
+      5x(2x-5)-1(2x-5)		Our solution
+
+{\ex}
+
+The same process applies to a polynomial of two variables.
+
+{ex}
+
+          4x^2-xy-5y^2		Multiply to a*c=(4)(-5)=-20, add to -1
+     4x^2+4xy-5xy-5y^2		The numbers are 4 and -5, split the middle term
+       4x(x+y)-5y(x+y)		Factor by grouping
+          (x+y)(4x-5y)		Our solution
+
+{\ex}
+
+Similar to how some trinomials when a=1, not all trinomials can be factored. If there is no combination that multiply and add correctly then the polynomial is prime and cannot be factored.
+
+{ex}
+
+                3x^2+2x-7		Multiply to a*c=(3)(-7)=-21, add to 2
+          -3(7) and -7(3)		Only two ways to factor -21; no combination adds to 2
+Prime; cannot be factored		Our solution
+
+{\ex}
