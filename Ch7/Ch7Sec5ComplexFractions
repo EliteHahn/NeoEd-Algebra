@@ -1,0 +1,31 @@
+Chapter
+{7} RATIONAL EXPRESSIONS
+
+Section
+{5} COMPLEX FRACTIONS
+
+{def}{1}
+  {Complex Fraction} are essentially a rational with one or more {tag ..}rational{\tag} in the numerator and/or the denominator, usually both
+  {ex}{\ex}
+{\def}
+
+{topic}{2} Simplifying Complex Fractions
+  There are two ways to simplify a {tag ..}complex fraction{\tag}
+  The first way is very simple: just treat the {tag ..}numerator{\tag} and {tag ..}denominator{\tag} as separate rationals and simplify them by {tag ..}adding or subtracting, {\tag} until they are a single {tag ..}rational{\tag} expression
+  {ex}{\ex}
+  Remember that a fraction bar (the horizontal line that separates the numerator and denominator) is just like a division sign. Given this, once the numerator and denominator are both rational expressions, you can {tag ..}divide the numerator by the denominator{\tag} by multiplying the numerator by the {tag ..}reciprocal{\tag} of the denominator
+  {ex}{\ex}
+  The second way to simplify complex rationals is much simpler and cleaner. In this method, we want to get rid of all rationals in the numerator and denominator, by using the {tag ..}least common denominator{\tag}.
+  Note that we are finding the {tag ..}Least common denominator{\tag} for the rationals in the numerator and denominator, not the entire {tag ..}complex fraction{\tag}.
+  {ex}{\ex}
+  Remember, we can multiply the top and the bottom of the complex fraction by the least common denominator, to get us an equivalent fraction. Since the {tag ..}least common denominator{\tag} that we found held for all rationals in both the numerator and the denominator, we will be able to get rid of all the denominators in each of these rationals.
+  /* We may need to refer to something in 7.3 here, but idk what */
+  {ex}
+    /* We need detailed steps for the example, it's a bit hard to follow rn */
+  {\ex}
+  Once the denominators are gone, now we have a single {tag ..}rational{\tag}, one that we can {tag ..}simplify using older methods {\tag}
+  {ex}{\ex}
+  Remember that the {tag ..}least common denominator{\tag} can be anything. It can be a number, a variable, or a polynomial. As long as the steps are followed, the process should be the same.
+  Note that if there are terms with /*tag?*/ negative exponents, we can {tag ..}rewrite these as fractions{\tag}, and solve using one of the two methods we described
+  {ex}{\ex}
+{\topic}

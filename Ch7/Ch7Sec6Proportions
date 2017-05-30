@@ -1,0 +1,26 @@
+Chapter
+{7} RATIONALS
+
+Section
+{6} PROPORTIONS
+
+{def}{1}
+  {Proportion} A proportion in it's most basic sense is two rationals that are equal to each other.
+  We can also say that they are proportional to each other
+  They are most useful for finding the {tag ..}cross product{\tag} to solve a proportion
+  Proportions can mean many different things. If two rationals are equal, then that means they are equivalent fractions.
+  This also means that two ratios are equivalent.
+{\def}
+
+{topic}{2}Finding the Cross Product
+  If \frac{a}{b} = \frac{c}{d}, then ad = bc
+  {ex}/*Maybe a proof here or something idk */{\ex}
+  The cross product essentially tells us we can multiply diagonally to get an equation with no fractions that we can solve
+{\topic}
+
+{topic}{3} Solving Proportions
+  In order to solve a {tag ..}proportion{\tag}, we must first {tag ..}find the cross product{\tag}
+  While doing this, remember to {tag ..}distribute{\tag} the products when needed
+  After finding the cross product, you will get a standard equation that can be solved. This can be {tag ..}linear{\tag}, or {tag ..}quadratic{\tag} in certain instances. Either way, solve as necessary for the variable
+  {ex}{\ex}
+{\topic}
