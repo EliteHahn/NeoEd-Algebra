@@ -1,0 +1,139 @@
+Chapter
+{6}
+
+Section
+{7}
+
+Overview: solve quadratic equations by factoring and using the zero product rule.
+
+When we have linear equations such as 2x-5=21, we may simply add 5 and divide by 21 to find x, getting 13. However, with x^2, or x of a higher power, we cannot isolate x as we did with the linear equation. One method to solve for an unknown variable is known as the zero product rule. 
+
+{tag mod} Zero Product Rule {\tag} if ab=0 then either a = 0 or b = 0
+
+Thus, if two factors are multiplied together and the answer is zero, then one of the factors must be zero.
+
+We will use this fact to solve factored polynomials as in the following example.
+
+{ex}
+
+	(2x-3)(5x+1)=0		One factor must be zero
+	2x-3=0 or 5x+1=0	Set each factor equal to zero
+	+3+3	    -1-1	Solve each eqation
+	2x=3	or 5x=-1	
+	/2	/5
+	x=3/	x=\frac{-1}{5}	Our solution
+
+{\ex}
+
+Thus, for the zero product rule ot work, we need the {tag mod} factors {\tag} to be set equal to zero. Thus we must factor the problem if it is not already factored.
+
+{ex}
+
+	   4x^2+x-3=0		Factor using the {tag mod} ac method {\tag}, multiply to -12, add to 1
+       4x^2-3x+4x-3=0		The factors are -3 and 4, split the middle term
+    x(4x-3)+1(4x-3)=0		Factor by {tag mod} grouping {\tag}
+        (4x-3)(x+1)=0		One factor must be zero
+      4x-3=0 or x+1=0		Set each factor equal to zero
+     	+3+3     -1-1		Solve each equation
+    	4x=3  or x=-1 
+      	/4     /-1	
+x=\frac{4}{3} or x=-1		Our solution
+
+{\ex}
+
+It is important to note that we must have the equation equal to zero. If it does not, then we must move terms around so that it does.
+
+{ex}
+
+x^2=8x-15		Set equal to zero by moving terms to the left
+-8x+15 -8x+15		
+x^2-8x+15=0		Factor using the ac method, multiplying by 15, add to -8
+(x-5)(x-3)=0		The numbers are -5 and 03
+x-5=0 or x-3=0		Zero product rule
+ +5+5     +3+3		Solve each equation
+x=5   or x=3		Our solution
+
+{\ex}
+
+{ex}
+
+	(x-7)(x+3)=-9		Not equal to zero, multiply first, use FOIL
+      x^2-7x+3x-21=-9		Combine like terms
+         x^2-4x-21=-9		Move -9 to other side so equation equals zero
+               +9  +9		
+          x^2-4x-12=0		Factor using {tag mod} ac method {\tag}. Multiply to -12, add to -4
+	 (x-6)(x+2)=0		The numbers are 6 and -2
+       x-6=0 or x+2=0		Set equal to zero
+	+6+6     -2-2		Solve each equation
+	x=6  or -2		Our solution
+
+{\ex}
+
+{ex} 
+  3x^2+4x-5=7x^2+4x-14		Set equation equal to zero, move terms to the right
+-3x^2-4x+5  -3x^2-4x+5		
+	0=4x^2-9		Factor using difference of squares
+	0=(2x+3)(2x-3)		One factor must be zero
+      2x+3=0 or 2x-3=0		Set each factor equal to zero
+	-3-3      +3+3		Solve each equation
+	2x=-3 or  2x=3		
+x=\frac{-3}{2} or \frac{3}{2}	Our solution
+
+{\ex}
+
+Most of the time, problems with x^2 have two unique solutions; however, it is possible to have only one solution.
+
+{ex}
+
+	    4x^2=12x-9		Set equal to zero, move terms to the left
+         -12x+9 -12x+9
+          4x^2-12x+9=0		Factor using the ac method, multiply to 36, add to -12
+	    (2x-3)^2=0		-6 and -6, a perfect square!
+	        2x-3=0		Set this factor equal to zero
+		  +3+3		Solve equation
+		  2x=3		
+       x = \frac{3}{2}		Our solution
+
+{\ex}
+
+Once more, it is important to factour out the {tag mod} GCF {\tag} if we have one. This GCF is also a factor which we must take into account when using the zero product rule.
+
+{ex}
+
+	      4x^2=8x		Set equal to zero by moving the terms to left
+               -8x-8x		Be caerful! They are not like terms!
+	    4x^2-8x=0		Factor out GCF, 4x
+	    4x(x-2)=0		Zero product rule
+	4x=0 or x-2=0		Set each factor equal to zero
+	/4 /4    +2+2		Solve each equation
+	   x=0 or x=2		Our solution
+
+{\ex}
+
+{ex}
+
+	2x^3-14x^2+24x=0	Factor out GCF of 2x
+	 2x(x^2-7x+24)=0	Factor using {tag mod} ac method {\tag}. Multiply to 12, add to -7
+	  2x(x-3)(x-4)=0	The numbesr are -3 and -4
+  2x=0 or x-3=0 or x-4=0	Set each factor equal to zero
+  /2/2     +3+3     +4+4	Solve each equation
+	x=0 or 3 or 4		Our solutions
+
+{\ex}
+
+{ex}
+
+	   6x^2+21x-27=0	Factor out GCF of 3
+          3(2x^2+7x-9)=0	Factor with ac method, multiply to -18, add to 7
+       3(2x^2+9x-2x+9)=0	The numbers are 9 and -2
+    3(x(2x+9)-1(2x+9))=0	Factor by grouping
+	  3(2x+9)(x-1)=0	One factor must be zero
+  3=0 or 2x+9=0 or x-1=0	Set each factor equal to zero
+3 =/= 0    -9-9     +1+1
+	2x=9	or x=1
+	 /2/2 
+  x = \frac{9}{2} or x=1	Our solution
+
+{\ex}
+
+Not all equations can be factored. For solving equations that cannot be factored, we will solve it using another method. Those other methods are saved for another section.
