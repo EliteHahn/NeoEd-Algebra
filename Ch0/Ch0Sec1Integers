@@ -1,74 +1,71 @@
-Chapter
-{0} PRE-ALGEBRA
+[Chapter 0] Pre-Algebra
+[Section 1] Properties of Algebra
 
-Section
-{1} INTEGERS
-
-{def}{1}
-  {Integer} All the positive whole numbers, their opposites, and zero (their negative values)
-  {ex}
-    1
-    2
-    0
-    -1
-    -3
-    -1554
-    1554
-    +6
-  {\ex}
+{def}[1][Integers]
+  All the positive whole numbers, their opposites (meaning their negative values), and zero are called integers.
+  {exp}
+    $1$ Whole number
+    $2$ Whole number
+    $0$ Zero is an integer
+    $-1$ Since positive 1 is a whole number and an integer, $-1$ is also an integer
+    $-3$ Positive 3 is a whole number and an integer, therefore, so is $-3$
+    $-1554$
+    $1554$
+    $+6$ The positive sign doesn't change the fact that it is an integer
+  {\exp}
   {nex}
-    0.1
-    -3.2
-    \frac{2}{5}
-    \frac{6}{5}
-    \pi
+    $0.1$
+    $-3.2$
+    $\frac{2}{5}$ This fraction is not an integer
+    $\frac{-6}{5}$ The fact that this fraction is negative nor that it is improper changes the fact that it is not an integer
+    $\pi$ Pi is irrational. It also has decimals, which makes it not an integer
   {\nex}
 {\def}
-{topic}{2} Adding Integers
+{tpc}[2][Adding Integers]
   If signs match, add the numbers together, keep the sign
-  {ex}
-    2+3 = 5
-    5+ 7 = 12
-    (-3) + (-5) = -8
-    -2 + -13 = -15
-  {\ex}
+  {exp}
+    $2+3 = 5$ The signs are both positive, so our answer is also positive
+    $5+ 7 = 12$
+    $(-3) + (-5) = -8$ Because the signs are both negative, we can add them to get another negative number
+    $-2 + -13 = -15$
+  {\exp}
   If signs do not match, (one positive, one negative), subtract the numbers (as if they were both positive) and use the sign of the larger number.
   {ex}
-    (-2) + 3 = 1
-    7 + (-5) = 2
-    (-15) + 10 = -5
-    9 + (-12) = -3
+    $(-2) + 3 = 1$ In this case, the 3 is larger than 2, and therefore the answer is positive since 3 is positive
+    $7 + (-5) = 2$
+    $(-15) + 10 = -5$ Since 15 is larger than 10, the answer is negative, since the sign on the 15 is negative.
+    $9 + (-12) = -3$
   {\ex}
-{\topic}
-{topic}{3} SUBTRACTING INTEGERS
-  We can change subtraction to an addition problem by taking the opposite (negative) of the number you are subtracting (the second number), and making it an addition problem {tag 0.1.2}Then, you can solve the addition problem{\tag}.
+{\tpc}
+{tpc}[3][Subtracting Integers]
+  We can change subtraction to an addition problem by taking the opposite (negative) of the number you are subtracting (the second number), and making it an addition problem {tag ..}Then, you can solve the addition problem{\tag}.
   {ex}
-    8 - 3 = 8 + (-3) = 5
-    15 - 7 = 15 + (-7) = 8
-    -3 - 17 = -3 + (-17) = -20
-    -5 - 5 = -5 + (-5) = -10
-    -10 - (-13) = -10 + (+13) = 3
-    12 - (-16) = 12 + (16) = 28
+    $8 - 3 = 8 + (-3) = 5$
+    $15 - 7 = 15 + (-7) = 8$
+    $-3 - 17 = -3 + (-17) = -20$
+    $-5 - 5 = -5 + (-5) = -10$
+    $-10 - (-13) = -10 + (+13) = 3$
+    $12 - (-16) = 12 + (16) = 28$
   {\ex}
-{\topic}
-{topic}{4} MULTIPLYING AND DIVIDING INTEGERS
+{\tpc}
+{tpc}[4][Multiplying and Dividing Integers]
   To multiply or divide integers, divide as you normally would (as if they were both positive)
   If the signs match (they are both positive or both negative), the answer is positive
-  {ex}
-    (4)(7) = 28
-    (-4)(-7) = 28
-    (3)(5) = 15
-    (-3)(-5) = 15
-    \frac{12}{4} = 3
-    \frac{-12}{-4} = 3
-  {\ex}
+  {exp}
+    $(4)(7) = 28$
+    $(-4)(-7) = 28$
+    $(3)(5) = 15$
+    $(-3)(-5) = 15$
+    $\frac{12}{4} = 3$
+    $\frac{-12}{-4} = 3$
+  {\exp}
   If the signs do not match, (one is positive, one is negative), then the answer is negative
-  {ex}
-    (4)(-7) = -28
-    (-4)(7) = -28
-    (2)(-3) = -6
-    (-6)(3) = -18
-    \frac{15}{-3} = -5
-    \frac{-15}{3} = -5
-  {\ex}
-{\topic}
+  {exp}
+    $(4)(-7) = -28$
+    $(-4)(7) = -28$
+    $(2)(-3) = -6$
+    $(-6)(3) = -18$
+    $\frac{15}{-3} = -5$
+    $\frac{-15}{3} = -5$
+  {\exp}
+{\tpc}

@@ -1,32 +1,29 @@
-Chapter
-{0} PRE-ALGEBRA
+[Chapter 0] Pre-Algebra
+[Section 2] Fractions
 
-Section
-{2} FRACTIONS
-
-{def}{1}
-  {Simplest Form}{Reduced} Fractions where the {tag mod}numerator{\tag} and {tag mod}denominator{\tag} share no factors, meaning they are not both divisible by the same number.
-  {ex}
-    \frac{1}{3}
-    \frac{4}{7}
-    \frac{-5}{13}
-    \frac{4}{-9}
-  {\ex}
+{def}[1][Simplest Form/Reduced Fractions]
+  Fractions in simplest form, or reduced fractions is a fraction where the {tag ..}numerator{\tag} and {tag ..}denominator{\tag} share no factors, meaning they cannot both be evenly divisible by the same number.
+  {exp}
+    $\frac{1}{3}$
+    $\frac{4}{7}$
+    $\frac{-5}{13}$
+    $\frac{4}{-9}$
+  {\exp}
   {nex}
     \frac{2}{4} divisible by 2 to get \frac{1}{2}
     \frac{3}{12} divisible by 3 to get \frac{1}{4}
     \frac{-5}{15} divisible by 5 to get \frac{-1}{3}
   {\nex}
-{topic}{2} REDUCING FRACTIONS
-  To reduce a fraction, divide both the {tag mod}numerator{\tag} and the {tag mod}denominator{\tag} by the same number, and repeat this process until it is in {tag 0.1.1}simplest form{\tag}
-  {ex}
-    \frac{36}{84} divide top and bottom by 4 to get \frac{36 \div 4}{84 \div 4} = \frac{9}{21}, then divide both top and bottom by 3 to get \frac{9 \div 3}{21 \div 3} = \frac{3}{7}
-  {\ex}
-  There are different correct ways to reduce a fraction. Many examples can be done in a different number of steps, depending on which number you choose to divide the {tag mod}numerator{\tag} and {tag mod}denominator{\tag} by.
-  If you divide by the {tag mod}greatest common denominator{\tag} of the {tag mod}numerator{\tag} and {tag mod}denominator{\tag}, you can reduce the fraction in 1 step
-  {ex}
-    \frac{36}{84} divide {tag mod}numerator{\tag} and {tag mod}denominator{\tag} by 12 to get \frac{36 \div 12}{84 \div 12} = \frac{3}{7}
-  {\ex}
+{tpc}[2][Reducing Fractions]
+  To reduce a fraction, divide both the {tag ..}numerator{\tag} and the {tag ..}denominator{\tag} by the same number, and repeat this process until it is in {tag ..}simplest form{\tag}
+  {exp}
+    $\frac{36}{84}$ divide top and bottom by 4 to get \frac{36 \div 4}{84 \div 4} = \frac{9}{21}, then divide both top and bottom by 3 to get \frac{9 \div 3}{21 \div 3} = \frac{3}{7}
+  {\exp}
+  There are different correct ways to reduce a fraction. Many examples can be done in a different number of steps, depending on which number you choose to divide the {tag ..}numerator{\tag} and {tag ..}denominator{\tag} by.
+  If you divide by the {tag ..}greatest common denominator{\tag} of the {tag ..}numerator{\tag} and {tag ..}denominator{\tag}, you can reduce the fraction in 1 step
+  {exp}
+    $\frac{36}{84}$ divide {tag mod}numerator{\tag} and {tag mod}denominator{\tag} by 12 to get \frac{36 \div 12}{84 \div 12} = \frac{3}{7}
+  {\exp}
   When {tag 0.2.3}multiplying fractions{\tag}, one can reduce both within a single fraction, or diagonally across two fractions.
   {ex}
     \frac{25}{24} \cdot \frac{32}{55} = \frac{25 \div 5}{24} \cdot \frac{32}{55 \div 5} = \frac{5}{24} \cdot \frac{32}{11} = \frac{20}{33}
