@@ -1,0 +1,95 @@
+The Grammar used for Neo Education is LL1 and will be used to used and updated for textbooks. None of the documents currently use this grammar, but will be updated to do so in the future.
+We will use new lines to determine the start of a new section
+
+-----
+Notes
+-----
+  * The first line of anything should give us a description of what is going on. Header stuff, titles, etc
+  * The second line should be a list of something. We may or may not keep this second line
+  * The character "{" should be a trigger to start or end something.
+  * If a line does not start with "{", perhaps it should just go do the default bullet point with correct indentation.
+  * Each subsection should increase indentation and stuff
+  * As with latex, perhaps we should use $ signs to indicate math mode.
+  * Two column proofs are also helpful, if we can figure out how to get that going.
+  * Perhaps the first idea will be to create an html page
+  * We could have headers of "[]" giving different information about the entire section
+  * We have to figure out how we can change/add references without messing up the whole document. Perhaps assigning IDs right now that will not change may be the way to go. Either way, we'll figure it out once we have a presentable draft
+  * Should there be a separate list for def and topic? Should run at about the same time, but still.
+
+  * For examples, we're going to want to use \documentclass[preview]{standalone} to get a nice pdf going
+  * Use this for future notice: https://tex.stackexchange.com/questions/11866/compile-a-latex-document-into-a-png-image-thats-as-short-as-possible
+  * Something something convert comment of Image Magick
+
+  - [Chapter 0] Pre-Algebra
+    [Section 1] Properties of Algebra
+    [Size 5]
+    \n\n
+    {topic}[1] Replacing Variables with Numbers /* <-- that's the title */
+      Pargraphs, paragraphs, words words
+      more words
+    {\topic}
+    {def}[2][Like Terms] /* <- def, number, then the word we are defining NO WHITE SPACE */
+     blah blah blah definition /* <- This is the actual "definition" part. */
+    {\def} /* Is there really a distinction between definitions and topics? Couldn't we add tags later? Not sure, think about it! */
+
+
+---------
+End Notes
+---------
+Draft 2:
+#Definition# : {def}[id number][title]#Topic-Item#*{\def}
+#Topic# : {tpc}[id number][title]#Topic-Item#*{\tpc}
+#Topic-Item# :
+  | #Paragraph#
+  | #Subsection#
+  | #Example#
+  | #Non-Example#
+#Paragraph# : #Word-Group#* '\n'
+#Word-Group# :
+  | String
+  | #Tag#
+#Tag# : {tag Key} String {\tag}
+#Subsection# : {sub}#Topic-Item#{\sub}
+#Example# : {exp}#Example-Item#*{\exp}
+#Example-Item# : #LaTeX# #Paragraph#
+#LaTeX# : $ String $
+#Non-Example# : {nex}#Example-Item#*{\nex}
+
+
+
+
+Draft 1:
+
+[ID]: {Int}
+[Path]:
+  | Int.Int.Int
+  | Int.Int
+  | Int
+  | "mod"
+[Definition]: {def}[ID][Definition-Item]*{\def}
+[Definition-Item]:
+  | [Term]
+  | [Paragraph]
+  | [Subsection]
+  | [Example]
+  | [Proof]
+[Topic]: {topic}[ID][Topic-Item]*{\topic}
+[Topic-Item]:
+  | [Paragraph]
+  | [Subsection]
+  | [Example]
+  | [Proof]
+[Tag]: {tag [Path]}String{\tag}
+[Term]: {String} String
+[Paragraph]:
+  | String [Tag]* String
+[Subsection]: {sub}[Subsection-Item]*{\sub}
+[Subsection-Item]:
+  | [Paragraph]
+  | [Subsection]
+[Example]: {ex}[Example-Item]*{\ex}
+[Example-Item]:
+  | [Paragraph]
+[Proof]: {prf}[Proof-Item]*{\prf}
+[Proof-Item]:
+  | [Paragraph]
