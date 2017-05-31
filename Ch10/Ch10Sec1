@@ -1,0 +1,144 @@
+Chapter
+{10} Functions
+
+Section
+{1} Function Notation
+
+There are many different type of different equations we know how to work with in algebra, such as y=x^2-4x-8, (x-3)^2=y, and so on.
+
+There is also a special type of relation called a {tag mod}functoin {\tag}.
+
+Functions have at most one output for any input. Generally, x is the input variable and y is the output variable. Thus, for each x value there is at most one y value.
+
+We can test this using the {tag mod} vertical line test {\tag}. Take the x-values of a graph. If you construct a vertical line from the x-value and it touches more than one y-value, then the graph is not a function. If there is at most one y-value, then the graph is a function.
+
+{ex}
+
+
+**Several different graphs**
+
+{\ex}
+
+Using the vertical line test, check if the above graphs are functions. 
+
+We can look at the above idea and use algebraic methods to test to see if the relationship is a function by solving for y. If we have only one solution, then it is a function.
+
+{ex}
+
+Is 3x^2-y=5 a function?		Solve the relation for y
+-3x^2    -3x^2
+/-1	/-1
+y=3x^2-5			Only one solution for y; thus, a function.
+
+{\ex}
+
+{ex}
+
+Is y^2-x=5 a function?		Solve the relation for y
+      +x+x
+	       y^2=5+x		Square root of both sides
+\sqrt{y^2}=+/-\sqrt{x+5}	Simplify
+y=+/- \sqrt{x+5}		Two solutions for y(one +, one -)
+				Not a function	
+
+{\ex}
+
+For functional notation, we will use f(x) instead of y. Thus, f is the function with input variable x.
+
+The letters can be anything we want, usually f and x though. We could have g(x), h(y), and so on.
+
+We will also be interested in what inputs we can use for the function. These are called the domain. 
+
+\def{1} Domain: the values that are put into an equation (generally the x values)
+
+{ex}
+
+Find the domain of f(x)= \frac{3x-1}{x^2+x-6}		Zero cannot be in the denominator of a fraction
+
+x^2+x-6		Solve by factoring
+(x+3)(x-2)	Set each factor not equal to zero
+x+3=/=0 and x-2 =/=0 
+-3   -3	     +2   +2
+
+x=/=3   x =/=2		Our solution
+
+{\ex}
+
+Thus, x=-3 and x=2 is restricted from the domain.
+
+{ex}
+
+f(x) = 3x^2-x	There are no incorrect inputs
+Thus the domain of f(x) is R
+
+{\ex}
+
+When the domain of a function is R, that means that any number can be used for x.
+
+{ex}
+
+Find domain of f(x)= \sqrt{2x-3}	Square roots cannot be negative
+2x-3 >= 0
+  +3   +3
+2x >= 3
+x >= \frac{3}{2}
+Thus the domain is restricted to x >= \frac{3}{2}.
+
+{\ex}
+
+We can also see what the value of a function is at a specific x. 
+
+We see this by substituting the x in the function with the specific input.
+
+{ex}
+
+f(x) = 3x^2-4x, find f(-2)	Substitute -2 for x
+f(-2) = 3(-2)^2-4(-2)		Evaluate
+f(-2) = 3(4)-4(-2)
+f(-2) = 12-4(-2)
+f(-2) = 12-(-8)
+f(-2) = 20			Our solution
+
+{\ex}
+
+{ex}
+
+h(x) = 3^{2x-6}; find h(4)	Substitue 4 for x
+h(4) = 3^{2*4-6}
+h(4) = 3^{8-6}
+h(4) = 3^{2}
+h(4) = 9			Our solution
+
+{\ex}
+
+{ex}
+
+k(a) = 2|a+4|; find k(-7)	Substitute -7 for a
+k(-7) = 2|-7+4|
+k(-7) = 2|-3|
+k(-7) = 2*3
+k(-7) = 6			Our solution
+
+{\ex}
+
+Once more, functions may take many forms but it does not change how we evaluate them by using substitution. We can also put more than just a single number as an input; we may put expressions as an input.
+
+{ex}
+
+g(x) = x^4+1; find g(3x)		Replace x with (3x)
+g(3x) = (3x)^4+1
+g(3x) = 81x^4+1				Our solution
+
+{\ex}
+
+{ex}
+
+p(t) = t^2-t; find p(t+1)		Replace t with (t+1)
+p(t+1) = (t+1)^2-(t+1)
+p(t+1) = t^2+2t+1-(t+1)
+p(t+1) = t^2+2t+1-t-1
+p(t+1) = t^2+t				Our solution
+
+{\ex}
+
+Functional notation is necessary for more advanced algebra topics.
