@@ -1,28 +1,25 @@
-Chapter
-{1} SOLVING LINEAR EQUATIONS
+[Chapter 1] Solving Linear Equations
+[Section 5] Formulas
 
-Section
-{5} FORMULAS
-
-{topic}{1} Solving for a Variable
+{tpc}{1} Solving for a Variable
   Sometimes, we want to solve for a particular variable given an equation or formula that has multiple variables.
-  {ex}
+  {exp}
     /* The example they do is pi r^2 + pi rs = Surface Area of right circular cone */
-  {\ex}
+  {\exp}
   Basically what we mean when we ask for you to solve for a variable, let's say A, is to put the equation in terms of A = .....something.....
   To do this, we need to focus on the one variable we are trying to solve for, and treat the other variables and constants as just numbers. Solve this just as you would a {tag ..} linear equation {\tag}
-  {ex}
+  {exp}
     /* Make sure to show parallels between solving a normal equation, and the variable formula */
-  {\ex}
+  {\exp}
   If a variable, term, or expression is in a set of parenthesis, you can treat everything within the parenthesis as a single term, unless of course the variable you are trying to isolate is in the parenthesis (in which case, doing this would defeat the purpose)
-  {ex}
+  {exp}
     /* Show the example where we divide by (x-y) */
-  {\ex}
+  {\exp}
   We know we are done isolating when the variable we are solving for is isolated or alone on one side of the equation and it does not appear anywhere on the other side of the equation.
   Note that formulas often have fractions, and you will need to {tag ..} solve accordingly {\tag}
   Also note that with many formulas in chemistry and physics, upper case and lower case letters mean different things, so be very careful about which variable they want you to isolate, and to treat them as different variables. You cannot combine these terms!
-  {ex}
+  {exp}
     /* Throw some formula with the same letters */
-  {\ex}
+  {\exp}
 
-{\topic}
+{\tpc}

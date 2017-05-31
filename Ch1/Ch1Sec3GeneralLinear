@@ -1,43 +1,40 @@
-Chapter
-{1} SOLVING LINEAR EQUATIONS
+[Chapter 1] Solving Linear Equations
+[Section 3] General Equations
 
-Section
-{3} GENERAL EQUATIONS
-
-{topic}{1} Getting rid of Parenthesis in Linear Equations
+{tpc}[1][Getting Rid of Parenthesis in Linear Equations]
   Parenthesis may get in the way of solving equations.
-  If we want to get an equation into the {tag}two-step format{\tag} that we are familiar with, at times, we can get rid of parenthesis using the distributive property
-  {ex}
+  If we want to get an equation into the {tag ..}two-step format{\tag} that we are familiar with, at times, we can get rid of parenthesis using the {tag ..}distributive property{\tag}
+  {exp}
 
-  {\ex}
+  {\exp}
   After distributing, it can be solved as any other {tag}two-step equation{\tag}
   Remember to combine {tag ..}like terms{\tag} after distributing!
-{\topic}
-{topic}{2} Variables on both sides of Linear equations
+{\tpc}
+{tpc}[2][Solving with Variables on Both Sides of the Linear Equations]
   If there is the same variable on both sides of an equation, then we want to move one of the variable terms to the other side so that they are on the same side.
   To do this, we just move it just as we would with constant terms in {tag ..} one step linear equations{\tag}
   After that, you can solve just as you would a {tag ..} one step{\tag} or {tag ..} two step{\tag} equation.
-  {ex}
+  {exp}
 
-  {\ex}
-  Note that although you can move either variable to the other side, moving the smaller variable reduces the chance that the {tag mod}coefficient{\tag} is negative, which can make solving the rest of the equation easier
+  {\exp}
+  Note that although you can move either variable to the other side, moving the smaller variable reduces the chance that the {tag ..}coefficient{\tag} is negative, which can make solving the rest of the equation easier
 
-{\topic}
-{topic}{3} 5 Step Process to Solve Any Linear Equation
+{\tpc}
+{tpc}[3][5 Step Process to Solve Any Linear Equation]
   Remember, that although all 5 steps aren't always needed, this is a general guide on how to solve linear equations with one variable
   1. {tag ..}Distribute through any parentheses{\tag}
   2. {tag ..}Combine like terms{\tag} on each side of the equation
   3. {tag ..}Get the variables on one side{\tag} by adding or subtracting
   4. Solve the remaining {tag ..}2-step equation{\tag} (add or subtract, then multiply or divide)
-  5. Check your answer by {tag ..}plugging it back in for x{\tag} to find a true
+  5. Check your answer by {tag ..}plugging it back in for $x${\tag} to find a true
   The order of these steps is very important
-{\topic}
-{topic}{4} Getting left with a Number equals another number, ie -5 = -5 or -3 = 7, when solving Linear Equations
+{\tpc}
+{tpc}[4][Getting left with a Number equals another number, ie -5 = -5 or -3 = 7, when solving Linear Equations]
   Sometimes, when solving linear equations, the following happens
-  {ex}
+  {exp}
     /* Put in example where you solve an equation and the variables cancel out */
-  {\ex}
+  {\exp}
   In this case, we are left with a statement that is either true or false.
   If both numbers are the same, such as -5 = -5, then we have a true statement. This means, the solution to our equation is All Real Numbers
   If the numbers are different, such as -3 = 7, then we have a false statement. This means, the solution to our equation is that there is no solution, or a contradiction. This means, that there does not exist a number that can make this statement true.
-{\topic}
+{\tpc}

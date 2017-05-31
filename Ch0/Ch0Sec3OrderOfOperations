@@ -4,5 +4,5 @@
 {def}[1][Order of Operations]
   Order of Operations is the order in which one evaluates a mathematical expression, in the order of Parenthesis (Grouping), Exponents, Multiplication and Division (From left to right), Addition and Subtraction (from left to right)
   In other words, this is a priority list, in which you must evaluate an expression
-  {ex}{\ex}
+  {exp}{\exp}
 {\def}

@@ -1,21 +1,18 @@
-Chapter
-{1} SOLVING LINEAR EQUATIONS
+[Chapter 1] Solving Linear Equations
+[Section 4] Solving Linear Equations Fractions
 
-Section
-{4} SOLVING WITH FRACTIONS
-
-{topic}{1} Solving Linear Equations with Rational Coefficients
-  Often times, you will need to solve linear equations with fractions (or {tag mod}rationals{\tag}) as coefficients to the variables. However, this process can be very long and difficult, and there is a lot of room for making mistakes.
-  {ex}
+{tpc}[1][Solving Linear Equations with Rational Coefficients]
+  Often times, you will need to solve linear equations with fractions (or {tag ..}rationals{\tag}) as coefficients to the variables. However, this process can be very long and difficult, and there is a lot of room for making mistakes.
+  {exp}
     /* Possibly put an example here of a hard thing */
-  {\ex} 
+  {\exp}
   There is an alternate method for dealing with fractions, where we "clear" or get rid of the denominator of the fractions in the equation. This is done by multiplying each term in the equation by the {tag ..} least common denominator{\tag} of the denominators of the equation.
-  {ex}
+  {exp}
 
-  {\ex}
-  Note that any number that is not a fraction can be written as a fraction by putting it over 1. For example, 2 can be written as \frac{2}{1}.
-  In order for this process to work however, it is essential to get rid of parenthesis, either by {tag .2 step.}removing coefficients if possible or {tag ..}distributing the coefficient{\tag}.
-  {ex}
-    /* examples using parenthesis
-  {\ex}
-{\topic}
+  {\exp}
+  Note that any number that is not a fraction can be written as a fraction by putting it over 1. For example, 2 can be written as $\frac{2}{1}$.
+  In order for this process to work however, it is essential to get rid of parenthesis, either by {tag ..}removing coefficients if possible or {tag ..}distributing the coefficient{\tag}.
+  {exp}
+    /* examples using parenthesis */
+  {\exp}
+{\tpc}

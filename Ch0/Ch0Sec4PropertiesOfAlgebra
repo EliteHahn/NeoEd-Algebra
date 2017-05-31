@@ -9,14 +9,14 @@
   Terms of an algebraic expression where the variables match exactly (exponents included) are called like terms, where the only difference is in the {tag ..}constants{\tag}. Like terms in a given algebraic expression can be {tag ..}combined{\tag} to simplify the expression
   {ex}{\ex}
 {\def}
-{topic}[3][Combining Like Terms]
+{tpc}[3][Combining Like Terms]
   If an algebraic expression has two or more {tag ..}like terms{\tag}, they can be combined by {tag ..}adding{\tag}/{tag ..}subtracting{\tag} the constants and keeping the variables the same
-  {ex}{\ex}
-{\topic}
+  {exp}{\exp}
+{\tpc}
 {def}[4][Distributive Property]
   $a(b+c) = ab + ac$
 {\def}
-{topic}[5][Distribution]
+{tpc}[5][Distribution]
   When there are parenthesis in an algebraic expression, we can often get rid of those parenthesis using the {tag ..}distributive property{\tag}. Using this, you can multiply each of the terms within the parenthesis with the number in front of the parenthesis.
   You can distribute a negative sign around a parenthesis, just as you would as if you were multiplying by -1
-{\topic}
+{\tpc}

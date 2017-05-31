@@ -1,31 +1,27 @@
-Chapter
-{1} SOLVING LINEAR EQUATIONS
+[Chapter 1] Solving Linear Equations
+[Section 1] One-Step Equations
 
-Section
-{1} ONE-STEP EQUATIONS
-
-{def}{1}
-  {Linear Equation} An equation with variables with the properties:
-    The variables are multiplied only to {tag mod}constants{\tag}.
-    {ex}
+{def}[1][Linear Equation]
+    In algebra, a linear equation is an equation with variables with these properties:
+    The variables are multiplied only to {tag ..}constants{\tag}.
+    {exp}
       /*examples for each plz*/
-    {\ex}
+    {\exp}
     Each term must only have at most one variable.
-    {ex}
-    {\ex}
-    Variables are only used
-
+    {exp}
+    {\exp}
 {\def}
-{topic}{2} SOLVING ONE-STEP LINEAR EQUATIONS
+{tpc}[2][Solving One-Step Linear Equations]
   If there is a portion of the problem is "missing" (in other words, replaced by a variable), we may want to find the missing value.
-  {ex}
+  {exp}
     /*Put in examples of equations that need to be solved*/
     4x + 16 = -4
-  {\ex}
-  In this example, {tag 0.4.1}plugging in the number{\tag} -5 as x allows us to evaluate the equation and solve, and as we clearly see that since both sides of the equation are the same, -4 = -4, x = -5. However, if we were to plug in any other value, such as 3, we would get the false statement of 28 = -4. Because of this, we know that x is not 3, and that x is -5.
-  "Guess and check" is not a very good way to find the value of x, because these equations can be very complicated. Instead, we should find a way to solve equations that work for all equations.
+  {\exp}
+  In this example, {tag ..}plugging in the number{\tag} -5 as $x$ allows us to evaluate the equation and solve, and as we clearly see that since both sides of the equation are the same, $-4 = -4$, $x = -5$. However, if we were to plug in any other value, such as 3, we would get the false statement of 28 = -4. Because of this, we know that $x$ is not 3, and that $x$ is -5.
+  "Guess and check" is not a very good way to find the value of $x$, because these equations can be very complicated. Instead, we should find a way to solve equations that work for all equations.
   To solve equations, the general rule is to do the opposite operation on both sides of the equation.
-  {ex}
+  {exp}
     /* examples of 1 step equations being solved by doing the reverse operation */
     /* Make sure that each does all operations, add, subtract, multiplication and division*/
-  {\ex}
+  {\exp}
+{\tpc}

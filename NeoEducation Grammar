@@ -16,6 +16,7 @@ Notes
   * We have to figure out how we can change/add references without messing up the whole document. Perhaps assigning IDs right now that will not change may be the way to go. Either way, we'll figure it out once we have a presentable draft
   * Should there be a separate list for def and topic? Should run at about the same time, but still.
   * We may have to deal with separate examples differently with a \item or something [item] perhaps
+  * Perhaps we can have an ordered list in the future?
 
   * For examples, we're going to want to use \documentclass[preview]{standalone} to get a nice pdf going
   * Use this for future notice: https://tex.stackexchange.com/questions/11866/compile-a-latex-document-into-a-png-image-thats-as-short-as-possible

@@ -25,7 +25,7 @@
     $\frac{36}{84}$ divide {tag mod}numerator{\tag} and {tag ..}denominator{\tag} by 12 to get $\frac{36 \div 12}{84 \div 12} = \frac{3}{7}$
   {\exp}
   When {tag ..}multiplying fractions{\tag}, one can reduce both within a single fraction, or diagonally across two fractions.
-  {ex}
+  {exp}
     $\frac{25}{24} \cdot \frac{32}{55} = \frac{25 \div 5}{24} \cdot \frac{32}{55 \div 5} = \frac{5}{24} \cdot \frac{32}{11} = \frac{20}{33}$
   {\exp}
 {\tpc}

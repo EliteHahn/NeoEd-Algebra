@@ -1,21 +1,18 @@
-Chapter
-{1} LINEAR EQUATIONS
+[Chapter 1] Linear Equations
+[Section 2] Two-Step Equations
 
-Section
-{2} TWO-STEP EQUATIONS
-
-{topic}{1} SOLVING TWO-STEP EQUATIONS
-  Just as with {tag 1.1.2}solving one-step equations{\tag}, the important thing to remember is to to do the opposite {{tag mod}operation{\tag}.
-  If there are multiple steps that need to be solved, we must also use {tag 0.3.1}order of operations{\tag} backwards as well.
-  {ex}
+{tpc}[1][Solving Two-Step Equations]
+  Just as with {tag ..}solving one-step equations{\tag}, the important thing to remember is to do the opposite {tag ..}operation{\tag}.
+  If there are multiple steps that need to be solved, we must also use {tag ..}order of operations{\tag} backwards as well.
+  {exp}
     /* Examples of two step problems */
-  {\ex}
+  {\exp}
   If a number subtracts completely, for example, if all terms from a side of the equation is removed, it's important to remember that there's still a number there, 0!
-  {ex}
+  {exp}
 
-  {\ex}
+  {\exp}
   Solving two step or multistep equations is very important, because in future problems, there will be many steps that need to be taken to solve for a variable. Although these equations are complicated, the last two steps are a two-step equation like we are solving here. This is why it is very important to master two-step equations now!
-  {ex}
+  {exp}
     /* Take examples out of book */
-  {\ex}
-{/topic}
+  {\exp}
+{/tpc}
