@@ -1,26 +1,23 @@
-Chapter
-{8} RADICALS
+[Chapter 8] Radicals
+[Section 7] Radicals of Mixed Index
 
-Section
-{7} RADICALS OF MIXED INDEX
-
-{topic}{1} Reducing Radicals of Mixed Index
+{tpc}[1][Reducing Radicals of Mixed Index]
   Recall how {tag ..}radicals can be written as exponents{\tag}. This property allows us to simplify certain radicals with different {tag ..}indexes{\tag}.
   Suppose the expression under the radical is a single product, and all exponents of all the factors as well as the index of the radical share a {tag ..}common factor{\tag}, we can reduce by dividing the exponents and index by that common factor
   The following examples will help your understanding
-  {ex}{\ex}
+  {exp}{\exp}
   Why does this work? Because we can write our radicals as exponents, we can use the {tag ..}rules of exponents{\tag} to show why this works. Here is an example done step by step to show how this works
-  {ex}{\ex}/* Proof or something */
+  {exp}{\exp}/* Proof or something */
   This even works when there are {tag ..}coefficients{\tag} in the expression, as long as that coefficient can be written so that its exponent shares a common factor with all the other exponents and the index.
-  {ex}{\ex}
-{\topic}
-{topic}{2} Multiplying and Dividing Radicals with Mixed Index
+  {exp}{\exp}
+{\tpc}
+{tpc}[2][Multiplying and Dividing Radicals with Mixed Index]
   Using a very similar process to {tag ..}reducing radicals of mixed index{\tag}, we can also multiply and divide radicals with different indexes.
   Remember that to {tag ..}multiply radicals{\tag} and {tag ..}divide radicals{\tag}, we must have a common index. This common index is the {tag ..}least common denominator{\tag} of the indexes of all the radicals you are multiplying/dividing
-  {ex}{\ex}
+  {exp}{\exp}
   After we find this common index, it is just a matter of doing the reverse process as we did to {tag ..}reduce radicals of mixed index{\tag}. Instead of dividing all the exponents and index by a common factor, we multiply them all by the same number, so that the index becomes the common index
-  {ex}{\ex}
+  {exp}{\exp}
   After this, we use the rules of {tag ..}multiplying radicals{\tag}/ {tag ..}dividing radicals{\tag} to multiply/divide these together respectively.
-  {ex}{\ex}
+  {exp}{\exp}
   Remember, when {tag ..}dividing radicals{\tag}, we should {tag ..}avoid having a radical in the denominator. Be sure to rationalize{\tag}.
-{\topic}
+{\tpc}

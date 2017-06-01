@@ -1,24 +1,21 @@
-Chapter
-{8} RADICALS
+[Chapter 8] Radicals
+[Section 5] Rationalize Denominators
 
-Section
-{5} RATIONALIZE DENOMINATORS
-
-{def}{1}
-  {Conjugate} A conjugate of a {tag ..}binomial{\tag} is another binomial, made up with the same terms, except with the opposite sign in the middle
-  {ex}{\ex}
-  Conjugates are used to get a {tag ..}difference of squares{\tag}, (a+b)(a-b) = a^2 - b^2
+{def}[1][Conjugate]
+  A conjugate of a {tag ..}binomial{\tag} is another binomial, made up with the same terms, except with the opposite sign in the middle
+  {exp}{\exp}
+  Conjugates are used to get a {tag ..}difference of squares{\tag}, $(a+b)(a-b) = a^2 - b^2$
   This can be extremely useful when rationalizing denominators, as we can get rid of the radicals in the denominator by multiplying it to its conjugate (if it is a {tag ..}binomial{\tag})
-  {ex}{\ex}
+  {exp}{\exp}
 {\def}
 
-{topic}{2} Rationalizing a Binomial Denominator
+{tpc}[2][Rationalizing a Binomial Denominator]
   If the denominator of a rational with {tag ..}radicals{\tag} is a {tag ..}binomial{\tag}, then the methods we learned previously of rationalizing the denominator will not work, because when we do so, we just multiply the other term with a radical
    /* Perhaps, move this method into this section? Needs a tag */
   {nex}{\nex}
   Instead, we will multiply the {tag ..}binomial{\tag} denominator by its {tag ..}conjugate{\tag}, which as you may recall, will give us its difference in squares.
   Note that this only works when we are dealing with square roots in the denominator. {tag ..}Higher powered radicals{\tag} cannot be rationalized in this way
   After multiplying the numerator and the denominator by this conjugate, we can effectively get rid of the square roots in the denominator, because as we know, the {tag ..}conjugate{\tag} gives us the difference of squares (and squaring a square root gets rid of it!)
-  {ex}{\ex}
+  {exp}{\exp}
   After doing this process, be sure to simplify and distribute as necessary, especially in the numerator
-{\topic}
+{\tpc}

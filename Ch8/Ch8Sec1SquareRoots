@@ -1,27 +1,24 @@
-Chapter
-{8} RADICALS
+[Chapter 8] Radicals
+[Section 1] Square Roots
 
-Section
-{1} SQUARE ROOTS
-
-{def}{1}
-  {Square Root} A square root essentially undoes a square of a number.
-  {ex}{\ex}
+{def}[1][Square Root]
+  A square root essentially undoes a square of a number.
+  {exp}{\exp}
   The square root of a negative number is undefined, because it is impossible to square a number and get a negative number. This is because if we square a positive or a negative, we will always end up with a positive number.
-  {ex}{\ex}
+  {exp}{\exp}
   There is a way to {tag ..}deal with square roots of negative numbers{\tag}, using {tag ..}imaginary numbers{\tag}, which will be taught in a future lesson
 {\def}
-{def}{2}
-  {Product Rule of Square Roots} \sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b
+{def}[2][Product Rule of Square Roots]
+  $\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}$
   This property can be used to simplify certain square roots, specifically when there is a square factor under the square root.
-  {ex}{\ex}
+  {exp}{\exp}
 {\def}
-{topic}{3} Simplifying a Square Root
+{tpc}[3][Simplifying a Square Root]
   If a square root can be simplified, we can use {tag ..}the product rule of square roots{\tag} to split the number under the square root into factors that we can easily take the square root of.
-  In the following examples, the number under the square root has factors that are square numbers. As we know, square numbers are extremely easy to find the square root of (the square root of 5^2 for example is simply 5).
-  {ex}{\ex}
+  In the following examples, the number under the square root has factors that are square numbers. As we know, square numbers are extremely easy to find the square root of (the square root of $5^2$ for example is simply 5).
+  {exp}{\exp}
   If this can be done multiple times, repeat this process until the number under the radical can no longer be simplified. The final answer will be all the simplified numbers multiplied together.
   Note that this process works for both variables and numbers, as long as the term under the square root can be divided into factors
-  {ex}{\ex}
+  {exp}{\exp}
   /* This section needs work, dealing with variables and finding even exponents */
-{\topic}
+{\tpc}
