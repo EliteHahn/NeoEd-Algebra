@@ -1,33 +1,30 @@
-Chapter
-{5} POLYNOMIALS
+[Chapter 5] Polynomials
+[Section 6] Multiply Special Products
 
-Section
-{6} MULTIPLY SPECIAL PRODUCTS
-
-{topic}{1} Sum and Difference Special Product
-  This method of multiplying polynomials works on a very situation of problems of the form (a + b)(a - b)
-  a and b in this case can be numbers, variables, or anything else
-  When multiplied out, the answer is in the form a^2 - b^2
-  {ex}{\ex}
+{tpc}[1][Sum and Difference Special Product]
+  This method of multiplying polynomials works on a very situation of problems of the form $(a + b)(a - b)$
+  $a$ and $b$ in this case can be numbers, variables, or anything else
+  When multiplied out, the answer is in the form $a^2 - b^2$
+  {exp}{\exp}
   /* proof, explain how the middle term is subtracted out. Show that we could do this with distribution{tag} but it is much longer */
   Notice how when this is done with {tag ..}distribution{\tag}, we get the same result, it just takes many more steps
   Note that this is the same as the {tag ..} difference of two squares{\tag} method of factoring, in chapter 6
   It is very important that you memorize this form, as it will appear very often in mathematics and in this course
-{\topic}
+{\tpc}
 
-{topic}{2} Perfect Square Special Product
+{tpc}[2][Perfect Square Special Product]
   Another method of multiplying polynomials works on binomials multiplied to itself.
-  In other words, of the form (a+b)(a+b) or (a+b)^2
-  This also works for (a -b)(a - b) or (a - b)^2
-  (a+b)^2 = a^2 + 2ab + b^2
-  (a-b)^2 = a^2 - 2ab + b^2
-  Notice how these two are actually the same, except in (a-b)^2, we can think of it as (a + (-b))^2
+  In other words, of the form $(a+b)(a+b)$ or $(a+b)^2$
+  This also works for $(a -b)(a - b)$ or $(a - b)^2$
+  $(a+b)^2 = a^2 + 2ab + b^2$
+  $(a-b)^2 = a^2 - 2ab + b^2$
+  Notice how these two are actually the same, except in $(a-b)^2$, we can think of it as $(a + (-b))^2$
   /* Fix this shitty explanation ^^^^^^ */
-  {ex}{\ex}
+  {exp}{\exp}
   /* Do a proof, just like the one above */
   A helpful tip, is that the middle term in the polynomial is the same as the sign before you multiply it out
-  {ex}/*give a brief example showing this */{\ex}
+  {exp}/*give a brief example showing this */{\exp}
   Notice how when this is done with {tag ..}distribution{\tag}, we get the same result, it just takes many more steps
-  Note that this is the same as {tag ..}factoring a^2 + 2ab + b^2 {\tag} in chapter 6
+  Note that this is the same as {tag ..}factoring $a^2 + 2ab + b^2$ {\tag} in chapter 6
   It is very important that you memorize this form, as it will appear very often in mathematics and in this course
-{\topic}
+{\tpc}

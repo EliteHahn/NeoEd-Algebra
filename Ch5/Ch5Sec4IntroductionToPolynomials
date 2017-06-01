@@ -1,57 +1,53 @@
-Chapter
-{5} POLYNOMIALS
+[Chapter 5] Polynomials
+[Section 4] Introductino to Polynomials
 
-Section
-{4} INTRODUCTION TO POLYNOMIALS
-
-{def}{1}
-  {Terms} A product of numbers and/or variables
-  {ex}{\ex}
+{def}[1][Terms]
+  Terms are a product of numbers and/or variables
+  {exp}{\exp}
   {nex}{\nex}
   Expressions are often {tag ..}named based on the number of terms in them{\tag}, for example, a monomial has one term, a binomial has 2 terms, and a polynomial has many terms. All of these fall into the category of {tag ..}polynomials{\tag}
 {\def}
-
-{topic}{2} Names of polynomials
-  {tag ..}Polynomials{\tag} are named based on the number of {tag ..}terms{\tag} they have. Here are a few of the common names of {tag ..}polynomimals{\tag} that you will see
+{tpc}[2][Names of polynomials]
+  {tag ..}Polynomials{\tag} are named based on the number of {tag ..}terms{\tag} they have. Here are a few of the common names of {tag ..}polynomials{\tag} that you will see
   Monomials have one {tag ..}term{\tag}
-  {ex}{\ex}
+  {exp}{\exp}
   Binomial have two {tag ..}terms{\tag}
-  {ex}{\ex}
+  {exp}{\exp}
   Trinomials have three {tag ..}terms{\tag}
-  {ex}{\ex}
+  {exp}{\exp}
   Polynomials have many {tag ..}terms{\tag}
-  {ex}{\ex}
-{\topic}
+  {exp}{\exp}
+{\tpc}
 
-{def}{3}
-  {Polynomial} Polynomials are a group of 1 or more terms, separated by addition or subtraction
-  {ex}{\ex}
+{def}[3][Polynomial]
+  Polynomials are a group of 1 or more terms, separated by addition or subtraction
+  {exp}{\exp}
 {\def}
 
-{topic}{4} Evaluating Polynomials
+{tpc}[5][Evaluating Polynomials]
   Given a {tag ..}polynomial{\tag} with variables, you can {tag ..}evaluate the polynomials as long as you know the values of the variables{\tag}
-  {ex}{\ex}
-  It is important to be careful with {tag ..}negative variables with even exponents{\tag}. This means that -x^2 can be a different solution from (-x)^2, so you need to be careful of what you are dealing with
-{\topic}
+  {exp}{\exp}
+  It is important to be careful with {tag ..}negative variables with even exponents{\tag}. This means that $-x^2$ can be a different solution from $(-x)^2$, so you need to be careful of what you are dealing with
+{\tpc}
 
-{topic}{5} Negative Numbers with exponent vs Negative Numbers with Exponents
+{tpc}[5][Negative Numbers with exponent vs Negative Numbers with Exponents]
   Because of {tag ..}order of operations{\tag}, it matters whether or not the negative sign is being raised to the exponent
-  This is because, with even exponenets, negative numbers may become positive.
+  This is because, with even exponents, negative numbers may become positive.
   Consider the following examples and their contrasts
-  {ex}{\ex}
+  {exp}{\exp}
   Notice how when the negative is in parenthesis, it is also being raised to the power, but when it is on the outside, {tag..}order of operations{\tag} denotes that the number is squared, and then negated.
-{\topic}
+{\tpc}
 
-{topic}{6} Simplifying Polynomials
+{tpc}[6][Simplifying Polynomials]
   Often times, we will not know the value of the variables in a polynomial, so instead, the only way to simplify the polynomial is to {tag..}combine like terms{\tag}
-  {ex}{\ex}
+  {exp}{\exp}
   Once all the terms are combined, the polynomial is simplified
-{\topic}
+{\tpc}
 
-{topic}{7} Adding and Subtracting Polynomials
+{tpc}[7][Adding and Subtracting Polynomials]
   Adding Polynomials is as simple as {tag ..} combining like terms{\tag}.
-  {ex}{\ex}
+  {exp}{\exp}
   Subtracting polynomials is almost as simple.
   The one extra step is to {tag ..}distribute the negative sign{\tag} to all terms in the polynomial that is being subtracted, and then {tag ..}combining like terms to simplify{\tag}
-  {ex}{\ex}
-{\topic}
+  {exp}{\exp}
+{\tpc}

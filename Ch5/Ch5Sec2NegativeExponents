@@ -1,32 +1,29 @@
-Chapter
-{5} POLYNOMIALS
+[Chapter 5] Polynomials
+[Section 2] Negative Exponents
 
-Section
-{2} NEGATIVE EXPONENTS
-
-{def}{1}
-  {Zero Power Rule of Exponents} a^0 = 1, for any a
-  a can be a number, a variable does not matter
-  {ex}{\ex}
+{def}[1][Zero Power Rule of Exponents]
+  $a^0 = 1$, for any $a$
+  $a$ can be a number, a variable does not matter
+  {exp}{\exp}
 {\def}
-{def}{2}
-  {Rules of Negative Exponents} a^{-m} = \frac{1}{a^m}
+{def}[2][Rules of Negative Exponents]
+  $a^{-m} = \frac{1}{a^m}$
   Equivalently, we can rewrite this as
-  \frac{1}{a^{-m}} = a^m
-  For fractions to negative exponents, we can flip the numberator and denominator
-  (\frac{a}{b})^{-m} = (\frac{b}{a})^m = \frac{b^m}{a^m} = frac{a^{-m}}{b^{-m}}
+  $\frac{1}{a^{-m}} = a^m$
+  For fractions to negative exponents, we can flip the {tag ..}numerator{\tag} and {tag ..}denominator{\tag}
+  $(\frac{a}{b})^{-m} = (\frac{b}{a})^m = \frac{b^m}{a^m} = frac{a^{-m}}{b^{-m}}$
 {\def}
-{topic}{3} Simplifying Negative Exponents by Removing Negative Exponents
+{tpc}[3][Simplifying Negative Exponents by Removing Negative Exponents]
   Negative exponents can be combined in several different ways.
   If we want to get rid of negative exponents, we think of our expression as a fraction
   Negative exponents in the numerator must be moved to the denominator.
   Likewise, negative exponents in the denominator need to be moved to the numerator.
   When the base with the negative exponent moves, the exponent becomes positive
-  {ex}{\ex}
+  {exp}{\exp}
   Once this is done, you can {tag ..}simplify just as you would with positive exponents{\tag}
-{\topic}
-{topic}{4} Moving Everything to the Numerator
+{\tpc}
+{tpc}[4][Moving Everything to the Numerator]
   There may be times when a question asks you to move all terms to the numerator.
   In this case, flip the signs of all exponents in the denominator, and move them to the numerator
-  {ex}{\ex}
-{\topic}
+  {exp}{\exp}
+{\tpc}
