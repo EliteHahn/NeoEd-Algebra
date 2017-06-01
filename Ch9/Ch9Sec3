@@ -1,0 +1,21 @@
+Chapter
+{9} Quadratics
+
+Section
+{3} Complete the Square
+
+When solving quadratic equations, we have used factoring to solve for our variable.
+However, the problem with factoring is NOT ALL equations cannot be factored. Consider the following equations:
+x^2-2x-7=0. This cannot be factored, but there are two solutions to this equation: 1+(2 times radical 2) and 1-(2 times radical 2). If this solution was found without the use of factoring, then HOW did we solve this equation?
+The process used was "Completing The Square"
+
+{def1}
+  {Completing The Square} Process in which the quadratic equation is changed into a perfect square which can easily be solved with the square root property. If a quadratic is of the form x^2+bx+c, and a PERFECT SQUARE, the third term C can be found by the formula (b/2)^2. It consists of 5 steps:
+  1.Separate constant term from variables
+  2.Divide each term by a
+  3.Find value to complete the square: (b/2)^2
+  4.Add c value to both sides of the equation.
+  5.Factor it, and solve by even root property
+
+/* {ex1} example 459, 462, 464 */
+/* Use problems from 9.3 Practice Page 342 */

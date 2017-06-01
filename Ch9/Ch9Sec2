@@ -1,0 +1,32 @@
+Chapter
+{9} Quadratics
+
+Section
+{2} Solving with Exponents
+
+Exponents can also be solved for in equations, but in this case, it is important to know two properties in order to solve:
+1. Odd Root Property
+2. Even Root Property
+
+{def1}
+  {Odd Root Property} states "if a^n=b, then a=b to the nth root whenever the n is ODD",or better shown by example, if 2 (a) to the 3rd (n) power = 8 (b), then 2= 8 to the 3rd root.
+  - To make this easier to visualize, all that you must do is move the number you use as an exponent on one side over as the root on the other!
+  /* Draw nice image, David, to show this in a more easily explained manner*/
+
+{def2}
+  {Even Root Property} states "if a^n = b, then a= + or - b to the nth root whenever n is EVEN," which I believe this example can show in a better way!
+    {ex} x^4=16
+    There are actually TWO numbers that can work in this scenario when we take the 4th root of both sides! You may think "But only 2 can work in this case." However, remember that the property claims the solution to be the + and - version of that number. So the two solutions are actually + and - 2!
+    Multiply the negatives out if it helps. (-2x-2x-2x-2)= 16, which is our answer. It ends up being +16 because an even amount of negative numbers multiplied together will create a positive number, and that goes for roots and exponents, too!
+
+  /* Show example 451 and 452 because it helps in understanding how to go about solving more complex forms of previously explained material with this knowledge.
+
+  Good Rules to know:
+  - When solving with exponents, ALWAYS isolate the part with exponents before taking roots.
+  - When the exponents are fractions, convert the fractional exponent into a RADICAL EXPRESSION in order to solve. This is based off of the rule "a to the power of a fraction m/n= (a to the nth root) to the power of m"
+    {ex2} (4x+1)^(2/5)=9
+    ( (4x+1)to the 5th root) to the power of 2= 9. Proceed after that
+
+  /* 9.2 Practice- Solving with Exponents page 336 is pretty cool */
+
+  

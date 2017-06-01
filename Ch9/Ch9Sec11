@@ -1,0 +1,28 @@
+Chapter
+{9} Quadratics
+
+Section
+{11} Graphs of Quadratics
+
+Just as we had been able to draw pictures for the solutions to linear equations a few sections ago, it is also possible to use a table to organize our information and make a graph for our quadratic equations!
+When we have an x^2 as the biggest exponent in an equation, our graph will no longer look like a straight line, but rather, it will look like a U-shape.
+
+{def1}
+  {Parabola} A U-shape found in the graphs of Quadratics
+
+Here are the Points to search for graphing while making your table for a y=ax^2+bx+c equation, and a method written for how to find each one:
+1. "Point A": The y-intercept, where the graph crosses the vertical y-axis.
+Method of Point A: Found by making x=0, to simply down to y=c.
+2. "Points B and C": The x-intercepts, where the graph crosses the horizontal x-axis.
+ Found by making y=0, or solving 0=ax^2+bx+c
+3. "Point D": This is the Vertex.
+ Let x=(-b/2a) to find x. Then plug this value into the equation to find y.
+
+{def2}
+  {Vertex} The point where the graph curves and changes directions.
+
+/* Example 503 is good.*/
+
+/*All of those types of graphs and their associated equations on page 383 are incredible please put them in.*/
+
+/* 9.11 Practice is 20 problems, but shortening it down to maybe problems like 3, 8, 12, 15, and 19 */
