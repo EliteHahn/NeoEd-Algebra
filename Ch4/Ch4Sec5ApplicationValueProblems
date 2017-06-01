@@ -3,3 +3,22 @@ Chapter
 
 Section
 {5} APPLICATION: VALUE PROBLEMS
+
+{def}{1} 
+  {Value Problems} Value problems are a common applcation for systems of equations. For these types of problems, every variable has a known value attached to it;
+  For example, if our variabales are different types of coins, then we know that pennies are worth 1 cent, nickles 5 cents, dimes 10 cents, etc.
+{\def}
+
+{topic}{2} THE TABLE
+  Tables are very useful in understanding and solving value problems. The basic structure of the table for a two variable value problem is as follows;
+  Rows: There will be 3 rows, for variable 1, variable 2, and the total
+  Columns: There will be 3 columns, one for quantity(Q) of each variable, one for the value(V) of each variable, and one for the total value, which is (QxV)
+  
+  Most value problems will center around this table. Problems will often leave sections of the table blank;
+  The goal of these problems is to fill in the table using the given data and information.
+{\topic}
+
+{topic}{3} FILLING IN THE TABLE
+  /*insert Example 186, 187, 189*/ 
+{\topic}
+  
