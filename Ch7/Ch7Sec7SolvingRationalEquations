@@ -1,16 +1,13 @@
-Chapter
-{7} RATIONAL EXPRESSIONS
+[Chapter 7] Rational Expressions
+[Section 1] Reduce Rational Expressions
 
-Section
-{7} SOLVING RATIONAL EQUATIONS
-
-{topic}{1} Solving Rational Equations
+{tpc}[1][Solving Rational Equations]
   Whenever there is an equation that has {tag ..}rationals{\tag} in it, we can simplify the problem by multiplying all terms on both side by the {tag ..}least common denominator{\tag} to get rid of the denominator
   After this, the problem can be solved, with one extra step: making sure none of the denominators are zero (since we cannot divide by zero)
   Although the denominators of each term may be complex, the process is still the same.
   Remember to {tag ..}distribute the subtraction sign{\tag} as necessary!
-  {ex}{\ex}
+  {exp}{\exp}
   Once we have possible solutions to the rational equation, we must then make sure none of the denominators evaluate to zero (otherwise, the solution we found will not be valid).
   Simply plug the values, one at a time, into the original equation, and if none of the denominators evaluate to zero, then we have a solution. Otherwise, that particular value is not a solution
-  {ex}{\ex}
+  {exp}{\exp}
 {\topic}

@@ -1,18 +1,15 @@
-Chapter
-{7} RATIONAL EXPRESSIONS
+[Chapter 7] Rational Expressions
+[Section 1] Reduce Rational Expressions
 
-Section
-{4} ADD AND SUBTRACT
-
-{topic}{1} Adding and Subtracting Rational Expressions
+{tpc}{1} Adding and Subtracting Rational Expressions
   One of the key components to adding and subtracting rationals is to have a {tag ..}common denominator{\tag} among all the rationals we are dealing with
   If the rationals we are dealing do not have a common denominator, {tag ..}use this method to get the common denominators to match{\tag}
-  {ex}/* Getting common denominator */{\ex}
+  {exp}/* Getting common denominator */{\exp}
   Once the denominators match, we can {tag ..}add{\tag} and {tag ..}subtract{\tag} the numerators just as you would with polynomials. This will be your new numerator. Since the denominators are common, we can just keep the denominator.
   Remember to {tag ..}reduce, if possible{\tag} for your final answer
-  {ex}{\ex}
+  {exp}{\exp}
   For subtracting, it is very easy to make a mistake, because of how the minus sign works. It may be helpful to put parenthesis around the entire numerators, so that when you are subtracting, you can {tag ..}remember to distribute the subtraction sign to all the terms it applies to {\tag}
-  {ex}
+  {exp}
     /* Deal with (x + y) - (z + w), as well as (x + y) - (z + w)(a + b) */
-  {\ex}
-{\topic}
+  {\exp}
+{\tpc}
