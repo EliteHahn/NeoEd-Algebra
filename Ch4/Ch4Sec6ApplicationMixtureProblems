@@ -3,3 +3,27 @@ Chapter
 
 Section
 {6} APPLICATION: MIXTURE PROBLEMS
+
+{def}{1}
+  {Mixture Problems} Mixture problems are another application for system of equations. They are problems were two different solutions (liquid mixtures) are mixed together to create a new solution;
+  These questions are common in fields such as chemistry, where the mixing of different concentrations is an integral part of experiments.
+{\def}
+
+{topic}{2} SOLVING MIXTURE PROBLEMS
+  Mixture problems use a similar table to the ones in Value problems. However, the labels are sightly altered;
+  Rows: There are three rows in a standard two solution mixture problem, Item 1, Item 2, and Final
+  Column: There are three columns, labeled as Amount, Part, and Total
+  
+  The Amount column is the volume of the solution, and the Part column is the concentration percentage within the solution. 
+  The Total column is the result of multiplying the Amount with the Part (expressed in a percentage or decimal)
+  
+  Mixture problems are often expressed in these tables, or can be constructed into these tables. Usually, some of the cells are blank;
+  It is the objective of these problems to fill in the missing values. 
+  
+  {ex}
+    /*insert Example 191 to show a one variable problem, Example 193 shows a two variable problem*/
+  {\ex}
+  
+ {\topic}
+ 
+  
