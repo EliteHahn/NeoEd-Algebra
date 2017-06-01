@@ -3,3 +3,36 @@ Chapter
 
 Section
 (3) ADDITION/ELIMINATION
+
+{def}{1}
+  {Addition/Elimination} An algebraic approach where one adds or subtracts the given equations to eliminate one of the variables.
+{\def}
+
+{topic}{2} SHORTCOMINGS OF SUBSTITUTION
+  While Substitution will generally be the most common method in solving systems of equations, there are cases where it is not effect;
+  specifically, if it is not possible to isolate a lone variable/would result in difficult coefficients. 
+{\topic}
+
+{topic}{3} HOW TO USE ADDITION/ELIMINATION METHODS
+  The Addition/Elimination method can be performed in a 5-step process;
+  Given a System:
+  1. Line up variables and constants
+  2. Multiply to get opposite (use LCD)
+  3. Add
+  4. Solve
+  5. Plug into either original equation and solve
+  
+{ex}
+  Given the equations: 2x-5y=-13 and -3y+4=-5x; notice that attempting to isolate either variable in both equations would result in fractions in the co
+  Line up the variables and constants in the equations: ax+by=c --> 2x-5y=-13 and 5x-3y=-4;
+  Multiply to get opposites (use LCD): in this case, we can try to eliminate the x variable by first finding the LCD of 2 and 5. That value is 10.
+  We result with the equations -5(2x-5y)=(-13)(-5) --> -10x+25y=65 and 2(5x-3y)=(-4)2 --> 10x-6y=-8
+  Add the two equations, which would eliminate the x variable and result in --> 19y=57
+  Solve for y: 19y/19=57/19 --> y=3
+  Plug y=3 into either original equation: 2x-5(3)=-13 --> 2x=2 --> x=1
+  Solution: (1,3)
+{\ex}
+
+{ex}
+  /*insert Example 180 and 181*/ Shows how there can be either zero solutions or infinite solutions
+{\ex}
