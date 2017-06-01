@@ -11,9 +11,9 @@
   Choose two points on a line and measure the difference in "rise" over "run."
 
   {exp} Lets think of Jamie's house again!
-  Remember how Jamie's house was 2 units north of you, and 1 unit to the east? Lets think about the slope in THIS equation!
+    Remember how Jamie's house was 2 units north of you, and 1 unit to the east? Lets think about the slope in THIS equation!
 
-  /* Example 124 */
+    /* Example 124 */
   {\exp}
   How is one to find the slope between two points?
   Using two points with their own individual $y$ and $x$ values, use this equation for slope:
