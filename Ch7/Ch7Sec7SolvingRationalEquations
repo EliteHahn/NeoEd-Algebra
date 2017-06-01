@@ -1,5 +1,5 @@
 [Chapter 7] Rational Expressions
-[Section 1] Reduce Rational Expressions
+[Section 7] Solving Rational Equations
 
 {tpc}[1][Solving Rational Equations]
   Whenever there is an equation that has {tag ..}rationals{\tag} in it, we can simplify the problem by multiplying all terms on both side by the {tag ..}least common denominator{\tag} to get rid of the denominator
@@ -10,4 +10,4 @@
   Once we have possible solutions to the rational equation, we must then make sure none of the denominators evaluate to zero (otherwise, the solution we found will not be valid).
   Simply plug the values, one at a time, into the original equation, and if none of the denominators evaluate to zero, then we have a solution. Otherwise, that particular value is not a solution
   {exp}{\exp}
-{\topic}
+{\tpc}
