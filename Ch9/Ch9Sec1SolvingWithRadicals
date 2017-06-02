@@ -1,0 +1,22 @@
+Chapter
+{9} Quadratics
+
+Section
+{1} Solving With Radicals
+
+To clear a root/radical, we can raise both sides to an exponent. For example, if one side has a square root, you must square both sides to get rid of the radical.
+Sometimes we end up with solutions that do not actually work in the equation, in the case that the index on the root is even and even that is not always the case.
+
+So, it is important that we check our answer in the original problem to see what solutions do and do not work in the final solution. Those that don't work are known as "extraneous solutions."
+
+{def1}
+  {Extraneous Solutions} A value that does not work and is not included in the final solution.
+{ex} /* Example 442, 444, 445 sorry but I don't know how to include the root into this program.*/
+ For example 445, we should know that, as we solve the problem, we could end up with an x^2 term or a quadratic. In this case, set the equation to zero and solve by factoring, then check the solution if the index in the problem was even.
+
+ When there is more than one square root in the problem, if we square both sides yet still have a root left over, isolate the remaining root and square both sides again.
+
+ /* Honestly just a practice makes perfect section. Check the 9.1 practice page for problems that give "No solution" and a true solution to ensure diversity in the expected types of problems.
+
+
+ 
