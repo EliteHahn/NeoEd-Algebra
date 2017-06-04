@@ -1,0 +1,71 @@
+Chapter 
+{10} Functions
+
+Section
+{6}  Compound Interest
+
+Overview: calculate the final account balances using the formulas for compound and continuous interest
+
+An application for the exponential equation function is compound interest. When money is invested, a certain amount is added to the balance. This is called interest. Once that interest is added to the balance, it will earn more interest during the next compounding period. This is called compound interest. If you invest $100 at 15% interest compounded annually, after one year you will earn an interest of $15, giving you a balance of $115. The next year you will earn 15% of $115, earning you $17.25, and so on.
+
+There are several different ways that interested can be paid. The first one, as shown above, is compounded annually. You may also have different periods, such as monthly, weekly, semi-annually, and so on. When we calculate compounded annually, we use the following formula:
+
+A = P(1+(r/n))^(nt)
+
+A = Final Amount
+P = Principle (starting balance)
+r = Interest rate (as a decimal)
+n = number of comounds per year
+t = time (in years)
+
+{ex}
+
+{\ex}
+
+We can also use our techniques for solving equations to find the missing parts of the equation.
+
+{ex}
+
+{\ex}
+
+It is useful to compare the same investments with different periods. 
+
+{ex}
+
+{\ex}
+
+{ex}
+
+{\ex}
+
+A table below illustrates that the more often interest is compounded, the greater the final amount will be. 
+
+{table}
+
+{\table}
+
+Next, we can compute interest continuously. This is interest compounded an infinite number of times per year. When we see the word "continuously" in a word problem, we know we cannot use the compound interest formula. 
+
+Interest Compounded Continuously:
+
+A = Pe^(rt)
+-
+A = Final Amount
+P = Principle (starting balance)
+e = a constant, approximately 2.71828183
+r = Interest rate (written as a decimal)
+t = time (years)
+
+The variable e is a constnat similar to pi, in that they both are irrational. Just as pi shows up in many geometry applications, e appears in numerous exponential applications. 
+
+{ex}
+
+{\ex}
+
+Interest compounded continuously is extremely potent. Even with a low investment, over a period of time the investment will grow to a huge degree.
+
+
+
+
+
+
