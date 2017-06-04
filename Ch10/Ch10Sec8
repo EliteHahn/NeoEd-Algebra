@@ -1,0 +1,52 @@
+Chapter
+{10} Functions
+
+Section
+{8}  Inverse Trigonometric Functions
+
+Overview: Solve for missing angles of a right triangle using inverse trigonometric functions
+
+Previously we took an angle of a triangle and found the side lengths. Here, we will do the opposite. We ill take the side lengths and find the angle. This is the {tag} inverse {\tag} trig operations. The notation used will be similar to the inverse notation used with functions. 
+
+The inverse functions are given below:
+
+sin^-1(\frac{opposite}{hypotenuse}) = x
+cos^-1(\frac{adjacent}{hypotenuse}) = x
+tan^-1(\frac{opposite}{adjacent}) = x
+
+Just as with inverse functions, the -1 is not an exponent: this notation just tells us that these are inverse functions. These inverse functions will always take a ratio of sides as input. We can calculate inverse trig values using a table or a calculator. 
+
+{ex}
+
+{\ex}
+
+If we have two sides of a triangle we can calcute the ratio as a decimal and then use one of the inverse trig functions to find the missing angle. 
+
+{ex}
+
+{\ex}
+
+{ex}
+
+{\ex}
+
+Using a combination of trig functions and inverse trig functions we can solve a triangle. Solving a triangle is when we are given two parts of a right triangle (either two sides or a side and an angle) and we then find all of the other parts of a triangle. We may want to use some geometry to help us.
+
+The angles of a triangle always add up to 180. Because we are working only with right triangles, one of the angles is 90. Thus, the other two angles are acute and add up to 90. If we know one angle other than the right angle, then we know all three angles.
+
+Similarly, we can also apply the Pythagorean Theorem. If a and b are sides of a right triangle and c is the hypotenuse, then a^2+b^2=c^2. 
+
+When solving a triangle, we often apply the angle sum and Pythagorean Theorem as well as the trigonmetric functions to find the other parts of a right triangle.
+
+{ex}
+
+{\ex}
+
+When solving triangles, there are sometimes multiple ways of doing it using SOHCAHTOA. Likewise, it is sometimes simpler to use the Pythagorean Theorem or the Triangle Angle Sum Theorem.
+
+{ex}
+
+{\ex}
+
+
+
