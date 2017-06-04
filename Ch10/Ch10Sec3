@@ -1,0 +1,49 @@
+Chapter 
+{10}	Functions
+
+Section
+{3} 	Inverse Functions
+
+Overview: identify and find the inverse of functions
+
+As discussed in earlier sections, functions have {tag} inputs {\tag} and {tag} outputs {\tag}. We usually use the input to find the output, but, sometimes we are interested in using the output of a function to find an input. This is the process of finding the inverse relationship, or, inverse of a function. We will now be discussing how to find the inverse of a function.
+
+The inverse of a function is {f^-1(x), called, "f inverse of x".
+
+In order to test if two functions f(x) and g(x) are inverses, we will need to calculate the {tag} composition {\tag} of the two functions at x. Thus, if f undoes what g does to x, and vice versa, then we are simply left with x. If we are not simply left with x, then they are not inverses. In otherwords, if f(g(x)) simplifies to x, then f is the inverse of g, and vice versa. If f(g(x)) simplifies to anything other than x, then the two are not inverses.
+
+{ex}
+
+{\ex}
+
+{ex}
+
+{ex}
+
+{\ex}
+
+{ex}
+
+{\ex}
+
+Composition of two functions is not the only way to find an inverse relationship. We will also use the switch and solve strategy.
+
+The {tag} switch and solve strategy {\tag} is when we think of x as the output instead of the input and think of y as the input instead of the output. To do so:
+
+1.) replace f(x) with y
+2.) Switch x and y's
+3.) solve for y
+4.) Replace y with {f^-1(x)}
+
+{ex}
+
+{\ex}
+
+{ex}
+
+{\ex}
+
+In this section we have looked at how to check if two functions are inverses by using composition and then we found the inverse of a function by using the {tag} switch and solve strategy {\tag}.
+
+
+
