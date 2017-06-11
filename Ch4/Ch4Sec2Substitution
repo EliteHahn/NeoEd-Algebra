@@ -1,21 +1,18 @@
-Chapter
-{4} SYSTEM OF EQUATIONS
+[Chapter 4] System of Equations
+[Section 2] Substitution
 
-Section
-{2} SUBSTITUTION
-
-{def}{1}
-  {Substitution} An algebraic approach to solving Systems of Equations that involves using one equation to substititute an entire variable in the other equation.
+{def}[1][Substitution]
+  Substitution is an algebraic approach to solving Systems of Equations that involves using one equation to substitute an entire variable in the other equation.
 {\def}
 
-{topic}{2} SHORTCOMINGS OF GRAPHING
-  While graphing is an execellent visual aid that helps explain how Systems of Equations work, and why answers derived algebraically make sense, they are inefficient;
+{tpc}[2][SHORTCOMINGS OF GRAPHING]
+  While graphing is an excellent visual aid that helps explain how Systems of Equations work, and why answers derived algebraically make sense, they are inefficient;
   They are difficult to use with large numbers;
   They are challenging when numbers are not easily graphed: decimals, irrational numbers, etc.;
   They are more time consuming and generally use more space than algebraic methods.
-{\topic}
+{\tpc}
 
-{topic}{3} HOW TO USE SUBSTITUTION (For System of Two Equations)
+{tpc}[3][HOW TO USE SUBSTITUTION (For System of Two Equations)]
   Substitution can be performed in a 5-step algebraic process;
     Given a System:
     1. Find the lone variable
@@ -23,12 +20,12 @@ Section
     3. Substitute into the untouched equation
     4. Solve
     5. Plug into lone variable equationi and evaluate
-  
-  {ex}
+
+  {exp}
     /*insert Example 172*/
-  {\ex}
-  
-  {ex}
+  {\exp}
+  {exp}
     As we have seen in graphing, it is possible for a System of Equations to have zero or inffinite solutions.
     /*insert Example 174 and 175*/
-  {\ex}
+  {\exp}
+{\tpc}

@@ -1,29 +1,21 @@
-Chapter
-{4} SYSTEM OF EQUATIONS
+[Chapter 4] System of Equations
+[Section 4] Three Variables
 
-Section
-{4} THREE VARIABLES
 
-{def}{1}
-  The purpose of this section is to use the Addition/Elimination method to solve systems with three variables and equations
-{\def}
-
-{topic}{2} SOLVING A SYSTEM OF THREE EQUATIONS
-  THe key in solving a system of three equations is keeping your work and your equations organized. 
+{tpc}[1][SOLVING A SYSTEM OF THREE EQUATIONS]
+  The key in solving a system of three equations is keeping your work and your equations organized.
   The process of solving the system is in the following steps:
   1. Reduce three variables down to two. This is done by using the Addition/Elimination method on two of the equations. The new equation formed will be labeled as equation A.
-  2. Using a different combination of the original equations, eliminate the same variable selected in step 1, this new equation will be labeled as equation B: 
-    (ex. In a system with variables X,Y,Z; if equation A eliminated Z and was left with aX+bY=c, then equation B should also eliminate Z)
+  2. Using a different combination of the original equations, eliminate the same variable selected in step 1, this new equation will be labeled as equation B:
+    (ex. In a system with variables $X,Y,Z$; if equation A eliminated Z and was left with $aX+bY=c$, then equation $B$ should also eliminate $Z$)
   3. Now, with equations A and B, we will use the Addition/Elimination method to reduce the two variables down to just one.
   4. Solve for the remaining variable and obtain a numerical value.
-  5. Plug this value into either equation A or B, to obtain a numerical value for the second variable. 
-  6. Plue both these values into one of the original equations, to obtain a value for the third variable; the system is solved.
+  5. Plug this value into either equation A or B, to obtain a numerical value for the second variable.
+  6. Plug both these values into one of the original equations, to obtain a value for the third variable; the system is solved.
 
-{ex}
-  /*insert example 183*/
-{\ex}
+  {exp}
+    /*insert example 183*/
+  {\exp}
 
   Solving a system of more than two equations is not more difficult, it is just more imperative to remain organized.
-  
-{\topic}
-   
+{\tpc}
