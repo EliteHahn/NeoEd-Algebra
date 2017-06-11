@@ -1,74 +1,63 @@
-Chapter 
-{6}
+[Chapter 6] Factoring
+[Section 6] Factoring Strategy
 
-Section
-{6}
+{tpc}[1][Factoring Strategy]
+	Overview: identify and use the correct method to factor various polynomials.
 
-Overview: identify and use the correct method to factor various polynomials.
+	With so many different factoring tools, it sometimes becomes hard to know when to apply them.
 
-With so many different factoring tools, it sometimes becomes hard to know when to apply them.
+	We will work through the strategies for factoring.
 
-We will work through the strategies for factoring.
+	First, we will always try to factor the GCF first.
 
-First, we will always try to factor the GCF first.
+	{tag ..} GCF First {\tag}
 
-{\tag mod} GCF First {tag}
+	2 terms: {tag ..} sum or difference of squares {\tag}:
 
-2 terms: {\tag mod} sum {tag} or {\tag mod} difference of squares {tag}:
+		a^2-b^2=(a+b)(a-b)
+		a^2+b^2=Prime
+		a^3+b^3=(a+b)(a^2-ab+b^2)
+		a^3-b^3=(a-b)(a^2+ab+b^2)
 
-	a^2-b^2=(a+b)(a-b)
-	a^2+b^2=Prime
-	a^3+b^3=(a+b)(a^2-ab+b^2)
-	a^3-b^3=(a-b)(a^2+ab+b^2)
+	3 terms: {tag ..} ac method {\tag}, watch for perfect square!
 
-3 terms: {\tag mod} ac method {tag}, watch for perfect square!
+		a^2+2ab+b^2=(a+b)^2
+		Multiply to a*c and add to b
 
-	a^2+2ab+b^2=(a+b)^2
-	Multiply to a*c and add to b
-
-4 terms: {\tag mod} grouping {tag}
+	4 terms: {\tag mod} grouping {tag}
 
 
-{ex}
-
+	{exp}
 		4x^2+5xy+196y^2			GCF first, 4
-	       4(x^2+14y+49y^2)			Three terms, try ac method, multiply to 49, add to 14
-						7 and 7, perfect square!
-		      4(x+7y)^2			Our solution
+		4(x^2+14y+49y^2)			Three terms, try ac method, multiply to 49, add to 14
+		7 and 7, perfect square!
+		4(x+7y)^2			Our solution
+	{\exp}
 
-{\ex}
+	{exp}
+		5x^2y+15xy-35x^2-105x			GCF first, 5x
+		5x(xy+3y-7x-21)			Four terms, try grouping
+		5x(y(x+3)-7(x+3))			(x+3) match
+		5x(x+3)(y-7)			Our solution
+	{\exp}
 
-{ex}
+	{exp}
+		100x^2-400			GCF first, 100
+		100(x^2-4)			Two terms, difference of squares
+		100(x+4)(x-4)			Our solution
+	{\exp}
 
-	  5x^2y+15xy-35x^2-105x			GCF first, 5x
-	        5x(xy+3y-7x-21)			Four terms, try grouping
-	      5x(y(x+3)-7(x+3))			(x+3) match
-	           5x(x+3)(y-7)			Our solution
+	{exp}
+		108x^3y^2-39x^2y^2+3xy^2		GCF first, 3xy^2
+		3xy^2(36x^2-13x+1)		Three terms, ac method: factor 36, add to -13
+		3xy^2(36x^2-9x-4x+1)		-9 and -4, split middle term
+		3xy^2(9x(4x-1)-1(4x-1))		Factoring by grouping
+		3xy^2(4x-1)(9x-1)		Our solution
+	{\exp}
 
-{\ex}
-
-{ex}
-
-		     100x^2-400			GCF first, 100
-	             100(x^2-4)			Two terms, difference of squares
-		  100(x+4)(x-4)			Our solution
-
-{\ex}
-
-{ex}
-
-	108x^3y^2-39x^2y^2+3xy^2		GCF first, 3xy^2
-	      3xy^2(36x^2-13x+1)		Three terms, ac method: factor 36, add to -13
-	    3xy^2(36x^2-9x-4x+1)		-9 and -4, split middle term
-	 3xy^2(9x(4x-1)-1(4x-1))		Factoring by grouping
-	       3xy^2(4x-1)(9x-1)		Our solution
-
-{\ex}
-
-{ex}
-
-	   		5+625y^3		GCF first, 5
-		     5(1+125y^3)		Two terms, sum of cubes
-	     5(1+5y)(1-5y+25y^2)		Our solution
-
-{\ex}
+	{exp}
+		5+625y^3		GCF first, 5
+		5(1+125y^3)		Two terms, sum of cubes
+		5(1+5y)(1-5y+25y^2)		Our solution
+	{\exp}
+{\tpc}
