@@ -1,59 +1,56 @@
-Chapter
-{10} Functions
+[Chapter 10] Functions
+[Section 7] Trigonometric Functions
 
-Section
-{7}  Trigonometric Functions
+{tpc}[1][Finding the Missing Side of a Right Triangle]
+  Overview: solve for the missing side of a right triangle using the trigonometric relationships.
 
-Overview: solve for the missing side of a right triangle using the trigonometric relationships.
+  There are six special functions that describe the relationships between the sides of a right triangle and the right triangle's angles. These are sine, cosine, tangent, cosecant, secant, and cotangent. We will only be using the first three, sine, cosine, and tangent.
 
-There are six special functions that describe the relationships between the sides of a right triangle and the right triangle's angles. These are sine, cosine, tangent, cosecant, secant, and cotangent. We will only be using the first three, sine, cosine, and tangent. 
+  Sine is often abbreviated sin, cosine by cos, and tangent by tan.
 
-Sine is often abbreviated sin, cosine by cos, and tangent by tan. 
+  These functions all take an angle as an input and produce a ratio as an output.
 
-These functions all take an angle as an input and produce a ratio as an output. 
+  We will name the three sides of the triangle in question in relation to the angle which are interested in.
 
-We will name the three sides of the triangle in question in relation to the angle which are interested in.
+  /*diagram*/
 
-{diagram}
+  The side across from our angle of interest, A, is called the Opposite side. The longest side is called the Hypotenuse, the side which is opposite the right angle, and the side intersecting with angle A is the Adjacent side.
 
-{\diagram}
+  The three trigonometric functions have relationships as follows:
 
-The side across from our angle of interest, A, is called the Opposite side. The longest side is called the Hypotenuse, the side which is opposite the right angle, and the side intersecting with angle A is the Adjacent side. 
+  $sin(x) = \frac{opposite}{hypotenuse} cos(x) = \frac{adjacent}{hypotenuse} tan(x) = \frac[opposite}{adjacent}$
 
-The three trigonometric functions have relationships as follows:
+  /*note, the x would be a theta */
 
-sin(x) = \frac{opposite}{hypotenuse} cos(x) = \frac{adjacent}{hypotenuse} tan(x) = \frac[opposite}{adjacent}
+  These can be remembered by SOHCAHTOA: Sine is Opposite over Hypotenuse; Cosine is Adjacent over Hypotenuse; Tangent is Opposite over Adjacent.
 
-**note, the x would be a theta
+  Using the diagrams in the examples, find each of the following: sin(x), cos(x), sin(y), cos(y), tan(y).
 
-These can be remembered by SOHCAHTOA: Sine is Opposite over Hypotenuse; Cosine is Adjacent over Hypotenuse; Tangent is Opposite over Adjacent.
+  {exp}
 
-Using the diagrams in the examples, findeach of the following: sin(x), cos(x), sin(y), cos(y), tan(y).
+  {\exp}
 
-{ex}
+  {exp}
 
-{\ex}
+  {\exp}
 
-{ex}
+  Begin by writing the ratio, then, simplify the ratio, using the fact that the adjacent side for x is different from the adjacent side for y.
 
-{\ex}
+  Next we can use a calculator or a table to solve for decimal values of sine, cosine, and tangent.
 
-Begin by writing the ratio, then, simplify the ratio, using the fact that the adjacent side for x is different from the adjacent side for y.
+  {exp}
 
-Next we can use a calculator or a table to solve for decimal values of sine, cosine, and tangent. 
+  {\exp}
 
-{ex}
+  Using the ratios and the decimal approximations given by the calculator or table, we can solve for missing sides of a triangle.
 
-{\ex}
+  We will need to name the sides correctly and deciding which trig functions can be used with the sides we have.
 
-Using the ratios and the decimal approximations given by the calculator or table, we can solve for missing sides of a triangle. 
+  {exp}
 
-We will need to name the sides correctly and deciding which trig functions can be used with the sides we have. 
+  {\exp}
 
-{ex}
+  {exp}
 
-{\ex}
-
-{ex}
-
-{\ex}
+  {\exp}
+{\tpc}

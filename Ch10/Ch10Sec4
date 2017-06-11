@@ -1,51 +1,48 @@
-Chapter
-{10} Functions
+[Chapter 10] Functions
+[Section 4] Exponential Functions
 
-Section
-{4} Exponential Functions
+{tpc}[1][Exponential Functions]
+  In this section we will discuss exponentials, and then in a later section we will discuss the inverse function of exponentials, logarithms. Exponential functions are functions where the variable is in the exponent. This is of the form $f(x) = \exp{a}{x}$ where a is the base. This should not be confused with functions where f(x) is of the form f(x) = x^2.
 
-In this section we will discuss exponentials, and then in a later section we will discuss the inverse function of exponentials, logarithms. Exponential functions are functions where the variable is in the exponent. This is of the form f(x) = \exp{a}{x} where a is the base. This should not be confused with functions where f(x) is of the form f(x) = x^2. 
+  Exponentials cannot be solved using the skill set we have developed in the past. When we are evaluating exponentials, such as 3^x=9, we cannot simply take the xth root of 9: we do not know what the index is, so we cannot get any further. What we do know though is that 9 is equal to 3^2. So, we can conclude that x=2. If we can re-write exponent problems so the bases match, then we conclude that the exponents must also match.
 
-Exonentials cannot be solved using the skill set we have developed in the past. When we are evaluating exponentials, such as 3^x=9, we cannot simply take the xth root of 9: we do not know what the index is, so we cannot get any further. What we do know though is that 9 is equal to 3^2. So, we can conclude that x=2. If we can re-write exponent problems so the bases match, then we conclude that the exponents must also match.
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  Sometimes exponents do not immediately have a common base and so we have to do some work to get them a common base. We will use various exponent properties to do so.
 
-Sometimes exponents do not immediately have a common base and so we have to do some work to get them a common base. We will use various exponent properties to do so. 
+  First, we will use the exponent property that states (a^x)^y = a^(xy).
 
-First, we will use the exponent property that states (a^x)^y = a^(xy).
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  We may need to distribute if there are several terms involved.
 
-We may need to distribute if there are several terms involved.
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  Second, we will use the property that negative exponents will give us a reciprocal, \frac{1}{a^n} = a^-n
 
-Second, we will use the property that negative exponents will give us a reciprocal, \frac{1}{a^n} = a^-n
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  Third, we can add exponents using the property that states (a^x)(a^y) = a^(x+y).
 
-Third, we can add exponents using the property that states (a^x)(a^y) = a^(x+y).
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  With practice we will become better at knowing which base to use.
 
-With practice we will become better at knowing which base to use. 
+  Below are the properties which we use for exponents:
 
-Below are the properties which we use for exponents:
+         (a^x)^y = a^(xy)
+   \frac{1}{a^n} = a^-n
+           (a^y) = a^(x+y)
 
-       (a^x)^y = a^(xy)
- \frac{1}{a^n} = a^-n
-         (a^y) = a^(x+y)
-
-All previous problems have involved a common base. However, not all problems have a common base. For example: 2 = 10^x. For these problems, we will need to study the inverse of exponents: logarithms, which will be discussed in another section. 
-
-
+  All previous problems have involved a common base. However, not all problems have a common base. For example: 2 = 10^x. For these problems, we will need to study the inverse of exponents: logarithms, which will be discussed in another section.
+{\tpc}

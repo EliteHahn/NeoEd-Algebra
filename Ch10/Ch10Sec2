@@ -1,45 +1,31 @@
-Chapter 
-{10} Functions
+exp}[Chapter 10] Functions
+[Section 2] Operations on Functions
 
-Section
-{2} Operations on Functions
+{tpc}[1][Operations on Functions]
 
-Overview: use the sum, difference, product, quotient, and composition operations on functions.
+  Overview: use the sum, difference, product, quotient, and composition operations on functions.
 
-Functions have five operations. Four of the operations are similar to their arithmetic equivalents: sum (addition), difference (subtraction), product (multiplication), and quotient (division). The fifth operation is composition. All of these operations follow the {tag} order of operations {\tag}.
+  Functions have five operations. Four of the operations are similar to their arithmetic equivalents: sum (addition), difference (subtraction), product (multiplication), and quotient (division). The fifth operation is composition. All of these operations follow the {tag ..} order of operations {\tag}.
 
-As before, functions can be evaluated in two different ways. You may have to substitute the x, or input, with a specific number, or you may just have to simply combine the functions. The process for both is similar. 
+  As before, functions can be evaluated in two different ways. You may have to substitute the x, or input, with a specific number, or you may just have to simply combine the functions. The process for both is similar.
 
-For the basic operations, begin by evaluating each function separately. If it is a {tag} substitution {\tag} problem, then substitute, if not, then leave the function as is, and combine like terms using the appropriate operations: additition if the operation is addition, subtraction if the operation is subtraction, multiplication if the operation is multiplication, and division if the operation is division. 
+  For the basic operations, begin by evaluating each function separately. If it is a {tag ..} substitution {\tag} problem, then substitute, if not, then leave the function as is, and combine like terms using the appropriate operations: addition if the operation is addition, subtraction if the operation is subtraction, multiplication if the operation is multiplication, and division if the operation is division.
 
-Additon        (f+g)(x) = f(x) + g(x)
-Subtraction    (f-g)(x) = f(x) - g(x)
-Multiplication (f*g)(x) = f(x) * g(x)
-Division       (f/g)(x) = \frac{f(x)}{g(x)}
+  Addition        (f+g)(x) = f(x) + g(x)
+  Subtraction    (f-g)(x) = f(x) - g(x)
+  Multiplication (f*g)(x) = f(x) * g(x)
+  Division       (f/g)(x) = \frac{f(x)}{g(x)}
 
-{ex}
+  {exp}
 
-{\ex}
-
-{ex}
-
-{\ex}
-
-{ex}
-
-{\ex}
-
-{ex}
-
-{\ex}
-
-Next, for the composition of two functions, we are evaluating the 'inner' function, then, using that as the input for the 'outer' function. This is given by (f o g)(x) = f(g(x)).
-
-{ex}
-
-{\ex}
-
-It is important to note that f(g(x)) is rarely the same as g(f(x)).
+  {\exp}
 
 
+  Next, for the composition of two functions, we are evaluating the 'inner' function, then, using that as the input for the 'outer' function. This is given by (f o g)(x) = f(g(x)).
 
+  {exp}
+
+  {\exp}
+
+  It is important to note that f(g(x)) is rarely the same as g(f(x)).
+{\tpc}

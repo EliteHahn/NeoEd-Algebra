@@ -1,63 +1,58 @@
-Chapter
-{10} Functions
+[Chapter 10] Functions
+[Section 5] Logarithms
 
-Section
-{5} Logarithms
+{tpc}[1][Logarithms]
 
-Overview: convert between logarithms and exponents and use the relationship to solve basic logarithmic equations 
+  Overview: convert between logarithms and exponents and use the relationship to solve basic logarithmic equations
+  The {tag ..} inverse {\tag} of an exponential function is the logarithm. When we are solving exponent equations we have two forms we can use. The first one we are familiar with. This is b^x=a. b is the base, x is the exponent, and a is the answer. The second way is to write this as logb(a) = x. The "log" tells us that we are working with logarithms. Thus the problem 5^2=25 could be written as log5(25)=2.
 
-The {tag} inverse {\tag} of an exponential function is the logarithm. When we are solving exponent equations we have two forms we can use. The first one we are familiar with. This is b^x=a. b is the base, x is the exponent, and a is the answer. The second way is to write this as logb(a) = x. The "log" tells us that we are working with logarithms. Thus the problem 5^2=25 could be written as log5(25)=2. 
+  The most important thing is to be comfortable switching between logarithms and exponents. In the next examples we will be writing each exponential equation in logarithmic form.
 
-The most important thing is to be comfortable switching between logarithms and exponents. In the next examples we will be writing each exponential equation in logarithmic form. 
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  Now that we are comfortable switching between logarithms and exponential forms, we now can begin solving logarithmic expressions and equations. We will first evaluate logarithmic expressions. An easy way to evaluate a logarithm is to set the logarithm equal to x and then change the equation into exponential form.
 
-Now that we are comfortable switching between logarithms and exponential forms, we now can begin solving logarithmic expressions and equations. We will first evaluate logarithmic expressions. An easy way to evaluate a logarithm is to set the logarithm equal to x and then change the equation into exponential form. 
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  For solving logarithms, we will simply change the equations into exponential form and try to solve the resulting equation.
 
-For solving logarithms, we will simply change the equations into exponential form and try to solve the resulting equation.
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
+  There is one base of a logarithm that is used more than any other base, base 10. This is the common log. This is similar to how the root symbol, without a number, is understood to be an index of 2. Just the same, when there is no number with the logarithm, it is assuemd to be base 10.
 
-There is one base of a logarithm that is used more than any other base, base 10. This is the common log. This is similar to how the root symbol, without a number, is understood to be an index of 2. Just the same, when there is no number with the logarithm, it is assuemd to be base 10.
+  {exp}
 
-{ex}
+  {\exp}
 
-{\ex}
-
-In advanced algebra courses, logarithms will be studied in more detail.
-
-
-
-
+  In advanced algebra courses, logarithms will be studied in more detail.
+{\tpc}
