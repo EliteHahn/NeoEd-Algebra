@@ -1,19 +1,22 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 8] Teamwork
 
-Section
-{8} Teamwork
+{tpc}[1][Solving Problems involving Teamwork]
+  While it may seem a bit odd for "Teamwork" to be discussed in a math guide, we can assure you that there is a very mathematical side to getting people to work together. Here is a good example to start you off:
 
-While it may seem a bit odd for "Teamwork" to be discussed in a math guide, we can assure you that there is a very mathematical side to getting people to work together. Here is a good example to start you off:
+  {exp}
+    Let's say that you can paint 1 whole room in 3 hours, and you have a friend that can paint 1 room in 6 hours. If we were to have both of you work together in a room, it would be painted in a shorter amount of time than it would be by you two separately! To find how many hours it would take with you two together for one room, we can use how long it takes each person and combine these as fractions! For instance, since I can paint 1 room in 3 hours, we can think that I can paint 1/3 of the room in ONE hour! And your friend takes six hours, so they would be able to paint 1/6 of the room in 1 hour! See our logic here? And since you can paint 1/3 of the room and they can paint 1/6, we can change these using a common denominator of 6, getting the fractions 2/6 and 1/6, which adds together to make 3/6, or 1/2 when simplified!!! So, when you and your friend work together, you can paint 1/2 of the room in one hour. And if we double this time to make it equal one whole room, then we make our new rate of 1 room completed every 2 hours. So yes, even with teamwork, math can be applied.
+  {\exp}
+{\tpc}
 
-{ex1} Let's say that you can paint 1 whole room in 3 hours, and you have a friend that can paint 1 room in 6 hours. If we were to have both of you work together in a room, it would be painted in a shorter amount of time than it would be by you two separately! To find how many hours it would take with you two together for one room, we can use how long it takes each person and combine these as fractions! For instance, since I can paint 1 room in 3 hours, we can think that I can paint 1/3 of the room in ONE hour! And your friend takes six hours, so they would be able to paint 1/6 of the room in 1 hour! See our logic here? And since you can paint 1/3 of the room and they can paint 1/6, we can change these using a common denominator of 6, getting the fractions 2/6 and 1/6, which adds together to make 3/6, or 1/2 when simplified!!! So, when you and your friend work together, you can paint 1/2 of the room in one hour. And if we double this time to make it equal one whole room, then we make our new rate of 1 room completed every 2 hours. So yes, even with teamwork, math can be applied.
-
-A more broad and general Teamwork Equation can be derived from this above process in the form:
-
-{def1}
-  {Teamwork Equation} 1/A + 1/B = 1/T
+{def}[2][Teamwork Equation]
+  $1/A + 1/B = 1/T$
+  A more broad and general Teamwork Equation can be derived from this above process in the form:
   A good note/tip to always remember while doing these problems is to ensure that the units match as you put them into the equation.
 
-{ex2} /* Example 491, 492, and 493 are all fair and build off-of each other while not repeating too much between themselves, while also increasing well in difficulty */
+  {exp}
+    /* Example 491, 492, and 493 are all fair and build off-of each other while not repeating too much between themselves, while also increasing well in difficulty */
+  {\exp}
 
-/* 9.8 Practice is way too long. Look for perhaps one to two problems that match the concepts provided by the previous examples, and then look for any of these questions with greater difficulty or a new concept that must be considered while solving. Perhaps only the evens should be used for now?? */
+  /* 9.8 Practice is way too long. Look for perhaps one to two problems that match the concepts provided by the previous examples, and then look for any of these questions with greater difficulty or a new concept that must be considered while solving. Perhaps only the evens should be used for now?? */
+{\def}

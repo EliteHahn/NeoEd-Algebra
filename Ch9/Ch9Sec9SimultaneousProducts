@@ -1,16 +1,17 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 9] Simultaneous Products
 
-Section
-{9} Simultaneous Products
+{tpc}[1][Simultaneous Products]
+  When we use substitution, we solved for a variable and substitute this variable's value into another equation to find the other variable's value. However, there will be cases in which we have TWO products, and it is then important to choose one variable to solve for first and then divide both sides of the equation by what you find to create a situation in which substitution can be easily done.
+  {exp}
+    In this case, we can more easily see what we are trying to describe. Lets say that $xy=48$ and $(x+3)(y-2)=54$. As our first step
+    1. Divide that first equation by $x$ to make $y=48/x$, and divide second equation by $(x+3)$ to make $y-2=54/(x+3)$. Now that we have an expression to show what y equals, lets substitute it into the 2nd equation:
+    2. $48/x -2=54/(x+3)$.
+    Now we must multiply everything in the above equation by the LCD, which would be the denominators multiplied together to be $x(x+3)$. Then, after we simplify what we can...
+    /* Insert the rest of example 495 from page 370 to save time */
 
-When we use substitution, we solved for a variable and substitute this variable's value into another equation to find the other variable's value. However, there will be cases in which we have TWO products, and it is then important to choose one variable to solve for first and then divide both sides of the equation by what you find to create a situation in which substitution can be easily done.
-{ex1} In this case, we can more easily see what we are trying to describe. Lets say that xy=48 and (x+3)(y-2)=54. As our first step
-1. Divide that first equation by x to make y=48/x, and divide second equation by (x+3) to make y-2=54/(x+3). Now that we have an expression to show what y equals, lets substitute it into the 2nd equation:
-2. 48/x -2=54/(x+3).
-Now we must multiply everything in the above equation by the LCD, which would be the denominators multiplied together to be x(x+3). Then, after we simplify what we can...
-/* Insert the rest of example 495 from page 370 to save time */
+    It is always a similar first few steps: Choose which variable you wish to solve for, find the answer through substitution, and then take your answer and sub it back into the original to find the opposite variable!
 
-It is always a similar first few steps: Choose which variable you wish to solve for, find the answer through substitution, and then take your answer and sub it back into the original to find the opposite variable!
-
-/* 9.9 is pretty similar process throughout, so maybe only 5 of these problems should be chosen */
+    /* 9.9 is pretty similar process throughout, so maybe only 5 of these problems should be chosen */
+  {\exp}
+{\tpc}

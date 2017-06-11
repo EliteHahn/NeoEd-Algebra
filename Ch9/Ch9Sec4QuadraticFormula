@@ -1,17 +1,15 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 4] Quadratic Formula
 
-Section
-{4} Quadratic Formula
+{def}[1][Quadratic Formula]
+  A General formula of a quadratic is $ax^2 + bx + c = 0$. When this formula is "solved" through completing the square x=(-b +or- radical [b^2 -4ac])/2a.
 
-{def1}
-  {quadratic formula} General formula of a quadratic is ax^2 + bx + c = 0. When this formula is "solved" through completing the square x=(-b +or- radical [b^2 -4ac])/2a.
+  /* Example 467 and then 468 or 470 for solutions with impossible numbers */
 
-/* Example 467 and then 468 or 470 for solutions with impossible numbers */
+  Here is a suggested process to decide which method would be best to use for solving a problem
+  1. If it can easily factor, solve by factoring.
+  2. If a=1 and b is even, complete the square.
+  3. Otherwise, solve by the quadratic formula.
 
-Here is a suggested process to decide which method would be best to use for solving a problem
-1. If it can easily factor, solve by factoring.
-2. If a=1 and b is even, complete the square.
-3. Otherwise, solve by the quadratic formula.
-
-/* 9.4 Practice Page 347 is pretty good, but try to choose just maybe 8-10 problems that kids should really try to do, and write off the rest as extras. of the 8-10, make the ones you choose varied in in the type of answer received or the type of process by which the solution was found. */
+  /* 9.4 Practice Page 347 is pretty good, but try to choose just maybe 8-10 problems that kids should really try to do, and write off the rest as extras. of the 8-10, make the ones you choose varied in in the type of answer received or the type of process by which the solution was found. */
+{\def}

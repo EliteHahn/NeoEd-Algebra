@@ -1,24 +1,22 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 6] Quadratics in Form
 
-Section
-{6} Quadratic in Form
+{def}[1][Quadratic Form
+  So far, our methods for solving quadratics have been factoring, completing the square, and the quadratic formula.
+  Although the normal equation for a quadratic is $0= ax^2 + bx + c$, there are ways to solve problems with higher or lower powers than a power of 2.This can be done if the equation is in the Quadratic Form!
+  $0=ax^m + bx^n + c$ where $m=2n$. An equation is in this form when one of the exponents on a variable is double the exponent on the same variable somewhere else in the equation. For instance:
 
-So far, our methods for solving quadratics have been factoring, completing the square, and the quadratic formula.
-Although the normal equation for a quadratic is 0= ax^2 + bx + c, there are ways to solve problems with higher or lower powers than a power of 2.This can be done if the equation is in the Quadratic Form!
-
-{def1}
-  {Quadratic Formula} 0=ax^m + bx^n + c where m=2n. An equation is in this form when one of the exponents on a variable is double the exponent on the same variable somewhere else in the equation. For instance:
-
-{ex1} x^4 - 13x^2 + 36= 0.
-y=x^2             (set new variable equal to the variable present with the SMALLER exponent)
-y^2=x^4           (square both sides)
-y^2 - 13y + 36= 0 (substitute y for x^2 and y^2 for x^4)
-(y-9)(y-4)=0      (Solve. We can solve this from here on)
-y=9 and y=4
-Since y=x^2, then 9=x^2 and 4=x^2.
-The x=+3,-3,+2,-2.
-
-The solutions to the above were rational. However, we can also have irrational or complex solutions to our equations.
-/* Example 480 and Example 483 is good way to show how complex solutions*/
-/* 9.6 Practice on Page 356, but look through them to find which ones will feature complex and rational solutions.
+  {exp}
+    $x^4 - 13x^2 + 36= 0$
+    $y=x^2$ (set new variable equal to the variable present with the SMALLER exponent)
+    $y^2=x^4$ (square both sides)
+    $y^2 - 13y + 36= 0$ (substitute y for $x^2$ and $y^2$ for $x^4$)
+    $(y-9)(y-4)=0$ (Solve. We can solve this from here on)
+    $y=9$ and $y=4$
+    Since $y=x^2$, then $9=x^2$ and $4=x^2$.
+    The $x=+3,-3,+2,-2$.
+  {\exp}
+  The solutions to the above were rational. However, we can also have irrational or complex solutions to our equations.
+  /* Example 480 and Example 483 is good way to show how complex solutions*/
+  /* 9.6 Practice on Page 356, but look through them to find which ones will feature complex and rational solutions. */
+{\def}

@@ -1,29 +1,27 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 7] Rectangles
 
-Section
-{7} Rectangles
+{tpc}[1][Finding the Area of a Rectangle with Variable Lengths]
+  An application of solving quadratic equations comes from the formula for the area of a rectangle.
+  Area of a rectangle is width x length. To solve problems with rectangles, draw a picture to help you represent the problem and use the picture to set up our equation.
+  Here is an example:
+  {exp}
+    The length of a rectangle is 3 MORE than the width. If the area is 40 square inches, what are the dimensions?
+    /* Show image that is seen in example 484 on page 357*/
+    /* Example 485 or 486 is good for how to compare two different rectangles.*/
+    The area is 168 square cm. The perimeter is 52cm. What are the dimensions of the rectangle? /* Input the image from example 487*/
+    $xy=168$
+    $2x+2y=52$
+    $-2x   -2x$
+    $2y= -2x+52$ (Now divide the entire equation by 2)
+    $y= -x + 26$
+    If we know that $xy=168$, then substitute in the y, so that it is $x(-x+26)=168$. If we distribute, $-x^2 + 26x= 168$. To make it easier, divide everything by the $-1$ in front of the $x^2 -26x=-168$. We now must solve the remainder of this by {tag ..}Completing the Square{\tag}.
+    $(26/2)^2=169$. Equation is now $x^2-26x+169=-168+169$ (add 169 from completing the square to both sides).
+    $x^2-26x+169=1$ is our new equation, and we can factor this further to be $(x-13)^2=1$. So, after we square root both sides, $x-13=+-1$, and $x$ could equal $14$ or $12$! Plug this back into the $y=-x +26$, making it either $y=12$ or $y=14$.
+    Since it is a RECTANGLE, the sides cant be the same, so the dimension is 12cm by 14cm!
 
-An application of solving quadratic equations comes from the formula for the area of a rectangle.
-Area of a rectangle is width x length. To solve problems with rectangles, draw a picture to help you represent the problem and use the picture to set up our equation.
-Here is an example:
-{ex1} The length of a rectangle is 3 MORE than the width. If the area is 40 square inches, what are the dimensions?
-/* Show image that is seen in example 484 on page 357*/
+    /* Example 488 to show a new type of problem*/
 
-{ex2} /* Example 485 or 486 is good for how to compare two different rectangles.*/
-{ex3} The area is 168 square cm. The perimeter is 52cm. What are the dimensions of the rectangle? /* Input the image from example 487*/
-  xy=168
-  2x+2y=52
-  -2x   -2x
-  2y= -2x+52 (Now divide the entire equation by 2)
-  y= -x + 26
-  If we know that xy=168, then substitute in the y, so that it is x(-x+26)=168. If we distribute, -x^2 + 26x= 168. To make it easier, divide everything by the -1 in front of the x^2 -26x=-168. We now must solve the remainder of this by Completing the Square.
-  (26/2)^2=169. Equation is now x^2-26x+169=-168+169 (add 169 from completing the square to both sides).
-  x^2-26x+169=1 is our new equation, and we can factor this further to be (x-13)^2=1. So, after we square root both sides, x-13=+-1, and x could equal 14 or 12! Plug this back into the y=-x +26, making it either y=12 or y=14.
-  Since it is a RECTANGLE, the sides cant be the same, so the dimension is 12cm by 14cm!
-
-  /* Example 488 to show a new type of problem*/
-
-  /* 9.7 Practice Page is helpful but has way too many types of repeat problems */
-
-  
+    /* 9.7 Practice Page is helpful but has way too many types of repeat problems */
+  {\exp}
+{\tpc}

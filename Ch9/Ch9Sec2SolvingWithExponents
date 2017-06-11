@@ -25,6 +25,6 @@
     There are actually TWO numbers that can work in this scenario when we take the 4th root of both sides! You may think "But only 2 can work in this case." However, remember that the property claims the solution to be the + and - version of that number. So the two solutions are actually + and - 2!
     Multiply the negatives out if it helps. (-2x-2x-2x-2)= 16, which is our answer. It ends up being +16 because an even amount of negative numbers multiplied together will create a positive number, and that goes for roots and exponents, too!
 
-    /* Show example 451 and 452 because it helps in understanding how to go about solving more complex forms of previously explained material with this knowledge.
+    /* Show example 451 and 452 because it helps in understanding how to go about solving more complex forms of previously explained material with this knowledge. */
   {\exp}
 {\def}

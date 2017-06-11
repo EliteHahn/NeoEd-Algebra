@@ -1,22 +1,27 @@
-Chapter
-{9} Quadratics
+[Chapter 9] Quadratics
+[Section 5] Build Quadratics from Roots
 
-Section
-{5} Build Quadratics From Roots
+{tpc}[1][Building Quadratics from Roots]
 
-In this scenario, we must take our solutions and work BACKWARDS to fid what original quadratic goes with the solutions!
+  In this scenario, we must take our solutions and work BACKWARDS to fid what original quadratic goes with the solutions!
 
-Finding the original quadratics using RATIONAL Solutions:
-- Use factoring in reverse by setting each solution equal to x and then making the equation equal to zero by adding or subtracting. After this is done, our expressions will become factors of the quadratic! Here is an example:
+  Finding the original quadratics using RATIONAL Solutions:
+  - Use factoring in reverse by setting each solution equal to x and then making the equation equal to zero by adding or subtracting. After this is done, our expressions will become factors of the quadratic! Here is an example:
 
-{ex1} The solutions are 4 and -2. If x=4 and x=-2, then we can add or subtract these solutions to create the expressions x-4=0 and x+2=0. Then, we combine these two expressions as (x-4)(x+2)=0. Then, we use a process known as FOIL to find the original expression.
+  {exp}
+    The solutions are 4 and -2. If x=4 and x=-2, then we can add or subtract these solutions to create the expressions x-4=0 and x+2=0. Then, we combine these two expressions as (x-4)(x+2)=0. Then, we use a process known as FOIL to find the original expression.
+  {\exp}
+{\tpc}
 
-{def}
-  {FOIL}: First, Outsides, Insides, Lasts. This us the process by which values inside of two expressions can be multiplied together!We do the first part of each parenthesis first, then the "outsides" (the first of the first parenthesis and the last of the last parenthesis), and then "insides" (the values closest to the inside between both parenthesis), and then the last values in both parenthesis.
-Apply this to the above example to produce: x^2 +2x -4x -8=0. Our final solution, after simplification, would be x^2 -2x -8=0
+{def}[2][FOIL]/* P sure this is already defined */
+  FOIL: First, Outsides, Insides, Lasts. This us the process by which values inside of two expressions can be multiplied together! We do the first part of each parenthesis first, then the "outsides" (the first of the first parenthesis and the last of the last parenthesis), and then "insides" (the values closest to the inside between both parenthesis), and then the last values in both parenthesis.
+  Apply this to the above example to produce: $x^2 +2x -4x -8=0$. Our final solution, after simplification, would be $x^2 -2x -8=0$
 
-{ex2} In the case that both solutions are just the positive and negative roots of a square root, we may have to isolate the term by squaring both sides then adding or subtracting the new number to find our solution/original quadratic
+  {exp}
+    In the case that both solutions are just the positive and negative roots of a square root, we may have to isolate the term by squaring both sides then adding or subtracting the new number to find our solution/original quadratic
+    /* Example 475 and 477 are very good examples that bring older concepts and apply/reinforce the ideas through the newly taught info*/
+  {\exp}
 
-/* Example 475 and 477 are very good examples that bring older concepts and apply/reinforce the ideas through the newly taught info*/
 
-/* The 9.5 practice sheet is very helpful, but it has way too many problems making the kid go through each one to know which ones are important or different. Too many problems*/
+  /* The 9.5 practice sheet is very helpful, but it has way too many problems making the kid go through each one to know which ones are important or different. Too many problems*/
+{\def}
