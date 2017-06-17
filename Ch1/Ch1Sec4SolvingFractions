@@ -2,11 +2,11 @@
 [Section 4] Solving Linear Equations Fractions
 
 {tpc}[1][Solving Linear Equations with Rational Coefficients]
-  Often times, you will need to solve linear equations with fractions (or {tag ..}rationals{\tag}) as coefficients to the variables. However, this process can be very long and difficult, and there is a lot of room for making mistakes.
+  Often times, you will need to solve linear equations with fractions (or {tag ..}rationals{\tag}) as {tag ..}coefficients{\tag} to the variables. However, this process can be very long and difficult, and there is a lot of room for making mistakes.
   {exp}
     /* Possibly put an example here of a hard thing */
   {\exp}
-  There is an alternate method for dealing with fractions, where we "clear" or get rid of the denominator of the fractions in the equation. This is done by multiplying each term in the equation by the {tag ..} least common denominator{\tag} of the denominators of the equation.
+  There is an alternate method for dealing with fractions, where we "clear" or get rid of the denominator of the fractions in the equation. This is done by multiplying each term in the equation (both sides of course) by the {tag ..}least common denominator{\tag} of the denominators of the equation.
   {exp}
 
   {\exp}
@@ -15,4 +15,5 @@
   {exp}
     /* examples using parenthesis */
   {\exp}
+  So why does this process work? Well, recall what the {tag ..}least common denominator{\tag} really is. The least common denominator of several numbers is a number that can be evenly divided by each of those numbers. That means, that when you divide the least common denominator by the numbers you originally chose, you will get an integer! This is good, because integers are much easier to work with than fractions are, so it allows us to more easily solve these equations.
 {\tpc}

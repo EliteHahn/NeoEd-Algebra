@@ -2,22 +2,26 @@
 [Section 5] Absolute Value
 
 {tpc}[1][Solving Linear Absolute Value Equations]
-  When solving equations with absolute value, we can end up with more than one possible answer. The expression inside the absolute value can be both the positive and the negative value
+  When solving equations with absolute value, we can end up with more than one possible answer.
+  This is because when you take the absolute value of an expression, it automatically becomes positive. Usually when we are {tag ..}solving for a variable{\tag}, we hope to do the {tag ..}opposite operation{\tag}.
+  However, as we just said, when we take the absolute value of something, it automatically becomes positive! So when we are to undo it, there is no way to tell whether the original expression inside the absolute value was positive or negative.
+  Because of this, we must have two different answers, one for if the expression inside the absolute value was positive, and one if it were negative.
   {exp}
     /* absolute value of x = 7, x can be both 7 or negative 7 */
     /* absolute value of x+1 = 5, and show that although both answers for x is positive, but the expression x+1 is positive or negative*/
   {\exp}
-  When there are absolute values in a problem, it is important to isolate the absolute value before considering both the positive and negative solution
-  Once the absolute value is isolate it, set the other side of the equation to both its positive and negative side, and {tag ..}solve each equation{\tag} separately, after splitting the absolute value equation into two different equations, the positive and the negative versions.
+  When there are absolute values in a problem, it is important to isolate the absolute value before considering both the positive and negative solution. Do this {tag ..}as you would any variable (think of the entire absolute value expression as a single term){\tag}
+  Once the absolute value is isolated, set the other side of the equation to both its positive and negative side, and {tag ..}solve each equation{\tag} separately, after splitting the absolute value equation into two different equations, the positive and the negative versions. See the examples to see what we are trying to do.
   {exp}
     /* Show solving absolute value */
   {\exp}
+  Like we said earlier, we do the above step so we can account for the expression inside the absolute value being both negative or positive.
   Remember, that absolute values are not parenthesis. This means, you cannot distribute variables into an absolute value
   Note the special case after you isolate, where the {tag ..}absolute value of an expression is negative{\tag}. In this case, you have reached a contradiction and there is no solution
   {exp}
     /*Examples of negative invalid abs value */
   {\exp}
-  Note the special case when you have {tag ..}both sides of the equation in absolute values{\tag}
+  Note the special case when you have {tag ..}both sides of the equation in absolute values{\tag}. In this case, we still need to consider both the positive and negative results, but we have to add 1 extra step. Read the next section (or click on the {tag ..}tag{\tag}) to find out how to do this
   {exp}
     /* examples */
   {\exp}
@@ -27,16 +31,16 @@
   After you isolate the absolute value, sometimes, the other side of the equation is negative.
   {exp}
     /* Examples of invalid, negative absolute value */
-  {\p}
-  Remember that the absolute value of anything cannot be negative!
+  {\exp}
+  However, we know that the absolute value of anything cannot be negative!
   This means that you have reached a contradiction, or a false statement, meaning there is no solution for this linear equation.
 {\tpc}
 {tpc}[3][What if both sides of a Linear Equation is in Absolute Values?]
-  If both sides of a linear equation is in absolute values, then we still need to consider both the positive and negative result.
+  If both sides of a linear equation is in absolute values, then we still need to consider both the positive and negative result, just with an added step
   {exp}
     /* Examples of abs a = abs b */
   {\exp}
-  The difference here is that we have to distribute a negative into the second absolute value for the negative possibility
+  The difference here is that we have to distribute a negative into the second absolute value to account for the negative possibility
   {exp}
     /* Give examples of us splitting this */
   {\exp}

@@ -1,25 +1,104 @@
 [Chapter 1] Solving Linear Equations
 [Section 1] One-Step Equations
 
-{def}[1][Linear Equation]
-    In algebra, a linear equation is an equation with variables with these properties:
-    The variables are multiplied only to {tag ..}constants{\tag}.
-    {exp}
-      /*examples for each plz*/
-    {\exp}
-    Each term must only have at most one variable.
-    {exp}
-    {\exp}
+
+{def}[1][Equation]
+  When you have two {tag ..}expressions{\tag} separated by an equals sign (=), you have an equation.
+  Notice how the equals sign divides the equation into two different parts, a left side, and a right side.
+  {tag ..}What does the equal sign mean?{\tag} It means that both sides of the equal sign have the same value. Think of this equation for example, $2 + 3 = 5$. You've probably seen this in elementary school, possibly even earlier. The equal sign means that the values, $2+3$ and $5$ are the same.
+  It doesn't matter how complicated the equation gets, the equal sign means, always, that the left and right side must have the same value
+  {exp}
+    $6 + 3 = 9$ The left side, $6+3$ must be the same as the right side, $9$
+    $5 \times 3 = 15$ The left side $5 \times 3$ is the same as the right side, $15$
+    $2x + 5 = 15$ It doesn't matter if there are {tag ..}variables{\tag}, the meaning is the same. The left hand side and the right hand side must be the same value! We'll learn how to solve equations like this later
+    $V[X] = \sum_{\omega \in S}(X(\omega) - E[X])^2p(\omega)$ This is also an equation that is used in statistics. There are multiple variables, and topics that are absolutely not needed for algebra. However, the equals sign means the same thing! The left side $V[X]$ is the same as the crazy expression on the right side! The equals sign will be extremely important in algebra, and pretty soon, complex expressions will be just as easy as solving simple equations like our first example of $6 + 3 = 9$.
+  {\exp}
 {\def}
+{def}[1][Linear Equation]
+  Most of algebra uses a special type of Equation called a Linear Equation.
+  Linear Equations have {tag ..}variables{\tag}, and overall they are quite simple.
+  These variables aren't raised to any exponents, and they aren't multiplied together with other variables. If they did, they would require a little more advanced algebra to understand and solve. Here are some examples of linear equations and equations that are not linear equations
+  {exp}
+  {\exp}
+  {nex}
+  {\nex}
+  Linear equations can be a pretty difficult concept to grasp at first, but with practice, they will get more familiar and easier to use. The rest of Chapter 1 will be all about how to {tag ..}solve{\tag} and {tag ..}manipulate{\tag} linear equations.
+{\def}
+{tpc}[2][Manipulating Equations]
+  If you have an equation, there are ways to change, or manipulate it.
+  Why do you want to manipulate an equation? Well, it is mostly useful for {tag ..}solving linear equations{\tag} in algebra, or any equation in more advanced maths.
+  Let's take a very simple equation, $1 + 2 = 3$. Very simple to start off. Let's say I want to make the right hand side be a 7. Right now it's a 3, but you can get 7 by adding 4 to 3. So let's try adding 4 to the right hand side
+  {nex}
+    $ 1 + 2 = 3 + 4$ Adding 4 to 3
+    $ 1 + 2 = 7$ If we solve the right hand side of the equation, we get 7, but something's clearly not right!
+  {\nex}
+  So this is, as you might be able to tell, the wrong way to do this. $1 + 2 $ does not equal $7$, so we did something wrong. We can't just randomly add numbers or change one side of the equation and expect it to magically be correct, as we showed above.
+  But what if we really wanted the right hand side to be 7? It is possible to do this, but first, it is very important to remember {tag ..}that the equal sign means{\tag} that the two sides of the equation have the same value. $1+2$ and $3$ are the same, they are equal. If you were to change one of them, then they wouldn't be the same anymore, just like when we added 4 to the 3, it was now 4 bigger than the left hand side.
+  If two things are the same, and you change one of them, and you want the other to still be the same, they have to BOTH change in the same exact way. If your friend is exactly the same height as you, and they grow 2 inches over the summer, if you want to be the same height as them, you also have to grow exactly 2 inches! If you are the same weight as your friend, and they lose 5 pounds, and you still want to weigh the same, then you also have to lose 5 pounds! So if you have an equation that is equal, $1 + 2 = 3$, and you want to add 4 to the right hand side, you must also add 4 to the left hand side!
+  {exp}
+    [item]
+    $1 + 2 = 3$ Our original equation, but we want the right hand side to be 7.
+    $1 + 2 +4 = 3 + 4$ We can add 4 to both sides! We have to do this to maintain equality!
+    $1 + 2 + 4 = 7$ If you solve, you will see that this equation is still true!
+    [item]
+    $4 \times 2 = 8$ Our equation, but I just want the right hand side to be 16.
+    $4 \times 2 + 8 = 8 + 8$ We can add 8 to both sides to maintain equality
+    $4 \times 2 + 8 = 16$, Well we can solve $8 + 8$ and we have 16 on the right side, and we know this equation is true because we did the same operation to both sides!
+    $4 \times 2 \times 2 = 8 \times 2$ in order to get 16, we could have also just multiplied both sides by 2 (since $8 \times 2 = 16$)
+    $4 \times 2 \times 2 = 16$ Either way, we get the right hand side to be 16. As you can see, there are multiple ways to manipulate an equation to get what you want
+
+    [item]
+    $5 = 2 + 3$ We have an equation, but we want the left side to be $x + 5$
+    $x + 5 = 2 + 3 + x$ We can add the variable $x$ to both sides, to get this statement! We know this is true because we did the same operation to both sides.
+    [item]
+    $x + 7 = 9$ Let's say we have this equation, but we want the left hand side to be just $x$
+    $x + 7 - 7 = 9 - 7$ Well, let's try subtracting 7 from both sides.
+    $x = 2$ On the right hand side, we have $2$ since $9 - 7 = 2$. On the left hand side, we have just $x$, because $7 - 7 = 0$ and $x + 0 = x$ and because we did the same thing to both sides, this equation is still true. $x = 2$ (This technique to get $x$ by itself is called {tag ..}cancelling out using the opposite operations{\tag} which we will learn about a little later)
+  {\exp}
+  By manipulating equations, we can do many different things, like {tag ..}solving one step linear equations{\tag} or eventually, {tag ..}solving for any unknown variable{\tag}!
+{\tpc}
+{tpc}[3][Cancelling Out Using the Opposite Operations]
+  If I have a number, $x$, and I add 8 to it, I will now have the number $x + 8$. But let's say I wanted to only have $x$, what would I need to do to get only my original $x$ after I add 8 to it?
+  Well, since we added 8 before to get $x + 8$, all we have to do is take away 8 and we have our original $x$. Let's try this with a couple examples:
+  {exp}
+    [item]
+    $x + 10$ We want our original $x$, but instead we have 10 extra added
+    $x + 10 - 10$ To get our original $x$, we can just take away, or subtract the 10
+    $x$
+    [item]
+    $y - 4$ We want our original $y$, but 4 is subtracted from it
+    $y = 4 + 4$ If we add 4, we can get our original number
+    $y$
+    [item]
+    $2n$ Our original number was $n$, but this expression doubled it.
+    $2n \div 2$ Well, since the number was doubled, we can get our original number by halving it, or dividing by 2
+    $n$ We're left with just $n$
+  {\exp}
+  So if you notice a pattern, in order to get our original number or variable, we just undo the operation done by doing the opposite. If the expression adds 3, we subtract three. If it subtracts 5, we add 5. If we multiply by 100, we divide by 100. If it divides by 17, we multiply by 17.
+  This is very important when we are {tag ..}solving one step equations{\tag}, and also {tag ..}all equations in general{\tag}. Sometimes, we just want to have a variable all by itself, and in order to have that, we must perform the opposite operation.
+  Remember when you are applying this technique to {tag ..}manipulate equations{\tag}, you must do the same thing to both sides of the equation.
+  {exp}
+    [item]
+    $x + 2 = 4$ If we want the $x$ to be by itself, we must subtract 2 from both sides (which is the opposite of adding 2)
+    $x + 2 -2 = 4-2$ Subtract 2 from both sides of the equation
+    $x = 2$ We have gotten $x$ by itself on the left hand side of the equation, and as a result, we now know what the value of $x$ is!
+  {\exp}
+
+{\tpc}
 {tpc}[2][Solving One-Step Linear Equations]
-  If there is a portion of the problem is "missing" (in other words, replaced by a variable), we may want to find the missing value.
+  If there is a portion of a {tag ..}linear equation{\tag} is "missing" (in other words, replaced by a variable), we may want to find the missing value.
   {exp}
     /*Put in examples of equations that need to be solved*/
-    4x + 16 = -4
+    x + 3 = 7
   {\exp}
-  In this example, {tag ..}plugging in the number{\tag} -5 as $x$ allows us to evaluate the equation and solve, and as we clearly see that since both sides of the equation are the same, $-4 = -4$, $x = -5$. However, if we were to plug in any other value, such as 3, we would get the false statement of 28 = -4. Because of this, we know that $x$ is not 3, and that $x$ is -5.
-  "Guess and check" is not a very good way to find the value of $x$, because these equations can be very complicated. Instead, we should find a way to solve equations that work for all equations.
-  To solve equations, the general rule is to do the opposite operation on both sides of the equation.
+  In this example, {tag ..}plugging in the number{\tag} 4 as $x$ allows us to evaluate the equation and solve, and as we clearly see that since both sides of the equation are the same, $7 =7$, $x = 7$. However, if we were to plug in any other value, such as 10, we would get the false statement.
+  {nex}{\nex}
+  The left hand side, after plugging in 10 as $x$ would be 13, and 13 clearly does not equal 7. Because of this, we know that $x$ is not 10, and that $x$ has to be 4. Since {tag ..}an equal sign means the two sides must be the same value{\tag}, $x$ can only be the value such that {tag ..}when you plug in that value for $x${\tag} both sides are equal!
+  For this problem, it is possible you could see the solution as soon as you saw the equation. Sometimes, you can guess what the value of $x$ is and then you can get the question right
+  However, this "Guess and check" method is not a very good way to find the value of $x$, because these equations can get very complicated as you do solve harder math equations. Instead, we should find a way to solve equations that will work for any equation.
+
+  So how do we solve equations? Well, we know we want our final solution to look something like $x = ?$ So when we have something like $x + 3=7$ in the previous example, we need to change this equation so that we eventually get $x = 4$. To do this, remember how we can {tag ..}manipulate equations by applying an operation to both the left and right hand side of the equation{\tag}.
+  To solve equations, the general rule is to do the {tag ..}opposite operation on both sides of the equation{\tag}, in order to get the variable all by itself. In otherwords, if there is an operation being done on the variable, {tag ..}undo it using the opposite operation{\tag}
   {exp}
     /* examples of 1 step equations being solved by doing the reverse operation */
     /* Make sure that each does all operations, add, subtract, multiplication and division*/

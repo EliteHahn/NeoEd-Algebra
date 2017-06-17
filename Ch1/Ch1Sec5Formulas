@@ -2,12 +2,12 @@
 [Section 5] Formulas
 
 {tpc}{1} Solving for a Variable
-  Sometimes, we want to solve for a particular variable given an equation or formula that has multiple variables.
+  Sometimes, we want to solve for a particular variable given an equation or formula that has multiple variables. We already know {tag ..}how to solve for 1 variable{\tag}, and you will find that this process is very similar, just using other letters instead of numbers.
   {exp}
     /* The example they do is pi r^2 + pi rs = Surface Area of right circular cone */
   {\exp}
-  Basically what we mean when we ask for you to solve for a variable, let's say A, is to put the equation in terms of A = .....something.....
-  To do this, we need to focus on the one variable we are trying to solve for, and treat the other variables and constants as just numbers. Solve this just as you would a {tag ..} linear equation {\tag}
+  Basically what we mean when we ask for you to solve for a variable, let's say $A$, is to put the equation in terms of $A$ = .....something.....
+  To do this, we need to focus on the one variable we are trying to solve for, and treat the other variables and constants as if they were just numbers. Solve this just as you would a {tag ..} linear equation {\tag}
   {exp}
     /* Make sure to show parallels between solving a normal equation, and the variable formula */
   {\exp}
@@ -16,7 +16,7 @@
     /* Show the example where we divide by (x-y) */
   {\exp}
   We know we are done isolating when the variable we are solving for is isolated or alone on one side of the equation and it does not appear anywhere on the other side of the equation.
-  Note that formulas often have fractions, and you will need to {tag ..} solve accordingly {\tag}
+  Note that formulas often have fractions, and you will need to {tag ..}solve accordingly {\tag}
   Also note that with many formulas in chemistry and physics, upper case and lower case letters mean different things, so be very careful about which variable they want you to isolate, and to treat them as different variables. You cannot combine these terms!
   {exp}
     /* Throw some formula with the same letters */

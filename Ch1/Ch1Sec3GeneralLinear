@@ -5,14 +5,20 @@
   Parenthesis may get in the way of solving equations.
   If we want to get an equation into the {tag ..}two-step format{\tag} that we are familiar with, at times, we can get rid of parenthesis using the {tag ..}distributive property{\tag}
   {exp}
-
+    [item]
+    $3(x+4) = 7$ To solve this equation, we must distribute the 3 to every term inside the parenthesis (the $x$ and the 4)
+    $3x + 12 = 7$ Solve as you would a {tag ..}two step equation{\tag}, by first subtracting 12
+    $3x = -5$ {tag ..}Solve this final step{\tag} by dividing both sides by 3
+    $x = \frac{-5}{3}$
   {\exp}
   After distributing, it can be solved as any other {tag}two-step equation{\tag}
+  Although there are ways around distributing, this method often times makes the solution much cleaner. Either way, if the math is done correctly, the result should be the same.
   Remember to combine {tag ..}like terms{\tag} after distributing!
 {\tpc}
 {tpc}[2][Solving with Variables on Both Sides of the Linear Equations]
   If there is the same variable on both sides of an equation, then we want to move one of the variable terms to the other side so that they are on the same side.
-  To do this, we just move it just as we would with constant terms in {tag ..} one step linear equations{\tag}
+  To do this, we just move it just as we would with constant terms in {tag ..}one step linear equations{\tag}
+  Remember {tag ..}what the equal sign means{\tag}. As long as we do the same operation to both sides, {tag ..}we can do any operation{\tag}, even adding or subtracting variables.
   After that, you can solve just as you would a {tag ..} one step{\tag} or {tag ..} two step{\tag} equation.
   {exp}
 
@@ -37,4 +43,5 @@
   In this case, we are left with a statement that is either true or false.
   If both numbers are the same, such as -5 = -5, then we have a true statement. This means, the solution to our equation is All Real Numbers
   If the numbers are different, such as -3 = 7, then we have a false statement. This means, the solution to our equation is that there is no solution, or a contradiction. This means, that there does not exist a number that can make this statement true.
+  Remember that an {tag ..}equal sign means{\tag} that both sides of the equation must be the same. If they are the same, then the statement must always be true. If they are not the same, then the statement is automatically false. 
 {\tpc}

@@ -2,12 +2,12 @@
 [Section 2] Two-Step Equations
 
 {tpc}[1][Solving Two-Step Equations]
-  Just as with {tag ..}solving one-step equations{\tag}, the important thing to remember is to do the opposite {tag ..}operation{\tag}.
+  Just as with {tag ..}solving one-step equations{\tag}, the important thing to remember is to do the {tag ..}opposite operation{\tag}.
   If there are multiple steps that need to be solved, we must also use {tag ..}order of operations{\tag} backwards as well.
   {exp}
     /* Examples of two step problems */
   {\exp}
-  If a number subtracts completely, for example, if all terms from a side of the equation is removed, it's important to remember that there's still a number there, 0!
+  If a number subtracts completely, for example, if all terms from a side of the equation is removed, it's important to remember that there's still a number there: 0!
   {exp}
 
   {\exp}
