@@ -14,11 +14,11 @@
     $+6$ The positive sign doesn't change the fact that it is an integer
   {\exp}
   {nex}
-    $0.1$
+    $0.1$ Decimals are not integers
     $-3.2$
     $\frac{2}{5}$ This fraction is not an integer
     $\frac{-6}{5}$ The fact that this fraction is negative nor that it is improper changes the fact that it is not an integer
-    $\pi$ Pi is irrational. It also has decimals, which makes it not an integer
+    $\pi$ Pi is irrational. It also has decimals, which means it is not an integer
   {\nex}
 {\def}
 {tpc}[2][Adding Integers]
