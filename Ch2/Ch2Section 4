@@ -1,11 +1,17 @@
 [Chapter 2]Graphing
 [Section 4] Point-Slope Form
 
-The slope-intercept form is easier to remember, but you NEED to know the y-intercept to be  able to use it. What if you aren't given the y-intercept before hand?
-That is when you use the Point-Slope Form!
 
-{def}[1][Point-Slope Form]
-  An equation in point-slope form has the form $y-y1=m(x-x1)$, in which two points are known or can be found, with one being regarded as $(x,y)$ and the other being $(x1,y1)$. In this type of formula, one must know the location/coordinates of at least two points in the line and the slope, which can also be found from those two points!
+
+{tpc}[1][Point-Slope Form]
+  Point-Slope form is another way to write an equation of a line, similar to slope-intercept form. However, while the {tag ..}slope-intercept{\tag} form is slightly simpler, you must know the {tag ..}$y$-intercept{\tag} to be  able to use it. We use the Point-Slope Form when we do not have the $y$-intercept of a line.
+  To get the point-slope form, let's recall the formula for {tag ..}slope{\tag}. Remember, we find slope by finding the difference in $y$-values over the difference in $x$-values. {tag ..}Let's say{\tag} we have two points, $(x_1,y_1)$ and $(x_2,y_2)$, we have:
+  /* Show the proof */
+  $y_2 - y_1 = m(x_2 - x_1)
+  Note, that this works for all points on the line. This means that as long as we know a point, we can find the equation of the line using this formula:
+  $y - y_1 = m(x - x_1)$
+  This means, that if we know the slope of a line, and one point, $(x_1, y_1)$, we can find the equation of a line using the above formula.
+  Also remember, that you can {tag ..}find the slope{\tag} using two points by taking the difference of the $y$-values over the difference of the $x$-values. So if you have two points, you can find the equation of the line by first finding the slope and choosing one of the points to put into the formula.
 
   {exp}
     Lets say that we have a point (2,6) with the slope of 2/3. Write the equation using point-slope form!
@@ -16,7 +22,5 @@ That is when you use the Point-Slope Form!
     Step 5: y= (2/3)x + 14/3        (You found the final equation!!!)
 
     It is also possible to receive two coordinates and still find the final equation of the point slope form, as long as one uses the two points given to find the slope!
-
-  {exp} /* Use example 143 for this one*/
-  /*  2.4 Practice Page helpful, but really just choose six to eight problems from each section to show the variety of possible answers that one can receive! */
-{\def}
+  {\exp}
+{\tpc}

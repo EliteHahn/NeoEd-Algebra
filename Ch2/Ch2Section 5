@@ -2,30 +2,25 @@
 [Section 5] Parallel and Perpendicular Lines
 
 {def}[1][Parallel Lines]
-  If two lines are parallel, the lines do not, nor will they ever, intersect! And to look at it mathematically, these lines will have the SAME slope, but different y-intercepts.
+  If two lines are parallel, the lines do not, nor will they ever, intersect! And to look at it mathematically, these lines will have the SAME slope, but different $y$-intercepts.
+  Imagine two lines that are increasing at the same rate (have the same {tag ..}slopes{\tag}), but start at different points. It's easy to see why they will never intersect. If they're going at the same rate, no matter what, they will always be the same distance apart (because they are increasing at the same speed)
+  {exp}{\exp}
 {\def}
 {def}[2][Perpendicular Lines]
-  If two lines are perpendicular, these lines intersect to make right angles (90 degrees). Looking at it mathematically, these lines have slopes that are "NEGATIVE {tag ..}Reciprocals{\tag}" of each other!
+  If two lines are perpendicular, these lines intersect to make right angles (90 degrees). Looking at it mathematically, these lines have slopes that are "Opposite {tag ..}Reciprocals{\tag}" of each other!
+  {exp}{\exp}
 {\def}
 {def}[3][Reciprocal]
- The reciprocal of a number can be found by inverting the numerator and denominator of a number to make another number. In Perpendicular Lines, the slopes must be reciprocals, but one must be positive and the other be negative.
-
- {exp}1/5 and 5/1 are reciprocals.{\exp}
+  The reciprocal of a number can be found by inverting the numerator and denominator of a number to make another number. In Perpendicular Lines, the slopes must be reciprocals, but one must be positive and the other be negative.
+  Also note, that multiplying a number by its reciprocal will equal 1.
+  {exp}$\frac{1}{5} and \frac{5}{1}$ are reciprocals.{\exp}
 {\def}
 
 {tpc}[4][Finding Parallel and Perpendicular Lines]
+  To find a line parallel to another line, we know that the {tag ..}two lines must have the same slope{\tag}. To do this, find the slope of the first line, by either {tag ..}solving for $y${\tag} and taking the coefficient of $x$, using the {tag ..}formula for slope{\tag} given two points, or {tag ..}figuring it out from a graph{\tag}. Once the slope is found, simply find a different line with a different $y$-intercept with the same slope.
   {exp}
-    Find the slope of a line PARALLEL to 5y-2x=7.
-    - This means that the slopes will be the SAME, so you just need to find the slope of this equation and that will be answer.
-    Step 1: 5y-2x=7
-    Step 2: 5y=2x+7
-    Step 3: y= (2/5)x + 7/5
-    And now we know that the slope of a line PARALLEL to it would be the same!!!
   {\exp}
+  The same process applies to finding a perpendicular line. After finding the slope (using the methods above), simply take the {tag ..}opposite reciprocal{\tag} of that slope and find a line with this new slope. You can choose any $y$-intercept to construct your new line, but the easiest is usually the origin, where the formula of the line is just $y=mx$ where $m$ is the slope.
   {exp}
-    What is the slope of a line perpendicular to the above line?
-    - It is the negative reciprocal, so the slope of a perpendicular line is (-5/2).
-    /*Example 148 on page 113*/
-    /* 2.5 Practice Questions are actually pretty solid, but again, make sure to put around 4-5 questions from each section to show every possible type of answer/ problem process is given and exercised */
   {\exp}
 {\tpc}

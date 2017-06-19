@@ -2,31 +2,36 @@
 [Section 1] Points and Lines
 
 {def}[1][Graph]
-  A graph is a picture of the solutions to an equation, represented often by a system known as a coordinate plane
-  When {tag ..}solving an equation{\tag}, there will be many times where there are many solutions, sometimes infinitely many solutions. A graph allows us to show all the solutions using a picture, rather than listing them all out (because listing out an infinite number of solutions would be impossible!)
+  A graph is a picture of all the solutions to an equation, represented often by a system known as a coordinate plane
+  When {tag ..}solving an equation{\tag}, there will be many times where there are many solutions, sometimes infinitely many solutions. A graph allows us to show all the solutions using a single picture, rather than listing them all out (because listing out an infinite number of solutions would be impossible!)
   {exp}{\exp}
 {\def}
 {def}[2][Coordinate Plane]
-  The coordinate plane is what we draw our graph onto. It is an image consisting of four sections, each section known as a "Quadrant," divided by horizontal and vertical number lines into a grid:
-  /* show an image of a basic coordinate plane, and number or use arrows to indicate the parts of the image*/
-  The point at which these two lines intersect in the center is known as the "origin". The center is where x=0 and y=0 on the coordinate plane.
-  The vertical Number Line is known as the "Y-axis". The portion of this Line that is below the origin is negative ($y=-1$,-2,-3...) and above the origin is positive ($y=1$,2,3...)
-  The horizontal Number Line is known as the "X-axis". The portion to the left of the origin is negative ($x=-1$,-2,-3...) and to the right of the origin is positive ($x=1$,2,3...)
-  A "Coordinate" shows where on a grid something can be found based off it horizontal ($x$) and vertical ($y$) positions! They are written in the following format: ($x$ value, $y$ value)
-
-  {exp} /* Image of a map divided by roads and blocks/neighborhoods with you at origin and Jamie's House two blocks North and one block east of you*/{\exp}
-  If I wanted to travel to Jamie's house, I should consider each block I pass through to be 1 unit. You are at the middle of the image, so you are at the origin. This means that you must travel two blocks to the North and one block to the east/to the right.
-  So, to find the x value of the coordinate, think of how far east or west you had to go to get to Jaime's house. Like on a number line, going to the right will be positive and going to the left will be negative! To get to Jaime's house, we had to travel 1 unit to the East/Right, so the X value would be 1. We also had to travel 2 blocks North/Up, so our Y value would be 2!
-  To finally put these together in a coordinate point structure of $(x,y)$, the coordinates of Jaime's House is (1,2). This is a real-world use of the Coordinate Plane!
-
-  {exp} Graph the following points (represented with Dots in their coordinate locations):
-  A(3,2), B(-2,1), C(3,-4), D(-2,-3), E(-3,0), F(0,2), G(0,0){\exp}
-
-  While this seems to be helpful in showing where items can be found, there are other uses to this. One such use is allowing such mathematicians as ourselves to visualize equations! How is that possible? (almost) Anything is possible through the magic of coordinate planes!
-
-  To start, it is important to know that there will often be a great deal of data to keep track of as we progress through graphing, so it is always a good idea to make a table! Here is one, for example:
-
-  {exp} /* Input a 2x4 block table being split into 8 sections, with the top row being marked as "x" or "y" from left to right respectively. Example 121-122 for reference */{\exp}
+  The coordinate plane is what we draw our {tag ..}graph{\tag} onto. It has a line going left and right called the $x$-axis and a line going up and down called the $y$-axis.
+  {exp}{\exp}
+  But what exactly is a coordinate plane? Well, a coordinate plane is very similar to a number line.
+  {exp}/*Show a picture of a number line*/{\exp}
+  If you wanted to show me the number 5, you could point to where it is on the line, and place a mark there. The fact is, although you cannot physically write every single number on the number line, they're all still there. For example, you might not write the number 1.5, but we can still point to where it is, that is, right between the numbers 2 and 3.
+  The coordinate plane is the same, except now there are two number lines, and you can mark 2 numbers that represent different things at the same time. So let's say we want to mark the point where our $x$ value is 1 and our $y$ value is 4. Of course, since we have two different variables, we can just draw two different number lines and mark the $x$ value of 1 on the first number line and the $y$ value of 4 on the second number line.
+  But what if $x$ and $y$ are somehow related? What if we want to see how the two variables affect each other. For example, let's say $x$ represents how tall you are and $y$ represents how fast you can run. These two different variables are probably related, and it would be interesting to see with a graph how they are related.
+  This is where the coordinate plane comes in. By having two number lines that cross each other, we can mark a point for our $x$ variable and our $y$ variable with a single point!
+  {exp}{\exp}
+  If you look at the $x$-axis, we can see that the point is right above where $x$ is 1. If we look at the $y$-axis, we can see that the point is directly to the right of the $y$-axis, at the same level where $y$ is 4. In this way, we plotted a point for two different variables with a single point, and now we know how these two points are related! When your $x$ value is 1, then your $y$ value is 4. With two different number lines, we couldn't do this before, but with a coordinate plane, we now can.
+  A "Coordinate" shows where on a grid something can be found based off it horizontal ($x$) and vertical ($y$) positions. They are written in the following format: ($x$ value, $y$ value). For our above example, we would have written this as (1,4), since our $x$ value was 1 and our $y$ value was 4. We will use this notation frequently in all levels of math, so be sure to know it well!
+  As you can see, the two lines form an image with four sections, each section known as a "Quadrant". The top right quadrant is the first quadrant, usually labelled as Quadrant I. Going counter-clockwise, we have Quadrant II, Quadrant III, and Quadrant IV.
+  The point at which these two lines intersect in the center is known as the "origin". The origin is where x=0 and y=0 on the coordinate plane, or in coordinate form, (0,0).
+  Because of this, it is easy to see why all values of $x$ to the left of the $y$-axis are negative, since it is to the left of zero (or less than zero)
+  The $x$-axis acts in the same way, by dividing the $y$-axis. All values of $y$ above this line are positive (greater than 0), and all values below this line are negative (less than zero).
 {\def}
+{tpc}[3][Plotting Coordinates on a Coordinate Plane]
+  Plotting a point on a coordinate plane is a process that will be done on many levels of math and science. By plotting points, we can show how two variables are related to each other at given values, and show it visually on a {tag ..}coordinate plane{\tag}. The process of {tag ..}graphing{\tag}, which we will talk about later, is first done by plotting points, so it is very important to master this process.
+  Recall that a point on a {tag ..}coordinate plane{\tag} has to parts, an $x$-value and a $y$=value, written in the form ($x,y$). For example, the point (2,3) is the point where the $x$-value is equal to 2, while the $y$-value is equal to 3.
+  Remember that the coordinate plane is just two number lines that cross each other, an $x$-axis and a $y$-axis. To plot a coordinate, we have to find the point on the coordinate plane that has an $x$-value of 2, while also having a $y$-value of 3. Doing this is a simple process. First, find the $x$-value on the $x$-axis. In this case, that means find the 2 on the $x$-axis. The second step is to go up 3 steps (3 is the $y$-value), and plot the point. This is the point you are looking for.
+  {exp} /* Image of a map divided by roads and blocks/neighborhoods with you at origin and Jamie's House two blocks North and one block east of you*/{\exp}
+  Also know, that if the $y$-value is negative, we must go down that many steps, instead of going up.
+  {exp}{\exp}
+  Take a look at the following tables. Notice how the point lines up perfectly with its $x$-value on the $x$-axis and the $y$-value lines up perfectly on the $y$-axis. This will be true for all points. If you look at a point, it will be lined up perfectly with the $x$ and $y$-axis so you will be able to tell what point it is just by looking at it. 
+  While this seems to be helpful in showing where items can be found, there are other uses to this. One such use is allowing such mathematicians as ourselves to visualize equations one we {tag ..}graph them{\tag}! We will learn about this later.
 
-/*please take the practice page, page 94, and make a question and answer page for that system */
+
+{\tpc}

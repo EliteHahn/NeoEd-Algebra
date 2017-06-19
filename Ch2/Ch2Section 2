@@ -3,25 +3,38 @@
 
 
 {def}[1][Slope]
-  A measure of the "steepness" of a line or structure, along with describing the direction of the line; the change in height over a given distance (often represented by $m$)
+  A measure of the "steepness" of a line, along with describing the direction of the line; the change in height over a given distance (often represented by $m$)
   When the slope is large, it is steep. When the slope is small, it is relatively flat.
   When the line goes up from the left to the right, it will have a positive slope. When it goes down from left to right, the slope will be negative.
+  What the slope really represents is a rate of change. Every time I increase the $x$ value by 1, how much does the $y$ value change? If we were to increase $x$ by 1 and the $y$-value went up by 20, then we know we had a larger slope! However, if we increased $x$ by 1 and the $y$ value only went up by $\frac{1}{2}$, then we have a smaller slope.
+  So what does it mean for a slope to have a value of $\frac{1}{2}$? Well, we already figured out that if the $x$ value increases by 1, the $y$ value increases by $\frac{1}{2}$. In addition, if the $x$-value increses by $2$, we know that the $y$-value increase by 1. Why is this? Because every time we increase the $x$-value, the $y$-value increase by $\frac{1}{2}$. So if we were to increase the $x$ value twice, then the $y$-value increases by twice as much, or $2 \times \frac{1}{2}$ which of course is 1. This is important! That means that if we can find how much the $x$ value increases on a line, we can find exactly how much the $y$-value increases as well!
+  This makes the slope a {tag ..}ratio{\tag}, meaning it tells us how much the $y$-value increases relative to how much the $x$-value increases. We can write this ratio has a fraction, in what many math teachers like to call "rise over run", or the fraction, $\frac{rise}{run}$. We call it "rise over run" because when we write out the fraction, we write how much the line rises (how much it goes up) over how much the line runs (aka, goes from left to right).
+  To find the slope, we {tag ..}pick two points{\tag} on the line, and find how much the $y$-value increased (the rise) and how much the $x$-value increased (the run).
+  To find how much they changed, all we have to do is find the difference. Remember, if the $x$ or $y$ value decreases instead of increases, we can use the negative sign to show that it went down. Remember the rules when {tag ..}finding the difference of negative numbers{\tag}!
+  Once we find these values, we put them in a fraction, the rise value over the run value: $\frac{rise}{run}$
+  {exp}{\exp}
 
-  The slope is often described as how far the line runs horizontally over how far the rises vertically. So, to find slope, we use the fraction rise/run, or change in $y$ values/change in x values.
-  Choose two points on a line and measure the difference in "rise" over "run."
 
-  {exp} Lets think of Jamie's house again!
-    Remember how Jamie's house was 2 units north of you, and 1 unit to the east? Lets think about the slope in THIS equation!
-
+  {exp}
     /* Example 124 */
   {\exp}
-  How is one to find the slope between two points?
-  Using two points with their own individual $y$ and $x$ values, use this equation for slope:
-  $(y2-y1)/(x2-x1)$ or better understood as (the 2nd $y$ value - the 1st y value)/ (the 2nd $x$ value- the 1st $x$ value)
-  How about the slope of a horizontal line or a vertical line?
-  Horizontal will result in a slope of zero. Vertical will result in a slope that is undefined. I recommend looking at example 125 for an explanation of why this is the case!
+  There is a simple formula to use when finding the slope of a line. Once you {tag ..}find two points from that line{\tag}, you can use this formula to calculate slope.
+  Let's say you have two points, $(x_1,y_1)$ and $(x_2,y_2)$ (the little 1 and 2 just tell us what point the values are from. If there is a little 1, that means it is from point number 1. If there is a little 2, that means it comes from point number 2). To find their slope, use this equation:
+  $\frac{y_2-y_1}{x_2-x_1}$
+  In words, that means find the difference in $y$-values of the two points by subtracting the first $y$-value ($y_1$) from the second $y$-value ($y_2$), and divide it by the difference in $x$-values, by taking first $x$-value ($x_2$) and subtracting it from the second $x$-value ($x_2$)
+  {exp}{\exp}
+  How about the {tag ..}slope of a horizontal line or a vertical line{\tag}?
+  Horizontal will result in a slope of zero. Vertical will result in a slope that is undefined.
 
-  /* Example 130-131 are actually very good images and examples to use*?
 
-  /* Practice Page 100-101 are rather helpful*/
 {\def}
+{tpc}[2][Slope of Horizontal or Vertical Lines]
+  When finding the slope of a horizontal or vertical line, you might run into a problem: one of the values doesn't change!
+  For example, let's start with the horizontal line. When you find two points to {tag ..}find the slope{\tag}, you will find that the $x$-values change, but the $y$-value doesn't change at all. This makes sense, because if we have a horizontal line that goes directly left and right, then even if you were to increase the $x$-value, the $y$ value doesn't change at all!
+  Remember what a slope means: For every change in $x$, how much will we change in $y$? Well, since $y$ doesn't change when you increase $x$, the slope of a horizontal line is 0.
+
+  Now a vertical line is a bit more tricky. In this case, when you try to calculate the slope, you will find that the $y$ value changes, but there is no change in the $x$ value. How can we possibly calculate how much the $y$ value changes every time the $x$ value changes, if the $x$ value never changes? Simple answer: the slope is undefined.
+  You can verify this with the slope formula as well. If you plug in all the values, you will find that the denominator of the fraction, $x_2 - x_1$ will be zero (since $x_2$ and $x_1$ are the same, there is no difference, so the difference is 0). We know that we cannot divide by zero, so we reach a contradiction, and the slope is undefined.
+  
+  There is a more complicated answer to the slope of a vertical line, but that won't be needed when dealing with algebra. For now, the slope of a vertical (up/down) line is undefined, and the slope of a horizontal (left/right) line is 0.
+{\tpc}
