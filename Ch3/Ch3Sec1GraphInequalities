@@ -2,10 +2,10 @@
 [Section 1] Solve and Graph Inequalities
 
 {def}[1][Inequality]
-  An inequality is like an equation in that it shows a relationship between two expressions.
-  However, as the name suggests, an equality does not use an equals sign ($=$) and instead uses the four inequalities less than ($<$), greater than ($>$), less than or equal to ($\leq$), and greater than or equal to ($\geq$)
+  An inequality is similar to an {tag ..}equation{\tag} in that it shows a relationship between two expressions.
+  However, as the name suggests, an inequality does not use an equals sign ($=$) and instead uses the four inequalities less than ($<$), greater than ($>$), less than or equal to ($\leq$), and greater than or equal to ($\geq$)
   $<$, $>$, $\leq$, $\geq$
-  They can be {tag ..}solved{\tag} and {tag ..} graphed {\tag}, similar to equalities, although when they are graphed, they usually take up an area of the graph rather than just a single curve.
+  They can be {tag ..}solved{\tag} and {tag ..} graphed {\tag}, similar to equalities, although when they are graphed, they usually take up a part of the number line instead of a single point.
   If we have an expression, such as $x < 4$, this means our variable can be any number smaller than 4, such as -2, 0, 3, 3.9, 3.99, 3.9999, as long as it is smaller than 4.
   The same applies for greater than, $x > 6$ means that $x$ can be anything larger than 6, including 100, 7, 6.5, 6.1, and 6.0000000000001
   Expressions such as $\leq$ (less than or equal to) and $\geq$ (Greater than or equal to) are very similar to less than and greater than, respectively. If $x \leq -5$, it means that it can be less than -5, such as -7, -9, -5.001, but it can also be exactly -5 as well.
@@ -20,9 +20,8 @@
   As you can see above, we have two different sets of brackets, '[ ]' and '( )'
   When dealing with $\leq$ or $\geq$, we want to use '[' ']' to denote that the number itself is included
   When dealing with $<$ or $>$, we use '(' and ')' to denote that the number is not included
-  If there is no largest value, we can use $\inf$ for the second number
+  If there is no largest value, we can use $\inf$ for the second number. When there is no smallest value, use $-\inf$ for the first number.
   When using either $\inf$ or $-\inf$, always used the curved '(' and ')' brackets when denoting your interval notation
-  If there is no smallest value, we can use $-\inf$ for the first number
 {\tpc}
 {tpc}[3][Graphing Inequalities (One dimension)]
   Graphing Inequalities is usually best done after doing {tag ..}interval notation{\tag}, but you can do with or without it.

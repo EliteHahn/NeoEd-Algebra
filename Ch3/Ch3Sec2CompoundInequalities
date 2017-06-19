@@ -3,10 +3,11 @@
 
 {tpc}[1][Solving OR Inequalities]
   Several inequalities can be combined together to form what are called compound inequalities, one of these is an OR inequality
-  Inequalities with OR in them signify that we want either the first to be true, or the second to be true, or both (hence, why we use or).
+  Inequalities with OR in them signify that we want either the first to be true, or the second to be true, or both (hence, why we use the word "or").
   OR inequalities are equivalent to the $\cup$ union symbol.
   To solve, {tag ..}solve each side{\tag} of the OR independently, and {tag ..}graph them{\tag}. The OR graph will be those two graphs combined, on the same number line, since we want to find points that are true for either one of those two
   {exp}{\exp}
+  Both the graphs together make up the OR inequality, but sometimes, the two lines might overlap. Remember what OR means: that if it lands on either the first, the second, or both, it is part of the final graph! That means if either of the two lines covers the graph, it is part of the solution!
   There are several different results that could result from an OR statement. The two graphs could be pointing in the same direction, they could be pointing in opposite directions, but overlap, and they can be pointing in opposite directions and not overlap
   {exp}
     /* examples of the different types of OR, and give explanations on how they act*/
@@ -17,8 +18,9 @@
 {\tpc}
 {tpc}[2][Solving AND Inequalities]
   Several inequalities can be combined together to form what are called compound inequalities, one of these is an AND inequality
-  Inequalities with AND in them signify that we only want to highlight points where they are both true, or where they overlap (where the first AND the second are highlighted). It is also common to use the $\cap$ (intersection) symbol instead of AND, as they refer to the same thing
+  Inequalities with AND in them show that we only want to highlight points where both the expressions true, or where they overlap (where the first AND the second are highlighted). It is also common to use the $\cap$ (intersection) symbol instead of AND, as they refer to the same thing
   To solve, {tag ..}solve each side{\tag} of the AND inequality, and {tag ..} graph them {\tag}. The AND graph will be the part of the number line where the two graphs overlap.
+  Remember that for AND inequalities, we only want to highlight the part of the line that BOTH statements have highlighted.
   There are 3 different results that could result from an AND statement. The two graphs could overlap while going in opposite directions, they could go in opposite directions and not overlap, and they can go in the same direction
   {exp}
     /* Like with OR, give examples of each, and use better wording !!! */
@@ -30,4 +32,5 @@
   Since there are three parts to this inequality, in order to maintain balance, we must do the same operation to all three parts (this is very similar to {tag ..}solving inequalities{\tag}, except instead of two sides, there are three. See examples for an idea of what is going on)
   {exp}{\exp}
   The graph then is simply the values between the numbers with appropriate {tag ..}brackets{\tag} on the ends
+  So why is this called an AND inequality? Well, what does it mean for a variable to be in between two numbers? It means it greater than the first one AND it is less than the second one (key word being AND)! It is important to be able to describe statements in math using English. Many times, this will help you understand what the math means if you can explain it in plain English. 
 {\tpc}

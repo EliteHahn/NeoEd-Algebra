@@ -2,16 +2,16 @@
 [Section 4] Absolute Value Inequalities
 
 {tpc}[1][Solving Absolute Value Inequalities]
-  As you may recall, {tag ..} absolute value{\tag} is the distance from zero. When used in inequalities, things can get a bit complicated.
+  As you may recall, {tag ..}absolute value{\tag} is the distance from zero. Taking the absolute value of an expression makes all negative statements positive. When used in inequalities, things can get a bit complicated.
   In order to solve, we must remove the absolute value, and how we remove the absolute value depends on the {tag ..}inequality operator{\tag}
   Consider cases such as $\vert x \vert  < 2$, or when the absolute value is less than an expression. In this case, we use the special case of and equality, such that this becomes $-2 < x < 2$.
   /* Okay, so let's fix this section, cuz it sucks */
   {exp}{\exp}
-  Since absolute value can be treated as distance, we can view this as the distance from x is less than 2
+  Since absolute value can be treated as distance, we can view this as the distance of $x$ is less than 2.  We know $x$ must be less than 2 away from 0. This means it can be 1, 1.5, 0, but it can also mean it is -1, -1.5, -1.99, because we know that all numbers from 0 to -2 are also less than 2 away from 0.
   Consider the case, $\vert x\vert > 2$, or the absolute value is greater than an expression.
-  In this case, the equation is very similar to an OR expression, so this becomes $x > 2$ or $x < -2$
-  Since absolute value is similar to distance, we can view this expression as, the distance from x is greater than 2.
+  In this case, the equation is very similar to an OR expression, so this becomes $x > 2$ OR $x < -2$
+  Since absolute value is similar to distance, we can view this expression as, the distance from x is greater than 2. We want to be further than 2 away from 0.
   {exp}{\exp}
-  Once we have written these as compound inequalities, all is left to do is {tag ..}solve them{\tag}, and {tag ..} graph them{\tag}
+  Once we have written these as compound inequalities, all is left to do is {tag ..}solve them{\tag}, and {tag ..}graph them{\tag}. As you may have noticed, this process is no different from the methods we learned before, because we now have put them in a form that doesn't have any absolute value signs.
   Remember, when dealing with inequalities, to flip the sign when {tag ..}dividing and multiplying by negative numbers{\tag}. Also, if your {tag ..}absolute value is negative{\tag}, you have reached a contradiction, and there are no solutions
 {\tpc}
