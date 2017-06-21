@@ -2,31 +2,26 @@
 [Section 1] Graphing
 
 {def}[1][System of Equations]
-  A system of equations is two or more equations used to solve for variables;
-  One must have at least one equation for each variable needed to be solved.
-  {exp}
-    If a question wants to determine the values of X and Y, there must be at least two equations; for variables $X$, $Y$, and $Z$, three equations are needed
-  {\exp}
-  {exp}
-      /*insert Example 165*/ For a system of two equations, graphs on the coordinate plane are a very useful tool.
-  {\exp}
+  A system of equations is two or more equations used to solve for variables.
+  When you have an equation with two variables, let's say $x$ and $y$, we know that sometimes there are infinite solutions, which is why we learned to {tag ..}graph lines{\tag}.
+  However, when you have two or more equations, sometimes you want to find values for $x$ and $y$ so that both of the equations are true. Assuming that these two equations are different, one of the famous ideas in math say that there is at most 1 possible combination of $x$ and $y$ so that both of these equations can be true. We can get this value by {tag ..}solving a system of equations{\tag}. It's important to note that for every variable you hope to solve for, you need at least 1 equation.
+
 {\def}
 
+
+
 {tpc}[2][USING GRAPHS FOR SYSTEMS OF TWO EQUATIONS]
-  The key point (no pun intended) to remember is that the intercept of the two lines is the solution to the system of equations.
+  The key idea to remember is that the intercept of the two lines is the solution to the system of equations.
+  Let's think for a minute about why this is. If we have an equation for a line, we know that every single {tag ..}coordinate pair{\tag} ($x,y$) that makes that equation true is going to be on that line. In addition, we know that if the point is on the line, it's going to be a solution to our equation, that's why we have lines: to give us a visual representation of our equation. So when we're solving a {tag ..}system of equations{\tag}, we want to find a coordinate (a point), that makes two different equations true. Well, if the point makes both equations true, that means that it must be on both lines.
+  Well, for any two lines that {tag ..}intersect{\tag}, the only point that is on both lines is the point where the two lines cross! This is the only point, where both lines go through, and we know they both go through this point because we can see it on the graph! Therefore, this is the point that will make both statements true.
+  So what does this mean? Well, if we have two equations, we already know how to {tag ..}graph them{\tag}, and once we do that, the solution to our {tag ..}system of equations{\tag} is the point where the two lines cross!
   {exp}
-    Imagine we are given an equation with two variables: $3x+y=10$. We can procede to graph this equation onto a coordinate plane;
-    First we can reorganize the equation into the familiar form: $y=mx+b$ --> $y=-3x+10$, and plot these points onto our graph;
-    Then, we can connect these points and form the line that represents the equation: every single point on the line is an answer to this equation.
-    Now, let us add in a second line: x-y=5. We can graph y=x-5 onto the plane. Every point on this new line is a solution to the equation.
-    However, the only point that is a solution to BOTH equations is the point where their two lines intersect. At that point, the $X$ and $Y$ value can satisfy both equations.
   {\exp}
   {exp}
-    /*insert Example 169*/
   {\exp}
+  Sometimes, you will find that the two lines do not cross, meaning they are {tag ..}parallel lines{\tag}. Well, if the two lines never cross, that means there is no point that both lines share. In this case, that means there are no solutions
   {exp}
-    Special Cases: When the lines of the two equations have the same slope;
-    if the lines are different (parallel), there is no solution;
-    if the lines are the in fact the same, there are infinite solutions.
   {\exp}
+  There will be times when you are graphing your two lines and you realize that they are the exact same line, maybe written slightly differently. So solving the {tag ..}system of equations{\tag} is basically asking you to find all the points that the two lines share. Since they're the same line, they share every single one of their points. In this case, there are infinite solutions. It is of course, impossible to write out all infinite solutions, so we simply write that there are infinite solutions
+  {exp}{\exp}
 {\tpc}

@@ -1,31 +1,28 @@
 [Chapter 4] System of Equations
 [Section 2] Substitution
 
-{def}[1][Substitution]
-  Substitution is an algebraic approach to solving Systems of Equations that involves using one equation to substitute an entire variable in the other equation.
-{\def}
 
-{tpc}[2][SHORTCOMINGS OF GRAPHING]
-  While graphing is an excellent visual aid that helps explain how Systems of Equations work, and why answers derived algebraically make sense, they are inefficient;
-  They are difficult to use with large numbers;
-  They are challenging when numbers are not easily graphed: decimals, irrational numbers, etc.;
-  They are more time consuming and generally use more space than algebraic methods.
+{tpc}[2][Shortcomings of Graphing]
+  While graphing is an excellent visual aid that helps explain how Systems of Equations work, and why answers derived algebraically make sense, they are inefficient for several reasons.
+  Graphing is difficult to use with large numbers. If we have two equations such as $y = 751x + 51$ and $y = 1204x - 1300$. Graphing this would be extremely inefficient, and definitely not worth doing.
+  Graphing is also very inaccurate and difficult with numbers that are not easily graphed, such as decimals, irrational numbers, and fractions. Graphing these require immense precision, many times to the point where it is impossible
+  Finally, graphing is very time consuming and generally use more space than other methods that we will learn about.
+  We need another way that is quicker and more accurate to solve {tag ..}systems of equations{\tag}
 {\tpc}
 
-{tpc}[3][HOW TO USE SUBSTITUTION (For System of Two Equations)]
-  Substitution can be performed in a 5-step algebraic process;
-    Given a System:
-    1. Find the lone variable
-    2. Solve for the lone variable
-    3. Substitute into the untouched equation
-    4. Solve
-    5. Plug into lone variable equationi and evaluate
+{tpc}[3][Using Substitution For System of Two Equations]
+  Substitution is the process in which we solve a {tag ..}system of equations{\tag} by rewriting the formulas so there is only one variable used. Since we know {tag ..}how to solve for one variable{\tag}, this would be a very helpful thing to be able to do.
+  Substitution can be performed in a simple algebraic process
+    1. Solve one equation for one of the variables. It can be either one. You should now have an equation in the form $x = _____$ or $y= ____$ (or whatever variable the system uses).
+    2. Now that you have an expression equal to the variable from step 1, we can now {tag ..}substitute our newly created equation{\tag} into the equation we didn't change at all, every time we see that variable.
+    3. We now have an equation with only one variable! We can now {tag ..}solve this{\tag} and find a solution for the second variable!
+    5. Now that we have a value for one of the variables, we can plug it back into one of the original equations. Again, we have an equation with only one variable, this time, with the other variable. {tag ..}Solve just as you did before{\tag}. You now have solved both variables
 
+  You can check that this process works by {tag ..}plugging the two values{\tag} for both variables back into both equations. You will see that in both cases, you will get true statements.
   {exp}
-    /*insert Example 172*/
   {\exp}
+  As we have seen in graphing, it is possible for a System of Equations to have zero or infinite solutions. We have come across this before {tag ..}when we were first learning how to solve linear equations{\tag}. Sometimes in linear equations, you can have both no solutions or infinite solutions.
   {exp}
-    As we have seen in graphing, it is possible for a System of Equations to have zero or inffinite solutions.
     /*insert Example 174 and 175*/
   {\exp}
 {\tpc}

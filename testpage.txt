@@ -1,1 +1,14 @@
 This is a test page. There is nothing here that we should really be worried about
+
+{tpc}[2][Solving Systems of Equations]
+  When a question asks you solve a {tag ..}system of equations{\tag}, what they are really asking for is find the point that has an $x$-value and $y$-value that makes ALL of the equations true.
+  Most systems of equations in Algebra have 2 variables, $x$ and $y$, but in more advanced math courses, there can be $3$, $4$, or more variables. In fact, there are courses that teach dealing with hundreds of variables!
+  The general rule is, to solve a {tag ..}system of equations{\tag}, we must have at least one equation for each variable needed to be solved. So if there are four variables that we want to know the solution to, then we need 4 equations to solve this system of equations.
+  {exp}
+  {\exp}
+  So how do we do solve a system of equations? Well, we know how to solve if there was only 1 variable in the equation, so we should try to manipulate the system so that there is only 1 variable by getting rid of one of them.
+  Let's say we have an equation $x + 3y = 15$, and we want to get rid of the $3y$. Well, in the past we learned that we can do the {tag ..}opposite operation on both sides{\tag} of the equation, that is, subtract $3y$ from both sides. In this case however, that won't help
+  {exp}
+  {\exp}
+
+{\tpc}

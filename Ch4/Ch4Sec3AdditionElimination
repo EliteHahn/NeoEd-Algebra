@@ -5,12 +5,33 @@
   An algebraic approach where one adds or subtracts the given equations to eliminate one of the variables.
 {\def}
 
-{tpc}[2][SHORTCOMINGS OF SUBSTITUTION]
-  While Substitution will generally be the most common method in solving systems of equations, there are cases where it is not effect;
-  specifically, if it is not possible to isolate a lone variable/would result in difficult coefficients.
+{tpc}[2][Shortcomings of Substitution to Solve Systems of Equations]
+  While Substitution will generally be the most common method in solving systems of equations, there are cases where it is not effective, specifically, when isolating the lone variable gets difficult and messy. There are times when doing so would result in difficult problems that are very easy to make mistakes on.
+  {exp}{\exp}
 {\tpc}
 
-{tpc}[3][HOW TO USE ADDITION/ELIMINATION METHODS]
+{tpc}[3][Using Addition/Elimination to Solve Systems of Equations]
+  When a question asks you solve a {tag ..}system of equations{\tag}, what they are really asking for is find the point that has an $x$-value and $y$-value that makes ALL of the equations true.
+  Most systems of equations in Algebra have 2 variables, $x$ and $y$, but in more advanced math courses, there can be $3$, $4$, or more variables. In fact, there are courses that teach dealing with hundreds of variables!
+  The general rule is, to solve a {tag ..}system of equations{\tag}, we must have at least one equation for each variable needed to be solved. So if there are four variables that we want to know the solution to, then we need 4 equations to solve this system of equations.
+  {exp}
+  {\exp}
+  So how do we do solve a system of equations? Well, we know how to solve if there was only 1 variable in the equation, so we should try to manipulate the system so that there is only 1 variable by getting rid of one of them. We have done this through {tag ..}substitution{\tag}, but sometimes, {tag ..}this method requires a lot of work and can be easy to make mistakes on{\tag}.
+  Let's say we have an equation $x + 3y = 19$, and we want to get rid of the $3y$. Well, in the past we learned that we can do the {tag ..}opposite operation on both sides{\tag} of the equation, that is, subtract $3y$ from both sides. In this case however, that won't help
+  {exp}
+  {\exp}
+  We can't simply subtract terms from an equation, because {tag ..}we have to do the same thing on both sides of the equation{\tag}. As you can see above, the $3y$ just appeared back into the other side of the equation; we didn't actually get rid of it.
+  So how do we get rid of it? Well, let's recall a few key principles: {tag ..}doing the same operation to both sides of the equation{\tag} and {tag ..}what it means to be equal{\tag}.
+  So we know somehow we have to get rid of that $3y$, but we want to be able to do so without just moving it to the other side of the equation. So what if we knew what $3y$ was equal to. If we could find a way to have $3y$ on one side of the equation, but only have an expression with $x$ and constants on the other side of the equation, then we could subtract $3y$ from one side of the equation and subtract our expression from the other side of the equation! This way, we could get rid of the $3y$ on the left side of the equation without adding it back into the other side of the equation!
+  {exp}{\exp}
+  This {tag ..}we know how to solve{\tag}! But unfortunately, we don't have a magical expression that equals $3y$. In a system of equations, something we do have however, is a second equation!
+  Let's say this second equation is $2x - y = 3$. This equation doesn't have $3y$ either, but we know we can get it by {tag ..}multiplying the both the left and right hand side of the equation{\tag} by 3! When we do this, we get $3(2x - y) = 3(3) = 6x - 3y = 9$. Remember that doing the same operation to both sides of the equation doesn't actually change it, it just presents it so that it looks different.
+  So now we have our first equation and a new equation, $x + 3y = 19$ and $6x - 3y = 9$. Let's take a look at this for a moment. We now have a second equation, that has $3y$ on one side, but not the other side, which means we can add the left sides of the first and second equation, and then we can add the right sides of the first and second equations! Doing this, we get $x + 3y +6x - 3y = 19 + 9$. Remember, we wanted to add these together to get rid of the $3y$, which can be cancelled out by {tag ..}combining like terms{\tag}! After {tag ..}simplifying{\tag}, we get $7x = 28$, and this is an equation which we know how to solve!
+  /*Solve*/
+  Once we solve for $x$, we can {tag ..}plug it back into either equation{\tag}, and solve for $y$!
+  /*Solve*/
+  Now we have an $x$ value and a $y$ value, meaning we have a point that is true for both equations. This means, we have successfully solved this system of equations!
+  
   The Addition/Elimination method can be performed in a 5-step process;
   Given a System:
   1. Line up variables and constants
