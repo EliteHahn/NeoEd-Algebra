@@ -2,8 +2,12 @@
 [Section 4] Three Variables
 
 
-{tpc}[1][SOLVING A SYSTEM OF THREE EQUATIONS]
-  The key in solving a system of three equations is keeping your work and your equations organized.
+{tpc}[1][Solving a System of Three Equations]
+  The key in solving a system of three equations is keeping your work and your equations organized. Although the process itself is not that different from {tag ..}solving a system of two equations{\tag}, since there are more equations, things can get messier much faster.
+  To solve, we first want to get two equations with only the same two variables in them. For example, if our variables were $x$, $y$, and $z$, we may want to have two equations using only $x$ and $y$. Use either {tag ..}the addition/elimination method{\tag} or {tag ..}substitution method{\tag}, making sure you are careful not to lose track of your variables on the way. Remember, we only want to eliminate one variable at a time here, in our case, we want to remove the $z$ variable.
+  You will have to do this process twice, with two different combinations of the three equations, so that you can have two equations with the same two variables. After you have this, we have a {tag ..}System of Two Equations{\tag}. We know how to solve these, so just use {tag ..}the addition/elimination{\tag} or {tag ..}substitution{\tag} method to solve for those two variables.
+  Once you have values for those two variables, we can plug them back into one of the original equations to get our final value ($z$ in our case). Now that you have values for all three variables, we have solved the system of equations!
+
   The process of solving the system is in the following steps:
   1. Reduce three variables down to two. This is done by using the Addition/Elimination method on two of the equations. The new equation formed will be labeled as equation A.
   2. Using a different combination of the original equations, eliminate the same variable selected in step 1, this new equation will be labeled as equation B:
@@ -14,8 +18,7 @@
   6. Plug both these values into one of the original equations, to obtain a value for the third variable; the system is solved.
 
   {exp}
-    /*insert example 183*/
   {\exp}
 
-  Solving a system of more than two equations is not more difficult, it is just more imperative to remain organized.
+  Just remember, solving a system of more than two equations is not more difficult, it is just more important to remain organized.
 {\tpc}

@@ -6,7 +6,7 @@
   These questions are common in fields such as chemistry, where the mixing of different concentrations is an integral part of experiments.
 {\def}
 
-{tpc}[2][SOLVING MIXTURE PROBLEMS]
+{tpc}[2][Solving Mixture Problems]
   Mixture problems use a similar table to the ones in Value problems. However, the labels are sightly altered;
   Rows: There are three rows in a standard two solution mixture problem, Item 1, Item 2, and Final
   Column: There are three columns, labeled as Amount, Part, and Total
@@ -18,7 +18,6 @@
   It is the objective of these problems to fill in the missing values.
 
   {exp}
-    /*insert Example 191 to show a one variable problem, Example 193 shows a two variable problem*/
   {\exp}
 
  {\tpc}

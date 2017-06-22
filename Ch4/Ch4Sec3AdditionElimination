@@ -31,8 +31,14 @@
   Once we solve for $x$, we can {tag ..}plug it back into either equation{\tag}, and solve for $y$!
   /*Solve*/
   Now we have an $x$ value and a $y$ value, meaning we have a point that is true for both equations. This means, we have successfully solved this system of equations!
-  
-  The Addition/Elimination method can be performed in a 5-step process;
+  This process worked for this specific equation, but there is a general way to solve any system of equation using addition elimination.
+  The key is, we want to get rid of one variable by combining the two equations. In order to do that, we must have a positive {tag ..}coefficient{\tag} for that variable in one equation, but an equal and negative coefficient for that variable in the second equation. In our previous example, this was the $3$ in $3y$ and $-3y$.
+  In order to get this, we may have to multiply the equations by something, so that they become equal. The {tag ..}least common denominator{\tag} is good for this purpose. If you {tag ..}find the LCD{\tag} of the two coefficients, you can multiply both equations by a constant so that the coefficient becomes the LCD. That way, they will be the same. Don't forget to make one negative though!
+  Now, we can add the two equations together. Remember, this is possible because we are allowed to do the same operation to both sides to the first equation. Since both sides of the second equation are {tag ..}by definition{\tag}, the same value, we can add the left sides together, and the right sides together. If done properly, this should get rid of one variable.
+  Now, you have a single equation with one variable, which {tag ..}we know how to solve{\tag}! Do this to get a value for our first variable.
+  After you get this value, plug it back into one of the original equations. This will give you an equation with only the other variable, which again, we can solve in the same way! After we do this, we will have values for both variables, and the system of equations is solved.
+
+  The Addition/Elimination method can be performed in a 5-step process:
   Given a System:
   1. Line up variables and constants
   2. Multiply to get opposite (use LCD)
@@ -41,17 +47,11 @@
   5. Plug into either original equation and solve
 
   {exp}
-    Given the equations: 2x-5y=-13 and -3y+4=-5x; notice that attempting to isolate either variable in both equations would result in fractions in the co
-    Line up the variables and constants in the equations: ax+by=c --> 2x-5y=-13 and 5x-3y=-4;
-    Multiply to get opposites (use LCD): in this case, we can try to eliminate the x variable by first finding the LCD of 2 and 5. That value is 10.
-    We result with the equations -5(2x-5y)=(-13)(-5) --> -10x+25y=65 and 2(5x-3y)=(-4)2 --> 10x-6y=-8
-    Add the two equations, which would eliminate the x variable and result in --> 19y=57
-    Solve for y: 19y/19=57/19 --> y=3
-    Plug y=3 into either original equation: 2x-5(3)=-13 --> 2x=2 --> x=1
-    Solution: (1,3)
-  {\exp}
 
+  {\exp}
+  Just like with previous methods of solving systems of equations, it is also possible to get zero solutions, or infinite solutions. Remember, when solving for a variable, you may reach either a {tag ..}true statement, or a contradiction{\tag}. As we learned before, if the statement is true, for example $10=10$, then we know that the system of equation is true for all values of the variables.
+  If it is a contradiction, a false statement, such as $9 = 10$, we know that there are no solutions to the system of equations, because the lines do not intersect!
   {exp}
-    /*insert Example 180 and 181*/ Shows how there can be either zero solutions or infinite solutions
+
   {\exp}
 {\tpc}
