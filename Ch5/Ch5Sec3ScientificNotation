@@ -2,19 +2,22 @@
 [Section 3] Scientific Notation
 
 {def}[1][Scientific Notation]
-  Scientific notation is one of the most widely applied uses of exponents used in many different fields, including chemistry, physics, engineering, statistics, and many others
+  Scientific notation is one of the most widely applied uses of exponents used in many different fields, including chemistry, physics, engineering, statistics, and many others.
   It is a way of representing really large, or really small numbers
   {exp}/*Examples of very large/small numbers, in both scientific and standard notation */{\exp}
+  The two numbers represent the same value, but as you can see, one is much easier and shorter to write than the other.
   Scientific notation has two parts: A number between one and ten (it can be equal to one, but not ten), and that number multiplied by ten to some exponent
-  $a \times 10^b where 1 \leq a < 10$
+  $a \times 10^b$ where $1 \leq a < 10$
   The exponent, $b$, is very important to know how we convert between scientific notation and normal numbers, or standard notation.
   The exponent tells us how many times we will multiply by 10, which we know moves the decimal point one place
   To decide which direction to move the decimal (left or right), we need to remember that positive exponents mean in {tag ..}standard notation{\tag} we have a big number (bigger than 10) and negative exponents mean in {tag ..}standard notation{\tag} we have a small number (less than 1)
   {exp}/* Examples of us moving decimal places */{\exp}
   We can easily make {tag ..}conversions between standard notation and scientific notation{\tag}
+
 {\def}
 {def}[2][Standard Notation]
   Standard notation is the way we write most numbers in everyday use. This is in contrast to {tag ..}scientific notation{\tag}, which uses exponents to represent a number.
+  {exp}{\exp}
 {\def}
 
 {tpc}[3][Converting between Standard Notation and Scientific Notation]
@@ -26,10 +29,12 @@
   {exp}/*Give examples of this shit*/{\exp}
   Remember that if the decimal is not written in {tag ..}standard notation{\tag}, we assume it is at the end of the number
   {exp}/*Examples of no decimal numbers*/{\exp}
+
   Scientific Notation to Standard Notation
   This is the opposite process as above. The exponent tells us how many spots we need to move, and in which direction.
-  If the exponent is positive, we move the decimal to the right
-  If the exponent is negative, we move the decimal to the left
+  If the exponent is positive, we move the decimal to the right, making the number large (greater than 1)
+  If the exponent is negative, we move the decimal to the left, making the number small (less than 1)
+
   {exp}{\exp}
   Note that if we run out of places to move the decimal, we use zeros to hold its place
   {exp}{\exp}
@@ -37,12 +42,13 @@
   {exp}/*Examples of really big and small numbers*/{\exp}
 {\tpc}
 {tpc}[4][Multiplying and Dividing Numbers in Scientific Notation]
-  By the {tag ..} communitive property of multiplication{\tag}, it is pretty easy to arrange the multiplication and division of numbers in scientific notation to make them fairly simple to solve
-  To multiply two numbers in {tag ..}scientific notation{\tag}, {tag ..}multiply the 10^a numbers{\tag} separately, and multiply the other two standard numbers separately.
+  By the {tag ..}communitive property of multiplication{\tag}, it is pretty easy to arrange the multiplication and division of numbers in scientific notation to make them fairly simple to solve
+  To multiply two numbers in {tag ..}scientific notation{\tag}, {tag ..}multiply the $10^a$ numbers{\tag} separately, and multiply the other two standard numbers separately.
   Multiplying these two separate parts together gets us the final solution in scientific notation
+  {exp}{\exp}
   The same is true for dividing two numbers in {tag ..}scientific notation{\tag}. Simply {tag ..}divide the powers of 10 $(10^a)${\tag} separately, and divide the two standard numbers separately, and multiply the results together.
   Remember the rules when {tag ..}dealing with exponents in the denominator{\tag} as well as {tag ..} negative exponents{\tag}
-  After multiplying or dividing, remember to {tag ..}rewrite the new number in scientific notation{\tag}
+  After multiplying or dividing, remember to {tag ..}rewrite the new number in scientific notation{\tag} if need be.
 
 {\tpc}
 {tpc}[5][Rewriting numbers in scientific notation after Multiplying or Dividing]

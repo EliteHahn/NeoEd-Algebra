@@ -10,20 +10,23 @@
   $a^{-m} = \frac{1}{a^m}$
   Equivalently, we can rewrite this as
   $\frac{1}{a^{-m}} = a^m$
+  In english, this means that anything to a negative exponent ($a^{-m}$) is just equal to 1 over that number to the same positive exponent.
   For fractions to negative exponents, we can flip the {tag ..}numerator{\tag} and {tag ..}denominator{\tag}
   $(\frac{a}{b})^{-m} = (\frac{b}{a})^m = \frac{b^m}{a^m} = frac{a^{-m}}{b^{-m}}$
+  {exp}{\exp}
+  Notice how $a^{-1}$ is just the {tag ..}reciprocal{\tag} of that number!
 {\def}
 {tpc}[3][Simplifying Negative Exponents by Removing Negative Exponents]
-  Negative exponents can be combined in several different ways.
-  If we want to get rid of negative exponents, we think of our expression as a fraction
+  Negative exponents can be removed in several different ways. If a question asks you to take an expression and change it so that it doesn't have any negative exponents, we need to learn an easy way to do this
+  If we want to get rid of negative exponents in an expression, we can think of our expression as a fraction
   Negative exponents in the numerator must be moved to the denominator.
   Likewise, negative exponents in the denominator need to be moved to the numerator.
-  When the base with the negative exponent moves, the exponent becomes positive
+  When the base with the negative exponent moves, the exponent becomes positive. This is because of the {tag ..}rules of exponents{\tag}: Flipping the sign of the exponent is the same as moving the base from the numerator to the denominator, or vice versa.
   {exp}{\exp}
   Once this is done, you can {tag ..}simplify just as you would with positive exponents{\tag}
 {\tpc}
 {tpc}[4][Moving Everything to the Numerator]
-  There may be times when a question asks you to move all terms to the numerator.
-  In this case, flip the signs of all exponents in the denominator, and move them to the numerator
+  There may be times when a question asks you to move all terms to the numerator, essentially getting rid of the denominator.
+  In this case, flip the signs of all exponents in the denominator, and move them to the numerator. 
   {exp}{\exp}
 {\tpc}

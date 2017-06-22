@@ -1,33 +1,36 @@
 [Chapter 5] Polynomials
-[Section 4] Introductino to Polynomials
+[Section 4] Introduction to Polynomials
 
 {def}[1][Terms]
-  Terms are a product of numbers and/or variables
+  A term is a product of numbers and/or variables
   {exp}{\exp}
   {nex}{\nex}
   Expressions are often {tag ..}named based on the number of terms in them{\tag}, for example, a monomial has one term, a binomial has 2 terms, and a polynomial has many terms. All of these fall into the category of {tag ..}polynomials{\tag}
 {\def}
-{tpc}[2][Names of polynomials]
+{tpc}[2][Names of Polynomials]
   {tag ..}Polynomials{\tag} are named based on the number of {tag ..}terms{\tag} they have. Here are a few of the common names of {tag ..}polynomials{\tag} that you will see
-  Monomials have one {tag ..}term{\tag}
+  Monomials have one {tag ..}term{\tag} (The prefix, Mono- means 1)
   {exp}{\exp}
-  Binomial have two {tag ..}terms{\tag}
+  Binomial have two {tag ..}terms{\tag} (The prefix Bi- means 2)
   {exp}{\exp}
-  Trinomials have three {tag ..}terms{\tag}
+  Trinomials have three {tag ..}terms{\tag} (The prefix Tri- means 3)
   {exp}{\exp}
-  Polynomials have many {tag ..}terms{\tag}
+  Polynomials have many {tag ..}terms{\tag} (The prefix Poly- means many)
   {exp}{\exp}
 {\tpc}
 
 {def}[3][Polynomial]
-  Polynomials are a group of 1 or more terms, separated by addition or subtraction
+  Polynomials are a group of 1 or more terms, separated by addition or subtraction.
+  {tag ..}Polynomials are named{\tag} based on the number of terms they have
   {exp}{\exp}
+  Polynomials are a concept that will come up frequently in algebra and higher level maths. It is important to get comfortable with them, so that later, as we will continue to learn about them over time.
 {\def}
 
 {tpc}[5][Evaluating Polynomials]
-  Given a {tag ..}polynomial{\tag} with variables, you can {tag ..}evaluate the polynomials as long as you know the values of the variables{\tag}
+  Given a {tag ..}polynomial{\tag} with variables, you can {tag ..}evaluate the polynomials as long as you know the values of the variables{\tag}. Simply replace the variable with the number when necessary.
   {exp}{\exp}
-  It is important to be careful with {tag ..}negative variables with even exponents{\tag}. This means that $-x^2$ can be a different solution from $(-x)^2$, so you need to be careful of what you are dealing with
+  It is important to be careful with {tag ..}negative variables with even exponents{\tag}. This means that $-x^2$ can be a different solution from $(-x)^2$, so you need to be careful of what you are dealing with. When replacing a variable with a number or term, remember to {tag ..}use parenthesis{\tag} to show that the variable equals the entire term, not just a one part.
+  {exp}{\exp}
 {\tpc}
 
 {tpc}[5][Negative Numbers with exponent vs Negative Numbers with Exponents]
@@ -35,7 +38,7 @@
   This is because, with even exponents, negative numbers may become positive.
   Consider the following examples and their contrasts
   {exp}{\exp}
-  Notice how when the negative is in parenthesis, it is also being raised to the power, but when it is on the outside, {tag..}order of operations{\tag} denotes that the number is squared, and then negated.
+  Notice how when the negative is in parenthesis, it is also being raised to the power, but when it is on the outside, {tag..}order of operations{\tag} denotes that the number is squared, and then negated. A negative sign is just like a $-1$. When it is raised to an even power, it becomes a positive sign. When it is raised to an odd power, it stays a negative sign. 
 {\tpc}
 
 {tpc}[6][Simplifying Polynomials]

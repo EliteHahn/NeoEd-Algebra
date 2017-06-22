@@ -3,15 +3,17 @@
 
 {tpc}[1][Multiplying Monomials]
   Multiplying {tag ..}monomials{\tag} is a concept that is needed for multiplying polynomials
-  The process is very simple. Just multiply together the coefficients, and multiply the variables using {tag ..}exponent rules{\tag}
+  The process is very simple. Just multiply together the coefficients, and multiply the variables using {tag ..}exponent rules{\tag}.
+  After multiplying monomials, you should have each variable listed at most 1 time for it to be simplified.
   {exp}{\exp}
+  {nex}{\nex}
 {\tpc}
 
 {topic}[2][Multiplying Monomials by Polynomials]
   Multiplying monomials by Polynomials is an important concept to understand for when we are multiplying polynomials
-  The process is very simple: simply {tag ..}distribute the monomial through the parenthesis using the distributive property{\tag}
+  The process is simple: simply {tag ..}distribute the monomial through the parenthesis using the distributive property{\tag}
   {exp}{\exp}
-  Then, since now we have multiple products of monomials, {tag ..}multiply the monomials{\tag} to get your final answer
+  Then, since now we have multiple products of monomials, {tag ..}multiply each of the the monomials{\tag} to get your final answer. You should end up with the same number of {tag ..}terms{\tag} as you did in your original polynomial.
 
 {\tpc}
 
@@ -19,12 +21,12 @@
   Distribution is one of the several ways to multiply polynomials
   The advantage of using Distribution is that it can be used to multiply polynomials of any size
   Just like you can {tag ..}distribute a monomial through parenthesis{\tag}, we can distribute an entire polynomial as well
-  As we do this, we take each term of the second polynomial and put it in front of the first polynomial
+  As we do this, we take each term of the second polynomial and multiply it to the first polynomial.
   {exp}{\exp}
   After doing this step, recognize that you know have two different monomials multiplied to polynomials. {tag ..}Multiply those out{\tag}
-  Essentially, you are doing multiple distributions
+  Essentially, you are doing multiple distributions to multiply polynomials. Because of this, this process can get pretty messy, so be sure to write clearly to avoid making mistakes.
   It is important to remember to {tag ..}keep the positive and negative signs while distributing{\tag}
-  This process of distribution can also be reversed, in a very important process called {tag ..}factoring{\tag} which we will learn about
+  This process of distribution can also be reversed, in a very important process called {tag ..}factoring{\tag} which we will learn about at a later chapter. 
 {\tpc}
 
 {tpc}[4][Multiplying Binomials through FOIL]

@@ -3,36 +3,39 @@
 
 {def}[1][Product Rule of Exponents]
   $a^ma^n = a^{m+n}$
-  In this case, a can represent anything. It can be a variable, a number, an imaginary number.
+  In this case, $a$ and $b$ can represent anything. They can be variables, numbers, imaginary numbers, an expression within parenthesis
+  This property can be used to simplify exponents:
   {exp}{\exp}
-  This property can be used to simplify exponents
 {\def}
 {def}[2][Quotient Rule of Exponents]
   $\frac{a^m}{a^n} = a^{m-n}$
-  In this case, a can represent anything. It can be a variable, a number, an imaginary number.
+  In this case, $a$ and $b$ can represent anything. They can be variables, numbers, imaginary numbers, an expression within parenthesis
   {exp}{\exp}
   This property can be used to simplify exponents
 {\def}
 {def}[2][Power of a Power Rule of Exponents]
   $(a^m)^n = a^{mn}$
-  In this case, a can represent anything. It can be a variable, a number, an imaginary number
+  In this case, $a$ and $b$ can represent anything. They can be variables, numbers, imaginary numbers, an expression within parenthesis
   {exp}{\exp}
   This property can be used to simplify exponents
 {\def}
 {def}[4][Power of a Product Rule of Exponents]
   $(ab)^m = a^mb^m$
-  In this case, a and b can represent anything. They can be variables, numbers, imaginary numbers
+  In this case, $a$ and $b$ can represent anything. They can be variables, numbers, imaginary numbers, an expression within parenthesis
   {exp}{\exp}
+  We need to remember however that $(a+b)^n \neq a^n + b^n$. The Power of a Product Rule only works for products! If there are more than one {tag ..}terms{\tag} in the parenthesis, then we cannot use this property.
+  {nex}{\nex}
 {\def}
-/* We need a common error tag for (a+b)^n != a^n + b^n*/
 {def}[5][Power of a Quotient Rule of Exponents]
   $(\frac{a}{b})^m = \frac{a^m}{b^m}$
-  In this case, a and b can represent anything. They can be variables, numbers, imaginary numbers
+  In this case, $a$ and $b$ can represent anything. They can be variables, numbers, imaginary numbers, an expression within parenthesis
   {exp}{\exp}
 {\def}
 {tpc}[5][Simplifying Problems with Exponents]
   Many times, the five properties, {tag ..}product rule of exponents $(a^ma^n=a^{m+n})${\tag}, {tag ..}quotient rule of exponents ($\frac{a^m}{a^n} = a^{m-n}{\tag}$), {tag ..}power of a Power Rule of Exponents $((a^m)^n=a^{mn}{\tag})$, {tag ..}Power of a Product Rule of Exponents$((ab)^m = a^mb^m)${\tag}, and {tag ..}Power of a Quotient Rule of Exponents $((\frac{a}{b})^m = \frac{a^m}{b^m})${\tag} are often found in the same question
   Although there is a little bit of flexibility as to which property is used first, {tag ..}order of operations{\tag} still applies to a problem. Simplifying within a parenthesis, then power rules, then product and quotient rules is a safe way to not make errors
-  Many times, there will be multiple ways to simplify an exponent problem, but at each step, you should aim to simplify the problem carefully, without making mistakes and without losing track of variables or exponents
+  Many times, there will be multiple ways to simplify an exponent problem, but at each step, you should aim to simplify the problem carefully, without making mistakes and without losing track of variables or exponents.
+  Whenever you see a problem where you need to simplify problems with exponents, try to find a place where you can apply one of these rules. After applying them one at a time, you will eventually get yourself to a much simpler answer.
+  When the expression cannot be simplified further, then you are done. 
   {exp}{\exp}
 {\tpc}
