@@ -13,7 +13,7 @@
 {tpc}[2][Factoring]
 
 {\tpc}
-{tpc}[1][Using the Greatest Common Denominator to Factor]
+{tpc}[3][Using the Greatest Common Denominator to Factor]
 
 	A factored polynomial makes it easier to {tag ..}solve equations{\tag}, learn behaviors of :tag ..}graphs{\tag}, and work with fractions, and more.
 	Previously, we multiplied monomials by polynomials by {tag ..}distributing {\tag}, solving problems such as $4x^2(2x^2-3x+8) = 8x^4-12x^3+32x$. In this section we will work the same problems backwards, starting with 8x^2-12x^3+32x and work backwards to 4x^2(2x^2-3x+8).
