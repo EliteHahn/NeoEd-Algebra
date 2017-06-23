@@ -2,10 +2,10 @@
 [Section 1] Greatest Common Factor
 
 {def}[1][Factor]
-	If we have an expression $e$, all expressions that evenly divide $e$ are called Factors of $e$. The expression $e$ can be anything, a number, a polynomial, a term. Similarly, the Factors of $e$ can also be any of those things as well. 
+	If we have an expression $e$, all expressions that evenly divide $e$ are called Factors of $e$. The expression $e$ can be anything, a number, a polynomial, a term. Similarly, the Factors of $e$ can also be any of those things as well.
 	{exp}{\exp}
 {\def}
-{def}[1][Greatest Common Denominator]
+{def}[2][Greatest Common Denominator]
 	The Greatest Common Denominator of a group of terms is the largest value that can evenly divide each term in the group.
 	{exp}{\exp}
 	Why is this important? Because when we find the greatest common denominator of a group of terms, we are able to do a technique called {tag ..}factoring{\tag}, where you simplify an expression by taking out the greatest common denominator from all the terms.
