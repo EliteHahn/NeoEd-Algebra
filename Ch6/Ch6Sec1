@@ -4,69 +4,46 @@
 {def}[1][Factor]
 	If we have an expression $e$, all expressions that evenly divide $e$ are called Factors of $e$. The expression $e$ can be anything, a number, a polynomial, a term. Similarly, the Factors of $e$ can also be any of those things as well.
 	{exp}{\exp}
+	Why are factors important? Well, especially for expressions and terms, factors can tell as a lot about how the graphs of these expressions might look like, as well as {tag ..}where their graphs will hit the $x$-axis{\tag} (a topic that is very important to both algebra and higher level math courses).
+	The process known as {tag ..}factoring{\tag}, is the process of splitting up an expression into its factors to make it simpler and easier to use for many algebraic purposes.
 {\def}
-{def}[2][Greatest Common Denominator]
-	The Greatest Common Denominator of a group of terms is the largest value that can evenly divide each term in the group.
+{def}[2][Greatest Common Factor]
+	The Greatest Common Denominator of a group of expressions is the largest {tag ..}factor{\tag} that can evenly divide each expression in the group.
+	In otherwords, it's just as the name suggests: It is the greatest factor that they all the expressions have in common.
 	{exp}{\exp}
-	Why is this important? Because when we find the greatest common denominator of a group of terms, we are able to do a technique called {tag ..}factoring{\tag}, where you simplify an expression by taking out the greatest common denominator from all the terms.
+	Why is this important? Because when we find the greatest common factor of a group of terms, we are able to do a technique called {tag ..}factoring{\tag}, where you simplify an expression by taking out the greatest common factor from all the terms.
 {\def}
 {tpc}[2][Factoring]
+	Factoring is a technique to split up an {tag ..}expression{\tag} into its {tag ..}factors{\tag}.
+	Why would we want to do this? Doesn't splitting up an expression make it more complicated? Sometimes, yes. Especially with numbers, splitting up a number, let's say 12, into it's factors, $6 \times 2$, makes it look more complicated, and doesn't do us much good.
+	The factors of expressions however are very useful. They can tell us what they will look at when we graph them, as well the {tag ..}zeros of that expression{\tag} (a very important topic that we will learn about later).
+	/*possible def of factored form */
+	There are several techniques to factor, and each of them apply to a certain type of {tag ..}expression{\tag}. When we are deciding what technique we should be using, it is best to follow these steps:
+
+	1. Find the {tag ..}greatest common factor{\tag} of all the terms in the polynomial. If they have a greatest common factor, and it isn't 1, then {tag ..}factor out the greatest common factor{\tag}. You should end up with your greatest common factor multiplied by another polynomial (Remember, that since you factored out the greatest common factor, this new polynomial will have a greatest common factor of 1). From this step on, we will be working with this new polynomial.
+	2. This step is a little trickier, because we have to decide which method of factoring to use for the remaining polynomial.
+		First, try and {tag ..}recognize if the polynomial is a special product{\tag}. Factoring these is usually very formulaic, and there are techniques to help determine which special product (if any) you might need to use. The special products are $a^2 - b^2, a^3 - b^3, a^3 + b^3, a^2+2ab+b^2, a^2-2ab+b^2,$ and $a^3+3a^b+3ab^2+b^3$.
+		If none of the special products work, you will have to find another way:
+		If the polynomial has 4 terms, then it is most likely {tag ..}solved by grouping{\tag}. To test if this is true, multiply the first and last terms together, and multiply the two inner terms together (make sure that the terms are written in decreasing order of degrees). If these two products are the same, then we can {tag ..}factor by grouping{\tag}.
+		If the polynomial has 3 terms, use techniques to {tag ..}factor trinomials{\tag}. Remember, if the {tag ..}coefficient{\tag} (the leading number) on the highest degree term is $1$, then the process is slightly different from {tag ..}when it is another number{\tag}.
+	3. Your final, factorized answers will be the product of your responses. If you could not factor, it is also possible that the expression is simply {tag ..}impossible to factor{\tag}.
+	{exp}{\exp}
 
 {\tpc}
-{tpc}[3][Using the Greatest Common Denominator to Factor]
-
-	A factored polynomial makes it easier to {tag ..}solve equations{\tag}, learn behaviors of :tag ..}graphs{\tag}, and work with fractions, and more.
-	Previously, we multiplied monomials by polynomials by {tag ..}distributing {\tag}, solving problems such as $4x^2(2x^2-3x+8) = 8x^4-12x^3+32x$. In this section we will work the same problems backwards, starting with 8x^2-12x^3+32x and work backwards to 4x^2(2x^2-3x+8).
-
-	This is done by identifying the Greatest Common Factor, GCF, of a polynomial. This is similar to the GCF of numbers. The following example illustrates:
-
+{tpc}[3][Factoring Using the Greatest Common Factor]
+	{tag ..}Factoring{\tag} is very important in algebra and in higher level maths. One of the most common ways to factor is factoring using the {tag ..}greatest common factor{\tag}.
+	Recall that the {tag ..}greatest common factor{\tag} of a group of expressions, is an expression that can evenly divide every expression in the group.
+	To factor a polynomial, first, identify the {tag ..}greatest common denominator{\tag} of all the terms in the polynomial. To be clear, this greatest common denominator should evenly divide every term in the polynomial.
 	{exp}
 	{\exp}
-	For polynomials a similar concept applies. We find the GCF of the same variables, using the lowest exponent, as shown below:
-	{exp}
-	{\exp}
+	After we have identified the GCD, divide all the terms by the GCD
+	{exp}{\exp}
+	The key to factoring is that we're not actually changing the expression, we're just putting it in a different form. However when we divided everything by the {tag ..}greatest common denominator{\tag}, we changed the expression, which is not allowed.
+	To fix this, we want to multiply the GCD with the new polynomial we have after dividing. Since we know that {tag ..}we can multiply and divide by a number to get the same result{\tag}, writing it out like this fixes this problem
+	{exp}{\exp}
+	Now it is important to remember not to actually multiply out the polynomial by the GCD. This will just bring us back to our original question, which would be pointless. Instead, leave it in this form, where we have the two expressions multipled to each other, without actually multiplying it out.
+	{exp}/*Show how they are multipled, but not actually multiplied out */{\exp}
 
-	To factor out the GCF of a polynomial we need to identify the GCF of all of the terms, then divide each term by the GCF.
-
-	An example below illustrates:
-
-	{exp}
-		$4x^2-20x+16$	GCF is 4. 	Divide each term by 4.
-		$\frac{4x^2}{4}=x^2, \frac{-20x}{4}=-5x, \frac{16}{4}=4$	This is what is left inside of the parenthesis.
-		$4(x^2-5x+4)$			The solution.
-	{\exp}
-
-	When factoring, we can check our solutoins by {tag ..}multiplying{\tag} (in this case, {tag ..}distributing) {\tag} . The solution should be the original equation.
-	{exp}
-		$25x^4-15x^3+20x^2$		GCF is $5x^2$. Divide each term by this.
-		$\frac{25x^4}{5x^2}=5x^2, \frac{-15x^3}5x^2=-3x, \frac{20x^2}{5x^2}=4$ This is what is left inside of the parenthesis.
-		$5x^2(5x^2-3x+4)$ The solution.
-	{\exp}
-	{exp}
-		$3x^3y^2z+5x^4y^3z^5-4xy^4$ GCF is xy^2, divide each term by this.
-		$\frac{3x^3y^2z}{xy^2}=3x^2, \frac{5x^4y^3z^5}{xy^2}, \frac{-4xy^4}{xy^2}=-4y2$	This is what is left inside of the parenthesis.
-		$xy^2(3x^2z+5x^3yz^5-4y^2)$	Our solution.
-	{\exp}
-
-	{exp}
-		$21x^3+14x^2+7x$ GCF is 7x. Divide each term by this.
-    $\frac{21x^3}{7x} = 3x^2, \frac{14x^2}{7x} = 2x, \frac{7x} = 1$		This is what is left inside of the parenthesis.
-		$x(3x^2+2x+1)$		Our solution.
-	{\exp}
-	Note that the GCF was 7x and 7x was also one of the terms. When factoring out the 7x, the division gives us 1, and not zero. Students will often make the mistake of factoring out and getting zero, which is incorrect because factoring will never make terms dissapear. Anything divided by itself is 1.
-
-	We can simply identify the GCF and put it in front of the parenthesis as shown in the two following examples:
-
-	{exp}
-
-		12x^5y^2-6x^4y^4+8x^3y^5	GCF is 2x^3y^2. Put this in front of the parenthesis and divide.
-		2x^3y^2(6x^2-3xy^2+4y^3)	Our solution.
-	{\exp}
-
-	{exp}
-
-		$18a^4b^3-27a^3b^3+9a^2b^3$	GCF is 9a^2b^3. Divide each term by this.
-		$9a^2b^3(2a^2-3a+1)$		Our solution.
-
-	{\exp}
+	Of course if you choose to do so, multiplying this out allows you to check your answer. If you get the original expression, you know you factored correctly. Otherwise, you know you made a mistake in one of the steps, most likely when dividing by the GCD.
+	
 {\tpc}
