@@ -6,7 +6,8 @@
   $a$ and $b$ in this case can be numbers, variables, or anything else
   When multiplied out, the answer is in the form $a^2 - b^2$
   {exp}{\exp}
-  /* proof, explain how the middle term is subtracted out. Show that we could do this with distribution{tag} but it is much longer */
+  Why does this work? Let's multiply this out using methods we already know, using {tag ..}FOIL{\tag}. Multiplying the FIRST terms, we get $a \times a = a^2$, the OUTER terms, we get $a \times -b = -ab$, the INNER terms, we get $b \times a = ab$, and the last terms, $b \times -b = -b^2$.
+  Combining this, we get $a^2 -ab + ab -b^2$. Notice how the two middle terms, $-ab$ and $ab$ are opposites, and cancel out. This leaves us with our expression, $a^2 - b^2$.
   Notice how when this is done with {tag ..}distribution{\tag}, we get the same result, it just takes many more steps
   Note that this is the same as the {tag ..} difference of two squares{\tag} method of factoring, in chapter 6
   It is very important that you memorize this form, as it will appear very often in mathematics and in this course
@@ -18,13 +19,13 @@
   This also works for $(a -b)(a - b)$ or $(a - b)^2$
   $(a+b)^2 = a^2 + 2ab + b^2$
   $(a-b)^2 = a^2 - 2ab + b^2$
-  Notice how these two are actually the same, except in $(a-b)^2$, we can think of it as $(a + (-b))^2$
-  /* Fix this shitty explanation ^^^^^^ */
+  Notice how these two are very similar expressions, except for the sign in front of $2ab$ (positive on the first one, negative on the second one). This sign matches the sign between the binomial being squared: $(a+b)^2$ has a $+2ab$ while $(a-b)^2$ has a $-2ab$. It is not a coincidence that these two are so similar. As we show why this works, look to see how these are very similar.
   {exp}{\exp}
-  /* Do a proof, just like the one above */
+  Let's use {tag ..}FOIL{\tag} to distribute both of $(a+b)^2$ or $(a+b)\times(a+b)$. Multiplying the FIRST terms gets us $a \times a = a^2$. OUTER terms gives us $a \times b = ab$, INNER terms gives us $b \times a = ab$ and LAST terms gives us $b\times b = b^2$.
+  Combining these, we get $a^2 + ab + ab + b^2$, or, by {tag ..}combining terms{\tag}, $a^2+2ab+b^2$.
+  When we do this process for $(a-b)^2$ or $(a-b)(a-b)$, we get similar, but different results. FIRST terms multiplied are $a \times a = a^2$, OUTER terms gives us $a \times -b = -ab$, INNER terms gives us $a \times -b = -ab$, and last terms gives us $-b \times -b = b^2$ (since the {tag ..}negatives cancel each other out{\tag}).
+  Combined, this is $a^2 -ab -ab + b^2$ or after {tag ..}combining like terms{\tag}, $a^2 -2ab + b^2$. We can now see where the minus sign comes from. Since the $b$ has a minus sign in front of it, when it is multiplied by a positive $a$ when multiplying, we get negative values instead of positive values.
   A helpful tip, is that the middle term in the polynomial is the same as the sign before you multiply it out
-  {exp}/*give a brief example showing this */{\exp}
-  Notice how when this is done with {tag ..}distribution{\tag}, we get the same result, it just takes many more steps
-  Note that this is the same as {tag ..}factoring $a^2 + 2ab + b^2$ {\tag} in chapter 6
+  Note that this is the same as {tag ..}factoring $a^2 + 2ab + b^2$ {\tag}, which we will learn in chapter 6
   It is very important that you memorize this form, as it will appear very often in mathematics and in this course
 {\tpc}

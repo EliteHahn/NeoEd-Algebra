@@ -6,11 +6,11 @@
   We will divide each {tag ..}monomial{\tag} in the {tag ..}polynomial{\tag} in the numerator by the {tag ..}monomial{\tag} in the denominator
   {exp}{\exp}
   Remember, that when you have the same thing in the denominator and the numerator, it {tag ..}cancels out{\tag} to 1 (not 0)
+  {exp}{\exp}
 {\tpc}
 
 {tpc}[2][Dividing Polynomials]
-  /* Oh boy, this'll be fun */
-  The process of dividing polynomials is very similar to long division. In order for this process to work however, we must have all the terms in decreasing order
+  The process of dividing polynomials is very similar to long division. In order for this process to work however, we must have all the terms in decreasing order. If you're missing a power, let's say $n$, you must add a $0x^n$ in your polynomials.
   {exp}/* Examples of terms in decreasing order */{\exp}
   {nex}{\nex}
   To remind you, here are the steps for long division, and we will compare it to the steps for dividing polynomials
