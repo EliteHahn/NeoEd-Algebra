@@ -38,3 +38,14 @@ Chapter 5 Changes
 -----------------
   * 3(x + 4)(x -6) we need a common error thing to show we cannot distribute 3 to all of them, and rather than just 1
   * Do we have anything about (a + b)^2 != a^2 + b^2?
+
+-----------------
+Chapter 6 Changes
+-----------------
+  * The definition of "Factoring" is a bit incomplete. I believe we have defined this somewhere else, but we need to unify and fix this
+  * 6-2 needs work, this is a difficult topic
+  * 6-3 may need a better example dealing with negatives.
+  * 6-4 we need better letters lmao
+  * 6-5 we need a topic about x^4 - y^4 and other even powers somewhere in this book.
+  * 6-5 Special products, we need a better way to organize cubes and shit
+  * 6-6 I don't think we need this section. But we'll see in Organization Draft

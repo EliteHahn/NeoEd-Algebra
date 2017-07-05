@@ -1,123 +1,32 @@
 [Chapter 6] Factoring
 [Section 7] Solve by Factoring
 
-{tpc}[1][Solve by Factoring]
-	Overview: solve quadratic equations by factoring and using the zero product rule.
+{tpc}[1][Zero Product Rule]
+	Let's say we have two expressions, $a$ and $b$. These two expressions can have variables, they can be constants, they can be polynomial, virtually anything.
+	Now if we have an equation $ab=0$, The Zero Product rule says that either $a$ or $b$ must evaluate to zero (or both).
+	Why is this true? Well, we know that numbers can either be positive, negative, or 0. If $a$ and $b$ are either positive or negative, then as we know, when we multiply them together, we will get either a positive or negative number. Therefore, if our solution equals 0, then we know that either $a$ or $b$ must be 0, neither positive nor negative.
+	This is important in algebra and all future math. Most immediately, the zero product rule is crucial when we learn how to {tag ..}solve quadratic equations by factoring{\tag}.
+{\tpc}
 
-	When we have linear equations such as 2x-5=21, we may simply add 5 and divide by 21 to find x, getting 13. However, with x^2, or x of a higher power, we cannot isolate x as we did with the linear equation. One method to solve for an unknown variable is known as the zero product rule.
+{tpc}[2][Solve Quadratic Equations by Factoring]
+	When we were {tag ..}solving linear equations{\tag} such as 2x-5=21, we simply added 5 and divide by 2 to find $x$, getting 13. However, in a quadratic equation such as $x^2 - 5x + 6$, we cannot use this method to isolate $x$ as we did with the linear equation. One method to solve for an unknown variable is known as the {tag ..}zero product rule{\tag}.
+	The {tag ..}zero product rule{\tag} states that when we have two expressions $a$ and $b$, and $ab = 0$, then either $a$ or $b$ (or both) must evaluate to zero. We can use this rule to solve equations, because after we factor something, we have two expressions multiplied to each other! For example, $x^2 - 5x + 6$ can be {tag ..}factored to{\tag} $(x-3)(x-2)$, where we have two expressions multiplied to each other, $(x-3)$ and $(x-2)$.
+	By the zero product rule, we know that either $(x-3) = 0$ or $(x-2) = 0$. These of course individually are easy to solve, as they are just {tag ..}one step problems{\tag}. Also, notice we use the word "or", which means we can treat this as if we were solving an {tag ..}OR equation{\tag}.
+	Solving for both these, we know that $x = 3$ or $x = 2$. This is our answer! $x=3$ or $x=2$.
 
-	{tag ..} Zero Product Rule {\tag} if ab=0 then either a = 0 or b = 0
+	The steps to solving an equation in this way is simple.
+	1. Get the equation to equal zero. Do this by {tag ..}adding or subtracting the opposite terms{\tag} to bring all elements from the right side to the left side.
+	2. {tag ..}Factor{\tag}! If you can factor, this will allow us to move on to the next step. Make it so that you are multiplying two expressions together as you normally would when you factor.
+	3. Using the {tag ..}Zero product rule{\tag}, note that one of the expressions must equal zero. Set each of the factors equal to zero and solve each of them individually. This will leave you with your final answer. Usually, there were will the same number of answers as there were factors, but the number of answers you can have may vary.
 
-	Thus, if two factors are multiplied together and the answer is zero, then one of the factors must be zero.
-
-	We will use this fact to solve factored polynomials as in the following example.
-
-	{exp}
-
-		(2x-3)(5x+1)=0		One factor must be zero
-		2x-3=0 or 5x+1=0	Set each factor equal to zero
-		+3+3	    -1-1	Solve each eqation
-		2x=3	or 5x=-1
-		/2	/5
-		x=3/	x=\frac{-1}{5}	Our solution
-
-	{\exp}
-
-	Thus, for the zero product rule ot work, we need the {tag ..} factors {\tag} to be set equal to zero. Thus we must factor the problem if it is not already factored.
+	Most of the time, problems with $x^2$ have two unique solutions; however, it is possible to have only one solution.
 
 	{exp}
-		4x^2+x-3=0		Factor using the {tag ..} ac method {\tag}, multiply to -12, add to 1
-	  4x^2-3x+4x-3=0		The factors are -3 and 4, split the middle term
-	  x(4x-3)+1(4x-3)=0		Factor by {tag ..} grouping {\tag}
-		(4x-3)(x+1)=0		One factor must be zero
-	  4x-3=0 or x+1=0		Set each factor equal to zero
-	  +3+3     -1-1		Solve each equation
-	  4x=3  or x=-1
-	  /4     /-1
-		x=\frac{4}{3} or x=-1		Our solution
 	{\exp}
 
-	It is important to note that we must have the equation equal to zero. If it does not, then we must move terms around so that it does.
+	Once more, it is important to factor out the {tag ..}greatest common factor{\tag} if we have one. Follow the rules on how to {tag ..}factor{\tag}, by making sure we factor out the GCF before factoring in other ways. This GCF is also a factor which we must take into account when using the zero product rule.
+	{exp}{\exp}
 
-	{exp}
-		x^2=8x-15		Set equal to zero by moving terms to the left
-		-8x+15 -8x+15
-		x^2-8x+15=0		Factor using the ac method, multiplying by 15, add to -8
-		(x-5)(x-3)=0		The numbers are -5 and 03
-		x-5=0 or x-3=0		Zero product rule
-	 	+5+5     +3+3		Solve each equation
-		x=5   or x=3		Our solution
-	{\exp}
-
-	{exp}
-		(x-7)(x+3)=-9		Not equal to zero, multiply first, use FOIL
-	  x^2-7x+3x-21=-9		Combine like terms
-	  x^2-4x-21=-9		Move -9 to other side so equation equals zero
-	  +9  +9
-	  x^2-4x-12=0		Factor using {tag ..} ac method {\tag}. Multiply to -12, add to -4
-		(x-6)(x+2)=0		The numbers are 6 and -2
-	  x-6=0 or x+2=0		Set equal to zero
-		+6+6     -2-2		Solve each equation
-		x=6  or -2		Our solution
-	{\exp}
-
-	{exp}
-		3x^2+4x-5=7x^2+4x-14		Set equation equal to zero, move terms to the right
-		-3x^2-4x+5  -3x^2-4x+5
-		0=4x^2-9		Factor using difference of squares
-		0=(2x+3)(2x-3)		One factor must be zero
-	  2x+3=0 or 2x-3=0		Set each factor equal to zero
-		-3-3      +3+3		Solve each equation
-		2x=-3 or  2x=3
-		x=\frac{-3}{2} or \frac{3}{2}	Our solution
-	{\exp}
-
-	Most of the time, problems with x^2 have two unique solutions; however, it is possible to have only one solution.
-
-	{exp}
-		4x^2=12x-9		Set equal to zero, move terms to the left
-	  -12x+9 -12x+9
-	  4x^2-12x+9=0		Factor using the ac method, multiply to 36, add to -12
-		(2x-3)^2=0		-6 and -6, a perfect square!
-		2x-3=0		Set this factor equal to zero
-		+3+3		Solve equation
-		2x=3
-	  x = \frac{3}{2}		Our solution
-	{\exp}
-
-	Once more, it is important to factour out the {tag ..} GCF {\tag} if we have one. This GCF is also a factor which we must take into account when using the zero product rule.
-
-	{exp}
-		4x^2=8x		Set equal to zero by moving the terms to left
-	  -8x-8x		Be caerful! They are not like terms!
-		4x^2-8x=0		Factor out GCF, 4x
-		4x(x-2)=0		Zero product rule
-		4x=0 or x-2=0		Set each factor equal to zero
-		/4 /4    +2+2		Solve each equation
-		x=0 or x=2		Our solution
-	{\exp}
-
-	{exp}
-		2x^3-14x^2+24x=0	Factor out GCF of 2x
-		2x(x^2-7x+24)=0	Factor using {tag ..} ac method {\tag}. Multiply to 12, add to -7
-		2x(x-3)(x-4)=0	The numbesr are -3 and -4
-	  2x=0 or x-3=0 or x-4=0	Set each factor equal to zero
-	  /2/2     +3+3     +4+4	Solve each equation
-		x=0 or 3 or 4		Our solutions
-	{\exp}
-
-	{exp}
-		6x^2+21x-27=0	Factor out GCF of 3
-	  3(2x^2+7x-9)=0	Factor with ac method, multiply to -18, add to 7
-		3(2x^2+9x-2x+9)=0	The numbers are 9 and -2
-	  3(x(2x+9)-1(2x+9))=0	Factor by grouping
-		3(2x+9)(x-1)=0	One factor must be zero
-	  3=0 or 2x+9=0 or x-1=0	Set each factor equal to zero
-		3 =/= 0    -9-9     +1+1
-		2x=9	or x=1
-		/2/2
-	  x = \frac{9}{2} or x=1	Our solution
-	{\exp}
 
 	Not all equations can be factored. For solving equations that cannot be factored, we will solve it using another method. Those other methods are saved for another section.
 {\tpc}

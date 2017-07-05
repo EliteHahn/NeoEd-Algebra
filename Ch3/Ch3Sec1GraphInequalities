@@ -34,7 +34,8 @@
 {\tpc}
 {tpc}[4][Multiplying and Dividing by a Negative Number in Inequalities]
   When solving inequalities, it is important to remember that when you multiply or divide by a negative number, the inequality sign flips.
-  {exp} {\exp}
+  {exp}
+  {\exp}
   This is very similar to the reason {tag..}why negatives and positives{\tag} are different when comparing them. The term "less than" can mean both, less positive and more negative. "greater than" can mean both, more positive and less negative.
   This can be a bit tricky to understand, but all you need to know for the time being is that this is a necessary and important step when solving inequalities
 {\tpc}
@@ -42,5 +43,6 @@
   The process for Solving inequalities is nearly the same as {tag ..}solving linear equations{\tag}, with a few changes
   Remember to {tag ..}flip the sign of the equality when multiplying or dividing by a negative number{\tag}
   At the end of the process, the final answer will most likely be an inequality
-  {exp}{\exp}
+  {exp}
+  {\exp}
 {\tpc}

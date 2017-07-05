@@ -2,52 +2,28 @@
 [Section 2] Grouping
 
 {tpc}[1][Factoring Polynomials Using Grouping]
-	Overview: factor polynomials with four terms using grouping.
 
-	As shown in the previous section, the first thing we do when factoring is try to identify the {tag ..}GCF{\tag} and then {tag ..}factor it out {\tag}. The GCF in the previous examples was a monomial, such as for 5xy+10xz, the GCF is the monomial 5x, so that we have 5x(y+2z). However, the GCF could also be a binomial. Here are two examples which illustrate:
+	Sometimes, you may want to factor a polynomial with many terms, but their {tag ..}greatest common factor{\tag} is 1, meaning that there's nothing to be factored out. This is especially true if you already factored out the gcf, in which case, obviously the remaining terms have no shared factors (otherwise, you would have factored them out while factoring out the GCF).
+	However, it may be the case that some of the terms in the polynomials share a {tag ..}greatest common factor{\tag}, while the others do. For example, in the polynomial, $3x^3 + 15x^2 + 2x + 10$, the first two terms, $3x^3$ and $15x^2$ share a common factor of $3x^2$, even though there is no common factors among all 4 terms. In addition, the last two terms, $2x$ and $10$ also share a greatest common factor of 2.
+	Let's try factoring these two pairs of terms individually.
+	{tag ..}Factoring out{\tag} $3x^3$ from the first two terms, we get $3x^3+15x^2 = 3x^2(x + 5)$. Factoring out 2 from the last two terms gives us $2x + 10 = 2(x+5)$.
+	Putting our pairs back together, we have the polynomial: $3x^3 + 15x^2 + 2x + 10 = 3x^2(x+5) + 2(x+5)$.
+	Notice how in the parenthesis of both terms, we have $(x+5)$. What does this mean? That means, our new polynomial once again has a common factor! In this case, it is $(x+5)$. Remember that a factor can be anything, including an expression. Let's factor this $(x+5)$ out of both terms.
+	$3x^2(x+5) + 2(x+5) = (x+5)(3x^2+2)$
+	We just successfully factored a polynomial with 4 terms, using Grouping! So let's talk about what this method really does:
+	If the entire polynomial doesn't share any factors, then you can't simply {tag ..}factor out the greatest common factor{\tag}, because there are no common factors. However, sometimes, some of the terms in the polynomial share one GCF, while others share another GCF. In our above example, that was $3x^2$ and $2$ for the two pairs of terms.
+	In certain instances, when you factor these two sets of terms individually, (like in the example above), you will find that the new terms that you have also share a common denominator! In this case, you can factor it again, to get your final answer!
 
-	{exp}
-		$3ax-7bx$	Both have x in common. Factor it out.
-		$x(3a-7b)$ Our solution.
-	{\exp}
-
-	Now, let us use the same problem with (2a+5b) instead of x:
-
-	{exp}
-
-		3a(2a+5b)-7b(2a+5b)	Both have (2a+5b) in common. Factor it out.
-		(2a+5b)(3a-7b)		Our solution.
-
-	{\exp}
-	The (2a+5b) can be factored out just like the x can. This can be extended to factor polynomials where there is no GCF to factor out, or after the GCF if factored out, there is more factoring to be done. We will now use another strategy to factor. This strategy is called grouping.
-	{exp}
-		(2a+3)(5b+2)		Distribute (2a+3) into second parenthesis.
-		5b(2a+3)+2(2a+3)	Distribute each monomial.
-		10ab+15b+4a+6		Our solution.
-	{\exp}
-
-	Notice the four terms in the solution. While factoring by grouping we will divide the problem into two parts, the first and the last two terms. Then factor the GCF out of both the left and the right sides. If they match, we can pull the GCF out front, leaving the rest of the terms in the parenthesis.
-
-	The following example is the same problem worked backwards:
-
-	{exp}
-
-		$10ab+15b+4a+6$ Split into two groups
-		$(10ab+15b)+(4a+6)$	GCF on left is 5b, on the right is 2
-		$5b(2a+3)+2(2a+3)$	(2a+3) is the same. Factor out this GCF.
-		$(2a+3)(5b+2)$		Our solution
-	{\exp}
-
+	For polynomials with 4 terms,
 	For grouping to work, after the GCF is factored out of the left and the right, the two binomials must match exactly. If there is any difference, we will need to adjust, or, it cannot be factored by grouping. An example below illustrates:
 
-	{exp}
-
+	{nex}
 		6x^2+9xy-14x-21y	Split problem into two groups
 		6x^2+9xy|-14x-21y	GCF on left is 3x, on right is 7
-		3x(2x+37)|+7(-2x-3y)	The signs in the parenthesis do not match!
-	{\exp}
+		3x(2x+3y)|+7(-2x-3y)	The signs in the parenthesis do not match!
+	{\nex}
 
-	When the signs do not match, but everything else is the same, we may factor the opposite of the GCF on the right side: we will use -7 instead of 7.
+	When the signs do not match, but everything else is the same, we may {tag ..}factor out a $-1${\tag}, which will give you the opposite of the GCF on the right side: we will use $-7$ instead of $7$.
 	{exp}
 		$3x(2x+3y)|-7(2x+3)	(2x+3y)$ is the same. Factor out this GCF.
 		$(2x+3y)(3x-7)$		Our solution
@@ -57,12 +33,10 @@
 	If the first term of the first binomial is negative, then will use the opposite of the GCF to be sure that they match. If the first term of the first binomial is positive, we will want the first term of the second binomial to also be positive.
 
 	{exp}
-
 		$5xy-8x-10y+16$		Split the problem into two groups
 		$5xy-8x | -10y+16$	GCF on left is x, on right we need the variable a to be negative. Thus, we use -2 instead of 2.
 		$x(5y-8) | -2(5y-8)	(5y-8)$ is the same! Factor out this GCF.
 		$(5y-8)(x-2)$		Our solution.
-
 	{\exp}
 
 	Sometimes there is no GCF to factor out of the left or right sides. In this case we will use a GCF of either 1 or -1. This is what we will need to ensure that the two binomials match.
@@ -71,36 +45,29 @@
 
 		$12ab-14a-6b+7$		Split the problem into two groups.
 		$12ab-14a | -6b+7$	GCF on the left is 2a, on the right, there is no GCF: use -1
-		$2a(6b-7)-1(6b-7)$	(6b-7) is the same! Factor out this GCF
+		$2a(6b-7)-1(6b-7)$	$(6b-7)$ is the same! Factor out this GCF
 		$(6b-7)(2a-1)$
-	{\ex}
+	{\exp}
 
-	{ex}
+	{exp}
 		$6x^3-14a-6b+7$		Split the problem into two groups
 		$6x^3-15x^2 | + 2x-5$	GCF on left is 3x^2, on right, no GCF: use 1
 		$3x^2(2x-5) | + 1(2x-5)	(2x-5)$ is the same! Factor out this GCF
 		$(2x-5)(3x^2+1)$		Our solution
 	{\exp}
 
-	Another problem that may come up is that the factored binomials differ by more than just the sign. We may have to adjust the problem slightly. We may do this by changing the order of the terms and try again.
+	Another problem that may come up is that the factored binomials differ by more than just the sign. We may have to adjust the problem slightly. You generally want to have the terms in decreasing order, measured by either the {tag ..}degree{\tag} of the variables or the {tag ..}coefficients{\tag}
+
+	{exp}{\exp}
+	{nex}{\nex}
 
 	{exp}
-		$4a^2-21b^3+6ab-14ab^2$		Split the problem into two groups
-		$4a^2-21b^3 | +6ab-14ab^2$	GCF on left is 1, on right is 2ab
-		$1(4a^2-21b^3) | +2ab(3-7b)$	Binomials don't match. Change order of terms.
-		$4a^2+6ab-14ab^2-21b^3$	Split problem into two groups
-		$4a^2+6ab | -14ab^2-21b^3$	GCF on left is 2a, on right is -7b^2
-		$2a(2a+3b) | -7b^2(2a+3b)	(2a+3b)$ is the same! Factor this GCF out
-		$(2a+3b)(2a-7b^2)$		Our solution
+
 	{\exp}
 
-	For addition, for example, (a+b) and (b+a), order does not matter so we do not have to do any extra work. This is because addition is the same in either order (5+3=3+5=8).
+	For addition, for example, $(a+b)$ and $(b+a)$, order does not matter by the {tag ..}communitive property{\tag} so we do not have to do any extra work. This is because addition is the same in either order (5+3=3+5=8).
 
 	{exp}
-		$7+y-3xy-21x$		Split problem into two groups
-	  $7+ y | -3xy-21x$		GCF on left is 1, on right is -3x
-	 	$1(7+y)|-3x(y+7)$		y+7 and 7+y are the same, use either
-	  $(y+7)(1-3x)$			Our solution
 	{\exp}
 
 	If the binomial uses subtraction, then we need to be more careful, such as with (a-b) and (b-a). We will factor our the opposite of the GCF on one part, usually the second.

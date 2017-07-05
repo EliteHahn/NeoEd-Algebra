@@ -1,70 +1,32 @@
 [Chapter 6] Factoring
-[Section 4] Trinomials where A =/=1
+[Section 4] Trinomials of the Form $ax^2 + bx + c$
 
-{tpc}[1][Factoring Trinomials where a =/= 1]
-	Overview: factor trinomials using the ac method when the coefficient of x^2 is not one.
+{tpc}[1][Factoring Trinomials where Coefficient of $x^2$ is Not 1]
+	When {tag ..}factoring trinomials{\tag}, we reversed the process of {tag ..}distribution{\tag} to show why we could use the shortcut where $x^2 + bx + c$ could be simplified to the form {tag ..}$(x-m)(x-n)$.
+	However, we noted that this process only works when the {tag ..}coefficient{\tag} of the first term, $x^2$, is 1, meaning the first term is just $x^2$.
+	{exp}{\exp}
+	{nex}{\nex}
+	However, what if the coefficeint is not 1? What if we have a question such as $5x^2 + 16x + 12$? We can't just use the {tag ..}previous method{\tag} to try and factor this because it doesn't consider the 5 in front of the $x^2$.
+	The fact that we have $5x^2$ essentially means that when we factor our equation, it's going to look something like $(px+m)(qx+n)$, where $p,q,m$ and $n$ are usually numbers. Let's {tag ..}expand this{\tag}, to get us $pqx^2 + mqx + nqx + nm$, using whatever method you like ({tag ..}FOILing{\tag} or {tag ..}distributing{\tag}). Notice how this isn't too different from our examples when {tag ..}$a$ equaled 1{\tag}. But instead of having $x^2 + mx + nx + nm$, we have a few more letters in our terms.
+	So to factor an expression of the form $ax^2 + bx + c$, we can follow these steps:
+	1. Multiply $a$ and $c$ together.
+	2. Find two numbers that multiply to $ac$ that add to $b$. This is very similar to the process of {tag ..}factoring $x^2+bx+c$, except instead of us trying to split $c$, we are splitting $a \times c$.
+	3. Once you find two numbers that fit these conditions, let's call them $p$ and $q$, split up the middle term, $bx$ to $px + qx$. Remember, this is possible because we know that $p$ and $q$ add up to the middle coefficient, $b$. Combining like terms in $px + qx$ gives us $(p+q)x$ and as we just stated, $p+q = b$, so this is the same as $bx$
+	4. Now you have a question of the form $ax^2 + px + qx + c$. If the expression was factorable, you will be able to factor by grouping! Once you do this, you will get your answer.
 
-	When factoring trinomials {\tag trinomial} we used the ac method {\tag ac method} and factoring by grouping {\tag grouping}. The ac method to split the middle term gets it name from the equation ax^2+bx+c, where a is the coefficient of x^2, b is the coefficient of x, and c is the constant.
 
-	We call it the ac method because we multiply the coefficient a by the coefficient c to find what we want to multiply to. We then find the factors of a*c and pick the pair which adds to the middle term. An example below illustrates for instances where a =/= 1.
-
-	{exp}
-		3x^2+11x+6		Multiply to a*c=(3)(6)=18, add to 11
-	  3x^2+9x+2x+6		The numbers are 9 and 2, split the middle term
-	  3x(x+3)+2(x+3)		Factor by grouping
-	  (3x+2)(x+3)		Our solution
-	{\exp}
-
-	When a=1, we were able to use the shortcut {\tag ac method}. The shortcutwas using the numbers that split the middle term in the factors.  However, the previous example shows that the shortcut does not work when a =/= 1.
-
-	{exp}
-		8x^2-2x-15		Multiply to a*c or (8)(-15) = -120, add to -2
-	  8x^2-12x+10x-15		The numbers are -12 and 10, split the middle term
-	  4x(2x-3)+5(2x-3)		Factor by grouping
-	  (2x-3)(4x+5)		Our solution
-	{\exp}
+	We can also apply this process to polynomials of two variables. The process is exactly the same, except you will need to keep track of two variables.
 
 	{exp}
-		10x^2-27x+5		Multiply to a*c (10)(5)=50, add to -27
-	  10x^2-25x-2x+5		The numbers are -25 and -2, split the middle term
-	  5x(2x-5)-1(2x-5)		Factor by grouping
-	  (2x-5)(5x-1)		Our solution
-	{\exp}
-
-	We will now apply this to polynomials of two variables.
-
-	{exp}
-		4x^2-xy-5y^2		Multiply to a*c=(4)(-5)=-20, add to -1
-	  4x^2+4xy-5xy-5y^2		The numbers are 4 and -5, split the middle term
-	  4x(x+y)-5y(x+y)		Factor by grouping
-	  (x+y)(4x-5y)
 	{\exp}
 
 	We should always see if we can factor out a GCF from all of theterms of the polynomial. It will make factoring the rest of the polynomial easier.
 
 	{exp}
-		18x^3+33x^2+30x		GCF=3x, factor this out
-	  3x(6x^2+11x+10)		Multiply to a*c (6)(-10)=-60, add to 11
-	  3x(6x^2+15x-4x-10)		The numbers are 15 and -4, split the middle term
-	  3x(3x(2x+5)-2(2x+5))		Factor by grouping
-		3x(2x+5)(3x-2)		Our solution
 	{\exp}
 
-	{exp}
-		10x^2-27x+5		Multiply to a*c=(10)(5)=50, add to -27
-		10x^2-25x-2x+5		The numbers are -25 and -2, split the middle term
-	  5x(2x-5)-1(2x-5)		Our solution
-	{\exp}
-	The same process applies to a polynomial of two variables.
 
-	{exp}
-		4x^2-xy-5y^2		Multiply to a*c=(4)(-5)=-20, add to -1
-	  4x^2+4xy-5xy-5y^2		The numbers are 4 and -5, split the middle term
-	  4x(x+y)-5y(x+y)		Factor by grouping
-	  (x+y)(4x-5y)		Our solution
-	{\exp}
-
-	Similar to how some trinomials when a=1, not all trinomials can be factored. If there is no combination that multiply and add correctly then the polynomial is prime and cannot be factored.
+	Similar to how some trinomials when $a=1$, not all trinomials can be factored. If there is no combination that multiply and add correctly then the polynomial is prime and cannot be factored.
 
 	{exp}
 		3x^2+2x-7		Multiply to a*c=(3)(-7)=-21, add to 2
