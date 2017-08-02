@@ -3,12 +3,11 @@
 
 {tpc}[1][Multiplying and Dividing Rational Expressions]
   The process for Multiplying and dividing rational expressions is very similar to the process used to {tag ..}multiply and divide fractions{\tag}
-  To multiply, simply {tag ..}multiply{\tag} straight across the numerator and the denominator, and then {tag ..}simplify{\tag}
+  To multiply, simply {tag ..}multiply{\tag} straight across the numerator and the denominator, and then {tag ..}simplify the rational{\tag}
   {exp}{\exp}
-  The process for dividing is similar is well too, just {tag ..}take the reciprocal{\tag} of the second {tag ..}rational{\tag}, and multiply the two together (see above), and {tag ..}simplify{\tag}
+  The process for dividing is similar as well too. Simply {tag ..}take the reciprocal{\tag} of the second {tag ..}rational{\tag}, and multiply the two together (see above), and {tag ..}simplify{\tag}
   {exp}{\exp}
-  Recall that when there are polynomials with more than one term in the rational, you must factor before you can simplify in both multiplication and division. YOU CANNOT SIMPLIFY POLYNOMIALS BY CROSSING COMMON TERMS OUT
-  /* There are several terms in the previous point that need to be tagged. Don't exactly know where and how */
+  Recall that when there are {tag ..}polynomials{\tag} with more than one term in the rational, you must factor before you can simplify in both multiplication and division. YOU CANNOT SIMPLIFY POLYNOMIALS BY CROSSING COMMON TERMS OUT
   {exp}{\exp}
   {nex}{\nex}
 {\tpc}

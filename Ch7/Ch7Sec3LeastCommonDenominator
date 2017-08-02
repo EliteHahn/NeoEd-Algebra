@@ -3,8 +3,9 @@
 
 {tpc}[1][Finding the Least Common Denominator of a Monomial]
   Finding the {tag ..}least common denominator{\tag} of a {tag ..}term{\tag} with {tag ..}variables{\tag} is very similar to the process of {tag ..}finding the least common denominator{\tag} of two numbers.
-  When finding the {tag ..}least common denominator{\tag} or, {tag ..}LCD{\tag} of several monomials, we first find the {tag ..}LCD of the coefficients{\tag}, then use all variables and attach the highest exponent of each variable.
+  When finding the {tag ..}least common denominator{\tag} or, LCD of several monomials, we first find the {tag ..}LCD of the coefficients{\tag}, then use all variables and attach the highest exponent of each variable.
   {exp}{\exp}
+  Remember that the {tag ..}least common multiple{\tag} of a group of terms means that all the terms evenly divide this LCM. Just like when using fractions, we have to find the least common denominator of {tag ..}rational expressions{\tag} to add or subtract them. We will learn how to do this in the future.
 {\tpc}
 
 {tpc}[2][Finding the Least Common Denominator of a Polynomial]
@@ -16,7 +17,7 @@
 {\tpc}
 
 {tpc}[3][Getting the Denominators of Two Rationals To Match]
-  In order to get the denominator of two rationals to match, we must first find the {tag ..}least common denominator{\tag} of the two denominators. Remember, there are different, but similar processes for finding the {tag ..}least common denominator{\tag}, {tag ..}one for monomials (one term, such as $xy^2$){\tag} and {tag ..}one for polynomials (many terms, such as $x^2 -2x + 5xy$){\tag}
+  In order to get the denominator of two rationals to match, we must first find the {tag ..}least common denominator{\tag} of the two denominators. Remember, there are different, but similar processes for finding the {tag ..}least common denominator{\tag}, {tag ..}one for monomials (expressions with one term, such as $xy^2$){\tag} and {tag ..}one for polynomials (many terms, such as $x^2 -2x + 5xy$){\tag}
   {exp}/* Getting the LCM */{\exp}
   Once the {tag ..}Least common denominator{\tag} is found, we must find out what factors each denominator is missing to get to that {tag ..}least common denominator{\tag}
   In other words, we must find the number we need to multiply each of the denominators with to get to the Least common denominator

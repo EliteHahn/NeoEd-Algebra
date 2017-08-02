@@ -2,22 +2,26 @@
 [Section 6] Proportions
 
 {def}[1][Proportion]
-  A proportion in it's most basic sense is two rationals that are equal to each other.
+  A proportion in it's most basic sense is two {tag ..}rational expressions{\tag} that are equal to each other.
   We can also say that they are proportional to each other
-  They are most useful for finding the {tag ..}cross product{\tag} to solve a proportion
+  {exp}{\exp}
+  They are most useful for finding the {tag ..}cross product{\tag} to solve for a variable within a proportion. In otherwords, if two rationals are equal to each other, using the cross product, we can solve for a variable.
+  {exp}{\exp}
   Proportions can mean many different things. If two rationals are equal, then that means they are equivalent fractions.
-  This also means that two ratios are equivalent.
+  This also means that the ratio of the two rationals are equivalent.
+  This idea is very important in all fields. For example, if a recipe calls for 2 cups of sugar for 10 servings, we can deduce that we need 4 cups of sugar for 20 servings. These two ratios, $\frac{2 \text{ cups}}{10 \text{ servings}}$ and $\frac{4 \text{ cups}}{20 \text{ servings}}$ are equal and can be set as a proportion $\frac{2 \text{ cups}}{10 \text{ servings}} = \frac{4 \text{ cups}}{20 \text{ servings}}$
 {\def}
 
 {tpc}[2][Finding the Cross Product]
   If $\frac{a}{b} = \frac{c}{d}$, then $ad = bc$
   {exp}/*Maybe a proof here or something idk */{\exp}
-  The cross product essentially tells us we can multiply diagonally to get an equation with no fractions that we can solve
+  The cross product essentially tells us we can multiply diagonally to get an equation with no fractions that we can {tag ..}solve{\tag}.
 {\tpc}
 
 {tpc}[3][Solving Proportions]
-  In order to solve a {tag ..}proportion{\tag}, we must first {tag ..}find the cross product{\tag}
+  In order to solve a {tag ..}proportion{\tag}, we must first simplify the proportion in a way that we know how to solve by{tag ..}finding the cross product{\tag}. Remember, this will give us an equation.
   While doing this, remember to {tag ..}distribute{\tag} the products when needed
+  {exp}{\exp}
   After finding the cross product, you will get a standard equation that can be solved. This can be {tag ..}linear{\tag}, or {tag ..}quadratic{\tag} in certain instances. Either way, solve as necessary for the variable
   {exp}{\exp}
 {\tpc}

@@ -2,33 +2,36 @@
 [Section 1] Reduce Rational Expressions
 
 {def}[1][Rational Expressions]
-  Rational Expressions are Expressions written as a quotient of {tag ..}polynomials{\tag}
+  Rational Expressions are Expressions written as a quotient of {tag ..}polynomials{\tag}. When you write them, it will look very similar to a fraction, but instead of numbers in the numerator and denominator, there are expressions.
   {exp}{\exp}
   Rational expressions are a special type of fraction. It is important to remember that, like with fractions, we cannot have zero in the denominator.
   Because of this, we may have to {tag ..}restrict some values for some variables so that the denominator of a function cannot be zero{\tag}
+  {exp}{\exp}
 {\def}
 
 {tpc}[2][The Denominator of a Rational Expression cannot be Zero]
-  Since the denominator of a {tag ..}rational expression{\tag} cannot be zero, we must restrict the values for variables in the denominator to prevent this from happening.
+  Like a fraction, since the denominator of a {tag ..}rational expression{\tag} cannot be zero, we must restrict the values for variables in the denominator to prevent this from happening.
   In other words, if the denominator is zero for some value of the variable, then that variable can never take on that value.
   {exp}{\exp}
-  To solve this, we must set the {tag ..}polynomial expression{\tag} of the denominator to zero and {tag ..}solve it, usually by factoring{\tag}. Then we know, that for each value of the variable that we get after solving, x cannot take those values (since if it did, the expression would equal zero, which we cannot have)
+  To solve this, we must set the denominator to zero. After this, since it is likely a {tag ..}polynomial expression{\tag}, we must {tag ..}solve it, usually by factoring{\tag}. Then we know, that for each value of the variable that we get after solving, $x$ cannot take those values (since if it did, the expression would equal zero, which we cannot have)
   The variable of course, can take any other value besides those we just solved for
   {exp}{\exp}
 {\tpc}
-{tpc}[3][Solving Rational Expressions]
-  Since {tag ..}rational expressions{\tag} are just {tag ..}expressions{\tag}, they can be solved using previous methods, by simply substituting each instance of the variable with a value, {tag ..}just as we did before{\tag} and {tag}evaluating using order of operations{\tag}
+{tpc}[3][Evaluating Rational Expressions]
+  Since {tag ..}rational expressions{\tag} are just {tag ..}expressions{\tag}, they can be evaluated using previous methods, by simply substituting each instance of the variable with a value, {tag ..}just as we did before{\tag} and {tag}evaluating using order of operations{\tag}.
+  {exp}{\exp}
 {\tpc}
 
 {tpc}[4][Reducing Rational Expressions]
   Rational expressions can be reduced, even without knowing the value of the variable.
-  When we reduce, we divide out common factors.
+  When we reduce, we divide out {tag ..}common factors{\tag} in the numerator and the denominator.
   We have {tag ..}already seen this with monomials when we discussed the properties of exponents{\tag}
   If the problem only has {tag ..}monomials{\tag}, we can reduce the coefficients, and {tag ..}subtract exponents on the variables{\tag}
   {exp}{\exp}
   However, if there is more than just one term in either the numerator or denominator, we can't divide out common factors unless we first [tag ..}factor{\tag} the numerator and denominator
   {exp}{\exp}
-  Once the factoring is done, if there are common factors in the numerator and the denominator, they can be cancelled out to simplify the expression
-  It is important to remember, we cannot reduce {tag ..}terms{\tag}. We can only reduce {tag ..}factors{\tag}. That means if there are any + or - signs between the parts we want to reduce, we cannot (unless we can {tag ..}factor{\tag} more)
-  {exp}{\exp}{nex}{\nex}
+  Once the factoring is done, if there are common factors in the numerator and the denominator, they can be canceled out to simplify the expression
+  It is important to remember, we cannot reduce {tag ..}terms{\tag}. We can only reduce {tag ..}factors{\tag}. That means if there are any + or - signs between the parts we want to reduce, we cannot reduce (unless we can {tag ..}factor{\tag} more)
+  {exp}{\exp}
+  {nex}{\nex}
 {\tpc}

@@ -2,8 +2,9 @@
 [Section 7] Solving Rational Equations
 
 {tpc}[1][Solving Rational Equations]
-  Whenever there is an equation that has {tag ..}rationals{\tag} in it, we can simplify the problem by multiplying all terms on both side by the {tag ..}least common denominator{\tag} to get rid of the denominator
-  After this, the problem can be solved, with one extra step: making sure none of the denominators are zero (since we cannot divide by zero)
+  Whenever there is an equation that has {tag ..}rationals{\tag} in it, we can simplify the problem by multiplying all terms on both sides of the equation by the {tag ..}least common multiple{\tag} to get rid of the denominator
+  After this, the problem can be solved, with one extra step: making sure none of the denominators are zero (since we cannot divide by zero). This means, that after we get our solutions, we must plug the solutions back into the original equation to make sure that the denominators of each side are not zero.
+  {exp}{\exp}
   Although the denominators of each term may be complex, the process is still the same.
   Remember to {tag ..}distribute the subtraction sign{\tag} as necessary!
   {exp}{\exp}

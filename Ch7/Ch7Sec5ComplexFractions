@@ -4,6 +4,7 @@
 {def}[1][Complex Fraction]
   Complex fractions are essentially a rational with one or more {tag ..}rational{\tag} in the numerator and/or the denominator, usually both
   {exp}{\exp}
+  Evaluating and simplifying complex fractions is not a difficult process in and of itself, but because you are dealing with many numbers, it can be easy to lose track if you are not organized.
 {\def}
 
 {tpc}[2][Simplifying Complex Fractions]
@@ -11,18 +12,20 @@
   The first way is very simple: just treat the {tag ..}numerator{\tag} and {tag ..}denominator{\tag} as separate rationals and simplify them by {tag ..}adding or subtracting, {\tag} until they are a single {tag ..}rational{\tag} expression
   {exp}{\exp}
   Remember that a fraction bar (the horizontal line that separates the numerator and denominator) is just like a division sign. Given this, once the numerator and denominator are both rational expressions, you can {tag ..}divide the numerator by the denominator{\tag} by multiplying the numerator by the {tag ..}reciprocal{\tag} of the denominator
+  /* We have to specify that the numerator and denominator are talking about the "big" fraction*/
   {exp}{\exp}
-  The second way to simplify complex rationals is much simpler and cleaner. In this method, we want to get rid of all rationals in the numerator and denominator, by using the {tag ..}least common denominator{\tag}.
-  Note that we are finding the {tag ..}Least common denominator{\tag} for the rationals in the numerator and denominator, not the entire {tag ..}complex fraction{\tag}.
+  The second way to simplify complex rationals is much simpler and cleaner. In this method, we want to get rid of the denominators in both the top and bottom of the complex fraction, by multiplying the top and the bottom of the complex fraction by the {tag ..}least common multiple{\tag} of the denominators of the rationals.
+  Note that we are finding the {tag ..}Least common multiple{\tag} for the rationals in the numerator and denominator, not the entire {tag ..}complex fraction{\tag}.
+  This can be a bit confusing to wrap your head around, see the images and examples to see exactly what we are trying to do. The goal here is to take our {tag ..}complex fraction{\tag} and turn it into the simple rationals that we are familiar with.
   {exp}{\exp}
-  Remember, we can multiply the top and the bottom of the complex fraction by the least common denominator, to get us an equivalent fraction. Since the {tag ..}least common denominator{\tag} that we found held for all rationals in both the numerator and the denominator, we will be able to get rid of all the denominators in each of these rationals.
+  Remember, we can multiply the top and the bottom of the complex fraction by the least common multiple, to get us an equivalent fraction. Since the {tag ..}least common multiple{\tag} that we found held for all rationals in both the numerator and the denominator, we will be able to get rid of all the denominators in each of these rationals simply by multiplying all rationals in both the top and bottom by this least common multiple.
   /* We may need to refer to something in 7.3 here, but idk what */
   {exp}
     /* We need detailed steps for the example, it's a bit hard to follow rn */
   {\exp}
-  Once the denominators are gone, now we have a single {tag ..}rational{\tag}, one that we can {tag ..}simplify using older methods {\tag}
+  Once the denominators are gone, now we have a single {tag ..}rational{\tag}, one that we can {tag ..}simplify using previous methods {\tag}
   {exp}{\exp}
-  Remember that the {tag ..}least common denominator{\tag} can be anything. It can be a number, a variable, or a polynomial. As long as the steps are followed, the process should be the same.
+  Remember that the {tag ..}least common multiple{\tag} can be anything. It can be a number, a variable, or a polynomial. As long as the steps are followed, the process should be the same.
   Note that if there are terms with /*tag?*/ negative exponents, we can {tag ..}rewrite these as fractions{\tag}, and solve using one of the two methods we described
   {exp}{\exp}
 {\tpc}

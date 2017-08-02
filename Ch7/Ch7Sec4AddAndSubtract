@@ -2,10 +2,10 @@
 [Section 4] Add and Subtract
 
 {tpc}{1} Adding and Subtracting Rational Expressions
-  One of the key components to adding and subtracting rationals is to have a {tag ..}common denominator{\tag} among all the rationals we are dealing with
+  Just like when we are {tag ..}adding or subtracting fractions{\tag}, one of the key components to adding and subtracting {tag ..}rationals{\tag} is to have a {tag ..}common denominator{\tag} among all the rationals we are adding or subtracting
   If the rationals we are dealing do not have a common denominator, {tag ..}use this method to get the common denominators to match{\tag}
   {exp}/* Getting common denominator */{\exp}
-  Once the denominators match, we can {tag ..}add{\tag} and {tag ..}subtract{\tag} the numerators just as you would with polynomials. This will be your new numerator. Since the denominators are common, we can just keep the denominator.
+  Once the denominators match, we can {tag ..}add{\tag} and {tag ..}subtract{\tag} the numerators just as you would with polynomials. This will be your new numerator. Since the denominators are common, we can just keep the common denominator.
   Remember to {tag ..}reduce, if possible{\tag} for your final answer
   {exp}{\exp}
   For subtracting, it is very easy to make a mistake, because of how the minus sign works. It may be helpful to put parenthesis around the entire numerators, so that when you are subtracting, you can {tag ..}remember to distribute the subtraction sign to all the terms it applies to {\tag}
