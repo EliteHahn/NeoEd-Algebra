@@ -2,12 +2,12 @@
 [Section 4] Multiply and Divide Radicals
 
 {def}[1][Product Rule of Radicals]
-  /* Insert formula here */
+  $a\sqrt[n]{b} \cdot c\sqrt[n]{d} = ac\sqrt[n]{bd}$
   Another way of looking at this rule, is that you can multiply anything outside of the radical together, and you can multiply everything under the radical together IF the radicals are of the same degree.
   {exp}{\exp}
 {\def}
 {def}[2][Quotient Rule of Radicals]
-  /* Insert formula here */
+  $\frac{a\sqrt[n]{b}}{c\sqrt[n]{d}} = \frac{a}{c}\sqrt[n]{\frac{b}{d}}$
   Similar to the {tag ..}product rule of radicals{\tag}, we can divide radicals as well
   You can divide the parts outside of the radical, and you can divide the terms inside of the radical IF the radicals are of the same degree.
   {exp}{\exp}

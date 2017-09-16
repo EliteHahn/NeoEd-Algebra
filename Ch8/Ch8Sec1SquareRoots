@@ -2,23 +2,23 @@
 [Section 1] Square Roots
 
 {def}[1][Square Root]
-  A square root essentially undoes a square of a number.
+  A square root is a math function that essentially undoes a square of a number.
   {exp}{\exp}
-  The square root of a negative number is undefined, because it is impossible to square a number and get a negative number. This is because if we square a positive or a negative, we will always end up with a positive number.
+  The square root of a negative number is undefined, because it is impossible to square a number and get a negative number. This is because if we square a positive or a negative number, we will always end up with a positive number.
   {exp}{\exp}
   There is a way to {tag ..}deal with square roots of negative numbers{\tag}, using {tag ..}imaginary numbers{\tag}, which will be taught in a future lesson
 {\def}
 {def}[2][Product Rule of Square Roots]
   $\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}$
-  This property can be used to simplify certain square roots, specifically when there is a square factor under the square root.
+  In words: The square root of two numbers multiplied together is the same as the square root of the first number times the square root of the second number.
+  This property can be used to simplify certain square roots, specifically when the number under the square root has a {tag ..}factor{\tag} that is a square number.
   {exp}{\exp}
 {\def}
 {tpc}[3][Simplifying a Square Root]
   If a square root can be simplified, we can use {tag ..}the product rule of square roots{\tag} to split the number under the square root into factors that we can easily take the square root of.
-  In the following examples, the number under the square root has factors that are square numbers. As we know, square numbers are extremely easy to find the square root of (the square root of $5^2$ for example is simply 5).
+  Take the square root of 75 for example. The number 75 is not a square number, so it won't be as easy as finding the square root of let's say, 36, which is just 6. However, using the {tag ..}product rule of square roots{\tag}, we can rewrite $\sqrt{75}$ to something more familiar. For example, we know how to take the square root of 25, it's just 5. We can rewrite 75 as $3 \times 25$. The product rule says that $\sqrt{3 \times 25}$ is the same as $\sqrt{3} \times \sqrt{25}$. Now, we still don't know what the square root of 3 is, but we do know how to evaluate $\sqrt{25}$, that's just 5. Our final answer then is $\sqrt{3} \times 5$, or $5\sqrt{3}$.
   {exp}{\exp}
-  If this can be done multiple times, repeat this process until the number under the radical can no longer be simplified. The final answer will be all the simplified numbers multiplied together.
-  Note that this process works for both variables and numbers, as long as the term under the square root can be divided into factors
+  If this can be done multiple times, repeat this process until the number under the radical does not have any factors that we can easily find the square root of. The final answer will be all the simplified numbers multiplied together.
+  Note that this process works for both variables and numbers, as long as the term under the square root can be divided into factors.
   {exp}{\exp}
-  /* This section needs work, dealing with variables and finding even exponents */
 {\tpc}

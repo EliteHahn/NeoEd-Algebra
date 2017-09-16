@@ -1,23 +1,24 @@
 [Chapter 8] Radicals
 [Section 2] Higher Roots
 
-{def}[1][Higher Root]
-  A higher root is comprable to a square root, but with different degrees. For example, a cube root is the reverse process of cubing a number. A 5th root is the reverse process of bringing a number to the fifth power.
-  In general, /* insert formula here */. The letter m here is called the index
+{def}[1][Higher Root/$n$th Root]
+  A higher root is comprable to a square root, but with different degrees. For example, a cube root is the reverse process of cubing (raising it to the power of 3) a number. A 5th root is the reverse process of bringing a number to the fifth power.
+  In general, /* insert formula here */. The letter $n$ here is called the index. Higher roots are usually referred to as the "$n$th root", where $n$ is the index.
   {exp}{\exp}
-  A higher root of a negative number is defined if the index of the root is an odd number. If it is an even number, then the higher root of the negative number is not defined (similar to how it was for {tag ..}square roots{\tag} where 2 of course is even)
+  A $n$th root of a negative number is defined and completely valid if $n$ is an odd number. If it is an even number, then the $n$th root is not defined (just like how we cannot take the {tag ..}square root{\tag} (aka the 2nd root) of a negative number, where 2 of course is even)
   {exp}{\exp}
   There is a way to {tag ..}deal with even roots of negative numbers{\tag}, using {tag ..}imaginary numbers{\tag}, which will be taught in a future lesson
   Note: It may be helpful to note the parallels between {tag ..}square roots{\tag} and roots of higher degrees. There are many similarities!
 {\def}
 {def}[2][Product Property of Radicals]
   /* insert equation here */
-  This property can be used to simplify certain radicals, specifically when the number under the radical has factors that have an nth root.
+  This property can be used to simplify certain radicals, specifically when the number under the radical has factors that have an $n$th root.
   {exp}{\exp}
+  Note that this is the same as the {tag ..}product property of square roots{\tag}, except it applies to all roots, regardless of what the root number is.
 {\def}
 {tpc}[3][Simplifying a Radical]
-  If a radical can be simplified, we can use {tag ..}the product rule of square roots{\tag} to split the number under the radical into factors that we can easily take the nth root of.
-  Of course in most cases, we do not know off the top of our heads the nth root of a number. For example, you may not recognize 32 as having a 5th root of 2.
+  Remember from the previous section that {tag ..}if a square root can be simplified{\tag}, we can use {tag ..}the product rule of square roots{\tag} to split the number under the radical into factors that we can easily take the square root of. The same applies for roots of any degree, by the {tag ..}product property of radicals{\tag}. This means that if we can simplify the number under an $n$th radical into factors that we can easily take the $n$th root of, we will be very easily be able to simplify the radical.
+  Of course in most cases, we do not know off the top of our heads the nth root of a number. For example, you may or may not recognize 32 as having a 5th root of 2.
   Nevertheless, the process is the same as with {tag ..}square roots{\tag}, and we simplify the numbers under the radical, one step at a time.
   /* this section continues to be shit, fix it */
   {exp}{\exp}

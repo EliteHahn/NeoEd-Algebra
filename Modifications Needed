@@ -54,3 +54,6 @@ Chapter 6 Changes
 Chapter 8 Changes
 -----------------
   * 8-1 We say "square factor", no idea what that means. Oh wait, yes I do, but it's confusing
+  * Chapter 8 sucks, fix it
+  * 8-3 Abstract -> Concrete vs Concrete -> Abstract. Treating a number as a variable is actually only for math kids. Everyone else apparently has trouble with this.
+  * We need to constantly specify that a RADICAL IS AN EXPONENT
